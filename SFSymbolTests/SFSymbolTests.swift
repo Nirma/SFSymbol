@@ -16,5 +16,25 @@ class SFSymbolTests: XCTestCase {
             let image = UIImage(systemName: symbol.rawValue)
             XCTAssert(image != nil, "\(symbol.rawValue) does not exist!")
         }
+        
+        
+        
+        
+        
+        
+        SFSymbols.playRectangle
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     }
 }
