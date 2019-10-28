@@ -1,0 +1,9 @@
+language: objective-c
+osx_image: xcode11.1
+xcode_project: SFSymbol.xcodeproj # path to your xcodeproj folder
+xcode_scheme: SFSymbols
+
+script:
+  - xcodebuild test -scheme SFSymbol -iOS -sdk iphonesimulator  -destination 'OS=13.1,name=iPhone 11' 
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
