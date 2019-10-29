@@ -8,6 +8,25 @@
 
 All the SFSymbols at your fingertips
 
+## Usage 
+`SFSymbol` is an `enum` that contains the identifier strings of all SFSymbols that were available at the time of this writing. 
+For example `SFSymbol.playCircle` produces the `String` `"play.circle"` that can then be used to instantiate a system symbol via:
+
+#### UIKit
+
+```swift
+    UIImage(systemName: SFSymbol.playCircle)
+```
+
+*or*
+
+#### SwiftUI
+
+```swift
+    Image(systemName: SFSymbol.playCircle)
+```
+
+
 ## About 
 SFSymbols is a real treat from apple, Apple's official list of Symbols that are 
 available to use free of charge when writing software on any of Apple's recent platforms.
