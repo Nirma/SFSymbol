@@ -5,7 +5,7 @@ s.ios.deployment_target = '13.0'
 s.name = "SFSymbol"
 s.summary = "SFSymbol - All the Symbols via code completion at your fingertips"
 s.requires_arc = true
-s.version = "0.1.0"
+s.version = "0.2.0"
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 
