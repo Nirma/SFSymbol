@@ -6,7 +6,7 @@
 //  Copyright © 2019 Nicholas Maccharoli. All rights reserved.
 //
 
-public enum SFSymbols: String, CaseIterable {
+public enum SFSymbol: String, CaseIterable {
     case number0CircleFill = "0.circle.fill"
     case number0Circle = "0.circle"
     case number0SquareFill = "0.square.fill"

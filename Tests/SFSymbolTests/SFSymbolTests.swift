@@ -12,29 +12,9 @@ import UIKit
 
 class SFSymbolTests: XCTestCase {
     func testAllSymbolsExist() {
-        for symbol in SFSymbols.allCases {
+        for symbol in SFSymbol.allCases {
             let image = UIImage(systemName: symbol.rawValue)
             XCTAssert(image != nil, "\(symbol.rawValue) does not exist!")
         }
-        
-        
-        
-        
-        
-        
-        SFSymbols.playRectangle
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
     }
 }
