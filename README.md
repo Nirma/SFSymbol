@@ -1,7 +1,6 @@
 # SFSymbol
 [![Build Status](https://travis-ci.org/Nirma/SFSymbol.svg?branch=master)](https://travis-ci.org/Nirma/SFSymbol)
 ![Swift 5.0](https://img.shields.io/badge/Swift-5.1-orange.svg)
-![CodeCov](https://img.shields.io/codecov/c/github/Nirma/SFSymbol.svg)
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/SFSymbol.svg)](#cocoapods)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
@@ -48,13 +47,13 @@ Thats what this super micro library aims to do.
 Just add this line to your podfile:
 
 ```shell
-pod 'SFSymbols'
+pod 'SFSymbol'
 ```
 
 ### Carthage
 
 ```shell
-github "Nirma/SFSymbols"
+github "Nirma/SFSymbol"
 ```
 
 ## Contributing to this project
