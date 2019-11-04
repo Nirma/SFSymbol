@@ -38,11 +38,26 @@ That is a long string to remember and digging through the catalog of SF Symbols 
 
 Wouldn't it be easier if you could just use code complete?
 
-![](https://media.giphy.com/media/cNew6PB7LOm0QRT0B7/giphy.gif)
+![](https://media.giphy.com/media/jQ7lTLsv2poo2qLkUA/giphy.gif)
 
 Thats what this super micro library aims to do.
 
 ## Installation 
+
+### Swift Package Manager (Preferred)
+Since Xcode 11 integrated swift package manager natively into the IDE you can add SFSymbol simply by:
+
+**`File`-> `Swift Packages` -> `Add Package Dependency...`**
+
+when prompted to enter a package URL paste: 
+
+`https://github.com/Nirma/SFSymbol` 
+
+
+and click next & finish to automagically install SFSymbol through Xcode & SPM!
+
+### Manual 
+Don't want that additional third party dependency? Then just simply copy over the file [`SFSymbol.swift`](https://github.com/Nirma/SFSymbol/blob/master/Sources/SFSymbol/SFSymbol.swift) into your project's appropriate folder!
 
 ### Cocoapods
 Just add this line to your podfile:
