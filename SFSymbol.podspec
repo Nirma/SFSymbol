@@ -16,6 +16,6 @@ s.homepage = "https://github.com/Nirma/SFSymbol"
 s.source = { :git => "https://github.com/Nirma/SFSymbol.git", 
              :tag => "#{s.version}" }
 
-s.source_files = "SFSymbol/Sources/SFSymbol/*.{swift}"
+s.source_files = "Sources/SFSymbol/*.{swift}"
 s.swift_version = "5.1"
 end
