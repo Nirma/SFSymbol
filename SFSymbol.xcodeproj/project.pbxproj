@@ -21,6 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		194A44E624B65DC7006BFB62 /* Image+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194A44E524B65DC7006BFB62 /* Image+SFSymbol.swift */; };
+		194A44E824B65DDA006BFB62 /* UIImage+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194A44E724B65DDA006BFB62 /* UIImage+SFSymbol.swift */; };
 		OBJ_27 /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* SFSymbol.swift */; };
 		OBJ_34 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_45 /* SFSymbolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* SFSymbolTests.swift */; };
@@ -46,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		194A44E524B65DC7006BFB62 /* Image+SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+SFSymbol.swift"; sourceTree = "<group>"; };
+		194A44E724B65DDA006BFB62 /* UIImage+SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+SFSymbol.swift"; sourceTree = "<group>"; };
 		4E70E3EB23704F30004B4A4D /* SFSymbol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFSymbol.h; sourceTree = "<group>"; };
 		4E70E3EC23704F3C004B4A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		OBJ_12 /* SFSymbolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolTests.swift; sourceTree = "<group>"; };
@@ -132,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_9 /* SFSymbol.swift */,
+				194A44E524B65DC7006BFB62 /* Image+SFSymbol.swift */,
+				194A44E724B65DDA006BFB62 /* UIImage+SFSymbol.swift */,
 			);
 			name = SFSymbol;
 			path = Sources/SFSymbol;
@@ -221,6 +227,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				194A44E624B65DC7006BFB62 /* Image+SFSymbol.swift in Sources */,
+				194A44E824B65DDA006BFB62 /* UIImage+SFSymbol.swift in Sources */,
 				OBJ_27 /* SFSymbol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
