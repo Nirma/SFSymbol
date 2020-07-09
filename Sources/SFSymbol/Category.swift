@@ -30,8 +30,8 @@ public enum Category: String, CaseIterable {
     case indices = "Indices"
     case math = "Math"
     
-    public static func symbols(for category: Self) -> [SFSymbol] {
-        switch category {
+    public func symbols() -> [SFSymbol] {
+        switch self {
         case .all:
             return SFSymbol.allCases
             
