@@ -9,7 +9,7 @@
 import SwiftUI
 
 @available(OSX 10.16, *)
-extension Image {
+public extension Image {
     init(symbol: SFSymbol) {
         self.init(systemName: symbol.rawValue)
     }
