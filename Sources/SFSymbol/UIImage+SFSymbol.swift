@@ -8,7 +8,7 @@
 #if canImport(UIKit)
 import UIKit
 
-extension UIImage {
+public extension UIImage {
     convenience init?(symbol: SFSymbol, with configuration: Configuration? = nil) {
         self.init(systemName: symbol.rawValue, withConfiguration: configuration)
     }

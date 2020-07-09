@@ -21,6 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		1909461824B73F5D0074ADE1 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1909461724B73F5D0074ADE1 /* Category.swift */; };
+		1909461A24B7442A0074ADE1 /* Restricted+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1909461924B7442A0074ADE1 /* Restricted+SFSymbol.swift */; };
 		194A44E624B65DC7006BFB62 /* Image+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194A44E524B65DC7006BFB62 /* Image+SFSymbol.swift */; };
 		194A44E824B65DDA006BFB62 /* UIImage+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194A44E724B65DDA006BFB62 /* UIImage+SFSymbol.swift */; };
 		OBJ_27 /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* SFSymbol.swift */; };
@@ -48,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1909461724B73F5D0074ADE1 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		1909461924B7442A0074ADE1 /* Restricted+SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Restricted+SFSymbol.swift"; sourceTree = "<group>"; };
 		194A44E524B65DC7006BFB62 /* Image+SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+SFSymbol.swift"; sourceTree = "<group>"; };
 		194A44E724B65DDA006BFB62 /* UIImage+SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+SFSymbol.swift"; sourceTree = "<group>"; };
 		4E70E3EB23704F30004B4A4D /* SFSymbol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFSymbol.h; sourceTree = "<group>"; };
@@ -138,6 +142,8 @@
 				OBJ_9 /* SFSymbol.swift */,
 				194A44E524B65DC7006BFB62 /* Image+SFSymbol.swift */,
 				194A44E724B65DDA006BFB62 /* UIImage+SFSymbol.swift */,
+				1909461724B73F5D0074ADE1 /* Category.swift */,
+				1909461924B7442A0074ADE1 /* Restricted+SFSymbol.swift */,
 			);
 			name = SFSymbol;
 			path = Sources/SFSymbol;
@@ -227,9 +233,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				1909461A24B7442A0074ADE1 /* Restricted+SFSymbol.swift in Sources */,
 				194A44E624B65DC7006BFB62 /* Image+SFSymbol.swift in Sources */,
 				194A44E824B65DDA006BFB62 /* UIImage+SFSymbol.swift in Sources */,
 				OBJ_27 /* SFSymbol.swift in Sources */,
+				1909461824B73F5D0074ADE1 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
