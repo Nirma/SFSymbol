@@ -5,7 +5,7 @@ s.ios.deployment_target = '13.0'
 s.name = "SFSymbol"
 s.summary = "SFSymbol - All the Symbols via code completion at your fingertips"
 s.requires_arc = true
-s.version = "0.2.0"
+s.version = "0.3.0"
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 
@@ -17,5 +17,5 @@ s.source = { :git => "https://github.com/Nirma/SFSymbol.git",
              :tag => "#{s.version}" }
 
 s.source_files = "Sources/SFSymbol/*.{swift}"
-s.swift_version = "5.1"
+s.swift_version = "5.0"
 end
