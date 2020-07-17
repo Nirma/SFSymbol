@@ -15,7 +15,7 @@ For example `SFSymbol.playCircle` produces the `String` `"play.circle"` that can
 #### UIKit
 
 ```swift
-    UIImage(systemName: .playCircle)
+    UIImage(symbol: .playCircle)
 ```
 
 *or*
@@ -23,7 +23,7 @@ For example `SFSymbol.playCircle` produces the `String` `"play.circle"` that can
 #### SwiftUI
 
 ```swift
-    Image(systemName: .playCircle)
+    Image(symbol: .playCircle)
 ```
 
 
