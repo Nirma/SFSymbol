@@ -24,6 +24,8 @@
 		1909461824B73F5D0074ADE1 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1909461724B73F5D0074ADE1 /* Category.swift */; };
 		1909461A24B7442A0074ADE1 /* Restricted+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1909461924B7442A0074ADE1 /* Restricted+SFSymbol.swift */; };
 		194A44E824B65DDA006BFB62 /* UIImage+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194A44E724B65DDA006BFB62 /* UIImage+SFSymbol.swift */; };
+		4E20121124BF6F4600389D8A /* Image+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E20121024BF6F4600389D8A /* Image+SFSymbol.swift */; };
+		4E20121424BF729700389D8A /* ImageExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E20121224BF726D00389D8A /* ImageExtensionTests.swift */; };
 		OBJ_27 /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* SFSymbol.swift */; };
 		OBJ_34 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_45 /* SFSymbolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* SFSymbolTests.swift */; };
@@ -52,6 +54,8 @@
 		1909461724B73F5D0074ADE1 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		1909461924B7442A0074ADE1 /* Restricted+SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Restricted+SFSymbol.swift"; sourceTree = "<group>"; };
 		194A44E724B65DDA006BFB62 /* UIImage+SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+SFSymbol.swift"; sourceTree = "<group>"; };
+		4E20121024BF6F4600389D8A /* Image+SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+SFSymbol.swift"; sourceTree = "<group>"; };
+		4E20121224BF726D00389D8A /* ImageExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtensionTests.swift; sourceTree = "<group>"; };
 		4E70E3EB23704F30004B4A4D /* SFSymbol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFSymbol.h; sourceTree = "<group>"; };
 		4E70E3EC23704F3C004B4A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		OBJ_12 /* SFSymbolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolTests.swift; sourceTree = "<group>"; };
@@ -97,6 +101,7 @@
 			children = (
 				OBJ_12 /* SFSymbolTests.swift */,
 				OBJ_13 /* XCTestManifests.swift */,
+				4E20121224BF726D00389D8A /* ImageExtensionTests.swift */,
 			);
 			name = SFSymbolTests;
 			path = Tests/SFSymbolTests;
@@ -141,6 +146,7 @@
 				194A44E724B65DDA006BFB62 /* UIImage+SFSymbol.swift */,
 				1909461724B73F5D0074ADE1 /* Category.swift */,
 				1909461924B7442A0074ADE1 /* Restricted+SFSymbol.swift */,
+				4E20121024BF6F4600389D8A /* Image+SFSymbol.swift */,
 			);
 			name = SFSymbol;
 			path = Sources/SFSymbol;
@@ -203,7 +209,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftMigration = 9999;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1200;
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SFSymbol" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -233,6 +239,7 @@
 			files = (
 				1909461A24B7442A0074ADE1 /* Restricted+SFSymbol.swift in Sources */,
 				194A44E824B65DDA006BFB62 /* UIImage+SFSymbol.swift in Sources */,
+				4E20121124BF6F4600389D8A /* Image+SFSymbol.swift in Sources */,
 				OBJ_27 /* SFSymbol.swift in Sources */,
 				1909461824B73F5D0074ADE1 /* Category.swift in Sources */,
 			);
@@ -252,6 +259,7 @@
 			files = (
 				OBJ_45 /* SFSymbolTests.swift in Sources */,
 				OBJ_46 /* XCTestManifests.swift in Sources */,
+				4E20121424BF729700389D8A /* ImageExtensionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +351,7 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -426,6 +435,7 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
