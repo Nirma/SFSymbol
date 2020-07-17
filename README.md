@@ -36,7 +36,7 @@ There is one downfall however, it is a pain in the neck to look up exact symbol 
 
 That is a long string to remember and digging through the catalog of SF Symbols to find in would be quite a waste of time.
 
-Wouldn't it be easier if you could just use code complete?
+Wouldn't it be easier if you could just use code completion?
 
 ![](https://media.giphy.com/media/jQ7lTLsv2poo2qLkUA/giphy.gif)
 
