@@ -18,4 +18,5 @@ public extension SFSymbol {
             return false
         }
     }
+    
 }
