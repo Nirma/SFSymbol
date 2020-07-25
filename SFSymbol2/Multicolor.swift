@@ -7,8 +7,8 @@
 
 import Foundation
 
+@available(iOS 14.0, *)
 public extension SFSymbol {
-
     var isMulticolor: Bool {
         switch self {
         case .alarm ,

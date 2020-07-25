@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@available(iOS 14, *)
+@available(iOS 14.0, *)
 public extension Image {
     /// Create Image from SFSymbol2
     init(symbol: SFSymbol2) {
