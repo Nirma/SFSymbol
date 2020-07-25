@@ -9,7 +9,7 @@ import SwiftUI
 
 @available(iOS 14, *)
 public extension Image {
-    /// Create Image from SFSymbol
+    /// Create Image from SFSymbol2
     init(symbol: SFSymbol2) {
         self.init(systemName: symbol.rawValue)
     }
