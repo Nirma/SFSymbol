@@ -1,5 +1,5 @@
 //
-//  SFSymbol2.0.swift
+//  SFSymbol2.swift
 //  SFSymbol
 //
 //  Created by Aaryan Kothari on 25/07/20.
