@@ -13,7 +13,7 @@ class ImageExtensionTests: XCTestCase {
     func testImagefromSFSymbol() {
         let imageFromSFSymbol = Image(symbol: .aSquare)
         let imageFromSymbolString = Image(systemName: SFSymbol.aSquare.rawValue)
-        
+
         XCTAssert(imageFromSFSymbol == imageFromSymbolString, "Image(symbol:) is broken")
     }
 }

@@ -5,7 +5,6 @@
 //  Created by Aaryan Kothari on 25/07/20.
 //
 
-
 #if canImport(UIKit)
 import UIKit
 
@@ -20,5 +19,3 @@ public extension UIImage {
 }
 
 #endif
-
-
