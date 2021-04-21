@@ -12,9 +12,14 @@ import UIKit
 
 class SFSymbolTests: XCTestCase {
     func testAllSymbolsExist() {
-        for symbol in SFSymbol.allCases {
-            let image = UIImage(systemName: symbol.rawValue)
-            XCTAssert(image != nil, "\(symbol.rawValue) does not exist!")
+        let symbols1 = SFSymbol.allCases.map(\.rawValue)
+        let symbols2 = SFSymbol2.allCases.map(\.rawValue)
+        
+        let allSymbols = symbols1 + symbols2
+        
+        for symbolName in allSymbols {
+            let image = UIImage(systemName: symbolName)
+            XCTAssert(image != nil, "\(symbolName) does not exist!")
         }
     }
 }
