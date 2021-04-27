@@ -25,11 +25,11 @@ import UIKit
 
 @available(iOS 13.0, *)
 public extension UIImage {
-    convenience init?(symbol: SFSymbol) {
-        self.init(systemName: symbol.rawValue)
+    convenience init(symbol: SFSymbol) {
+        self.init(systemName: symbol.rawValue)!
     }
-    convenience init?(symbol: SFSymbol, with configuration: Configuration) {
-        self.init(systemName: symbol.rawValue, withConfiguration: configuration)
+    convenience init(symbol: SFSymbol, with configuration: Configuration) {
+        self.init(systemName: symbol.rawValue, withConfiguration: configuration)!
     }
 }
 
