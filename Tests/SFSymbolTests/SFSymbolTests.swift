@@ -17,9 +17,4 @@ class SFSymbolTests: XCTestCase {
             XCTAssert(image != nil, "\(symbol.rawValue) does not exist!")
         }
     }
-
-    func testConvenienceInitilizer() {
-        let image = UIImage(symbol: .airplane)
-        XCTAssert(image != nil, "UIImage(symbol:) initializer is broken.")
-    }
 }

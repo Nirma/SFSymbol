@@ -1,5 +1,5 @@
 //
-//  UIImage+SFSymbol2.swift
+//  UIImage+SFSymbol.swift
 //  SFSymbol
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -23,13 +23,13 @@
 #if canImport(UIKit)
 import UIKit
 
-@available(iOS 14.0, *)
+@available(iOS 13.0, *)
 public extension UIImage {
-    convenience init?(symbol: SFSymbol2) {
-        self.init(systemName: symbol.rawValue)
+    convenience init(symbol: SFSymbol) {
+        self.init(systemName: symbol.rawValue)!
     }
-    convenience init?(symbol: SFSymbol2, with configuration: Configuration) {
-        self.init(systemName: symbol.rawValue, withConfiguration: configuration)
+    convenience init(symbol: SFSymbol, with configuration: Configuration) {
+        self.init(systemName: symbol.rawValue, withConfiguration: configuration)!
     }
 }
 
