@@ -9,6 +9,7 @@ import XCTest
 import SwiftUI
 @testable import SFSymbol
 
+@available(macOS 11, *)
 class ImageExtensionTests: XCTestCase {
     func testImagefromSFSymbol() {
         let imageFromSFSymbol = Image(symbol: .aSquare)
