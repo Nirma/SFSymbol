@@ -22,6 +22,7 @@
 
 import SwiftUI
 
+@available(macOS 11, *)
 @available(iOS 13, *)
 public extension Image {
     /// Create Image from SFSymbol
