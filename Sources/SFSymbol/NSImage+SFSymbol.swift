@@ -1,5 +1,5 @@
 //
-//  Image+SFSymbol.swift
+//  NSImage+SFSymbol.swift
 //  SFSymbol
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -20,13 +20,17 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-import SwiftUI
+#if canImport(Cocoa)
+import Cocoa
 
 @available(macOS 11, *)
-@available(iOS 13, *)
-public extension Image {
-    /// Create Image from SFSymbol
-    init(symbol: SFSymbol) {
-        self.init(systemName: symbol.rawValue)
+public extension NSImage {
+    convenience init?(symbol: SFSymbol, accessibilityDescription description: String? = nil) {
+        self.init(systemSymbolName: symbol.rawValue, accessibilityDescription: description)
+    }
+    convenience init?(symbol: SFSymbol2, accessibilityDescription description: String? = nil) {
+        self.init(systemSymbolName: symbol.rawValue, accessibilityDescription: description)
     }
 }
+
+#endif
