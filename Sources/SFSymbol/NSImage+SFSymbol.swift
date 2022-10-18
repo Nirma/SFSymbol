@@ -21,16 +21,17 @@
 // THE SOFTWARE.
 
 #if canImport(Cocoa)
-import Cocoa
+    import Cocoa
 
-@available(macOS 11, *)
-public extension NSImage {
-    convenience init?(symbol: SFSymbol, accessibilityDescription description: String? = nil) {
-        self.init(systemSymbolName: symbol.rawValue, accessibilityDescription: description)
+    @available(macOS 11, *)
+    public extension NSImage {
+        convenience init?(symbol: SFSymbol, accessibilityDescription description: String? = nil) {
+            self.init(systemSymbolName: symbol.rawValue, accessibilityDescription: description)
+        }
+
+        convenience init?(symbol: SFSymbol2, accessibilityDescription description: String? = nil) {
+            self.init(systemSymbolName: symbol.rawValue, accessibilityDescription: description)
+        }
     }
-    convenience init?(symbol: SFSymbol2, accessibilityDescription description: String? = nil) {
-        self.init(systemSymbolName: symbol.rawValue, accessibilityDescription: description)
-    }
-}
 
 #endif

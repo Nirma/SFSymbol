@@ -6,20 +6,23 @@ import PackageDescription
 let package = Package(
     name: "SFSymbol",
     platforms: [
-        .macOS(.v10_13), .iOS(.v13), .tvOS(.v13), .watchOS(.v6)
+        .macOS(.v10_13), .iOS(.v13), .tvOS(.v13), .watchOS(.v6),
     ],
     products: [
         .library(
             name: "SFSymbol",
-            targets: ["SFSymbol"])
+            targets: ["SFSymbol"]
+        ),
     ],
     dependencies: [],
     targets: [
         .target(
             name: "SFSymbol",
-            dependencies: []),
+            dependencies: []
+        ),
         .testTarget(
             name: "SFSymbolTests",
-            dependencies: ["SFSymbol"])
+            dependencies: ["SFSymbol"]
+        ),
     ]
 )
