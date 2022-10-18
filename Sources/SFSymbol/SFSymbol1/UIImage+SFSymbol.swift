@@ -1,5 +1,5 @@
 //
-//  Restricted+SFSymbol.swift
+//  UIImage+SFSymbol.swift
 //  SFSymbol
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -20,17 +20,18 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-import Foundation
+#if canImport(UIKit)
+    import UIKit
 
-public extension SFSymbol {
+    @available(iOS 13.0, *)
+    public extension UIImage {
+        convenience init?(symbol: SFSymbol) {
+            self.init(systemName: symbol.rawValue)
+        }
 
-    var isRestricted: Bool {
-        switch self {
-        case .message, .messageFill, .messageCircle, .messageCircleFill, .teletype, .video, .videoFill, .videoCircle, .videoCircleFill, .videoSlash, .videoSlashFill, .videoBadgePlus, .videoBadgePlusFill, .arrowUpRightVideo, .arrowUpRightVideoFill, .arrowDownLeftVideo, .arrowDownLeftVideoFill, .questionmarkVideo, .questionmarkVideoFill, .envelopeBadge, .envelopeBadgeFill, .pencilTip, .pencilTipCropCircle, .pencilTipCropCircleBadgePlus, .pencilTipCropCircleBadgeMinus:
-            return true
-
-        default:
-            return false
+        convenience init?(symbol: SFSymbol, with configuration: Configuration) {
+            self.init(systemName: symbol.rawValue, withConfiguration: configuration)
         }
     }
-}
+
+#endif

@@ -25,7 +25,7 @@ import Foundation
 public enum SFSymbol2: String, CaseIterable {
     case rectangleAndPencilAndEllipsis = "rectangle.and.pencil.and.ellipsis"
     case scribbleVariable = "scribble.variable"
-    case highlighter = "highlighter"
+    case highlighter
     case pencilTipCropCircleBadgeArrowRight = "pencil.tip.crop.circle.badge.arrow.right"
     case lassoSparkles = "lasso.sparkles"
     case folderBadgeQuestionmark = "folder.badge.questionmark"
@@ -60,7 +60,7 @@ public enum SFSymbol2: String, CaseIterable {
     case externalDriveFillBadgeWifi = "externaldrive.fill.badge.wifi"
     case externalDriveBadgeTimemachine = "externaldrive.badge.timemachine"
     case externalDriveFillBadgeTimemachine = "externaldrive.fill.badge.timemachine"
-    case internaldrive = "internaldrive"
+    case internaldrive
     case internaldriveFill = "internaldrive.fill"
     case opticalDiscDrive = "opticaldiscdrive"
     case opticalDiscDriveFill = "opticaldiscdrive.fill"
@@ -90,7 +90,7 @@ public enum SFSymbol2: String, CaseIterable {
     case chartBarDocHorizontal = "chart.bar.doc.horizontal"
     case chartBarDocHorizontalFill = "chart.bar.doc.horizontal.fill"
     case listBulletRectangle = "list.bullet.rectangle"
-    case note = "note"
+    case note
     case noteText = "note.text"
     case noteTextBadgePlus = "note.text.badge.plus"
     case calendarBadgeClock = "calendar.badge.clock"
@@ -101,7 +101,7 @@ public enum SFSymbol2: String, CaseIterable {
     case arrowshapeZigzagRightFill = "arrowshape.zigzag.right.fill"
     case arrowshapeBounceRight = "arrowshape.bounce.right"
     case arrowshapeBounceRightFill = "arrowshape.bounce.right.fill"
-    case newspaper = "newspaper"
+    case newspaper
     case newspaperFill = "newspaper.fill"
     case booksVertical = "books.vertical"
     case booksVerticalFill = "books.vertical.fill"
@@ -111,20 +111,20 @@ public enum SFSymbol2: String, CaseIterable {
     case aBookClosedFill = "a.book.closed.fill"
     case textBookClosed = "text.book.closed"
     case textBookClosedFill = "text.book.closed.fill"
-    case greetingcard = "greetingcard"
+    case greetingcard
     case greetingcardFill = "greetingcard.fill"
     case bookmarkCircle = "bookmark.circle"
     case bookmarkCircleFill = "bookmark.circle.fill"
     case bookmarkSlash = "bookmark.slash"
     case bookmarkSlashFill = "bookmark.slash.fill"
-    case graduationcap = "graduationcap"
+    case graduationcap
     case graduationcapFill = "graduationcap.fill"
-    case ticket = "ticket"
+    case ticket
     case ticketFill = "ticket.fill"
     case paperclipBadgeEllipsis = "paperclip.badge.ellipsis"
     case rectangleDashedAndPaperclip = "rectangle.dashed.and.paperclip"
     case linkBadgePlus = "link.badge.plus"
-    case lineweight = "lineweight"
+    case lineweight
     case personFillTurnRight = "person.fill.turn.right"
     case personFillTurnDown = "person.fill.turn.down"
     case personFillTurnLeft = "person.fill.turn.left"
@@ -147,16 +147,16 @@ public enum SFSymbol2: String, CaseIterable {
     case commandCircleFill = "command.circle.fill"
     case commandSquare = "command.square"
     case commandSquareFill = "command.square.fill"
-    case restart = "restart"
+    case restart
     case restartCircle = "restart.circle"
-    case sleep = "sleep"
-    case wake = "wake"
+    case sleep
+    case wake
     case dotArrowtrianglesUpRightDownLeftCircle = "dot.arrowtriangles.up.right.down.left.circle"
-    case network = "network"
-    case sparkle = "sparkle"
+    case network
+    case sparkle
     case thermometerSunFill = "thermometer.sun.fill"
     case cursorarrowRays = "cursorarrow.rays"
-    case cursorarrow = "cursorarrow"
+    case cursorarrow
     case cursorarrowSquare = "cursorarrow.square"
     case cursorarrowAndSquareOnSquareDashed = "cursorarrow.and.square.on.square.dashed"
     case cursorarrowClick = "cursorarrow.click"
@@ -194,9 +194,9 @@ public enum SFSymbol2: String, CaseIterable {
     case circleGridCrossUpFill = "circle.grid.cross.up.fill"
     case circleGridCrossRightFill = "circle.grid.cross.right.fill"
     case circleGridCrossDownFill = "circle.grid.cross.down.fill"
-    case seal = "seal"
+    case seal
     case sealFill = "seal.fill"
-    case drop = "drop"
+    case drop
     case dropFill = "drop.fill"
     case playSlash = "play.slash"
     case playSlashFill = "play.slash.fill"
@@ -208,10 +208,10 @@ public enum SFSymbol2: String, CaseIterable {
     case forwardFrameFill = "forward.frame.fill"
     case ejectCircle = "eject.circle"
     case ejectCircleFill = "eject.circle.fill"
-    case mount = "mount"
+    case mount
     case mountFill = "mount.fill"
-    case infinity = "infinity"
-    case megaphone = "megaphone"
+    case infinity
+    case megaphone
     case megaphoneFill = "megaphone.fill"
     case speakerSlashCircle = "speaker.slash.circle"
     case speakerSlashCircleFill = "speaker.slash.circle.fill"
@@ -225,19 +225,19 @@ public enum SFSymbol2: String, CaseIterable {
     case speakerWave3Fill = "speaker.wave.3.fill"
     case musicQuarternote3 = "music.quarternote.3"
     case arrowRectanglepath = "arrow.rectanglepath"
-    case swift = "swift"
+    case swift
     case arrowUpLeftAndDownRightMagnifyingGlass = "arrow.up.left.and.down.right.magnifyingglass"
     case textMagnifyingGlass = "text.magnifyingglass"
-    case loupe = "loupe"
+    case loupe
     case lineDiagonal = "line.diagonal"
     case lineDiagonalArrow = "line.diagonal.arrow"
     case circlebottomHalfFill = "circle.bottomhalf.fill"
     case circleTopHalfFill = "circle.tophalf.fill"
     case circleDashed = "circle.dashed"
     case circleDashedInsetFill = "circle.dashed.inset.fill"
-    case circlebadge = "circlebadge"
+    case circlebadge
     case circlebadgeFill = "circlebadge.fill"
-    case target = "target"
+    case target
     case capsulePortrait = "capsule.portrait"
     case capsulePortraitFill = "capsule.portrait.fill"
     case placeholdertextFill = "placeholdertext.fill"
@@ -250,7 +250,7 @@ public enum SFSymbol2: String, CaseIterable {
     case squareDashed = "square.dashed"
     case squareDashedInsetFill = "square.dashed.inset.fill"
     case questionmarkSquareDashed = "questionmark.square.dashed"
-    case squareshape = "squareshape"
+    case squareshape
     case squareshapeFill = "squareshape.fill"
     case squareshapeDashedSquareshape = "squareshape.dashed.squareshape"
     case squareshapeSquareshapeDashed = "squareshape.squareshape.dashed"
@@ -260,9 +260,9 @@ public enum SFSymbol2: String, CaseIterable {
     case rectangleSlashFill = "rectangle.slash.fill"
     case rectanglePortrait = "rectangle.portrait"
     case rectanglePortraitFill = "rectangle.portrait.fill"
-    case diamond = "diamond"
+    case diamond
     case diamondFill = "diamond.fill"
-    case octagon = "octagon"
+    case octagon
     case octagonFill = "octagon.fill"
     case heartTextSquare = "heart.text.square"
     case heartTextSquareFill = "heart.text.square.fill"
@@ -285,14 +285,14 @@ public enum SFSymbol2: String, CaseIterable {
     case boltSlashCircleFill = "bolt.slash.circle.fill"
     case eyeCircle = "eye.circle"
     case eyeCircleFill = "eye.circle.fill"
-    case eyes = "eyes"
+    case eyes
     case eyesInverse = "eyes.inverse"
-    case eyebrow = "eyebrow"
-    case nose = "nose"
+    case eyebrow
+    case nose
     case noseFill = "nose.fill"
-    case mustache = "mustache"
+    case mustache
     case mustacheFill = "mustache.fill"
-    case mouth = "mouth"
+    case mouth
     case mouthFill = "mouth.fill"
     case checkmarkIcloud = "checkmark.icloud"
     case checkmarkIcloudFill = "checkmark.icloud.fill"
@@ -310,7 +310,7 @@ public enum SFSymbol2: String, CaseIterable {
     case rectangle3OffgridBubbleLeftFill = "rectangle.3.offgrid.bubble.left.fill"
     case ellipsisBubble = "ellipsis.bubble"
     case ellipsisBubbleFill = "ellipsis.bubble.fill"
-    case translate = "translate"
+    case translate
     case phoneConnection = "phone.connection"
     case phoneFillConnection = "phone.fill.connection"
     case teletypeCircle = "teletype.circle"
@@ -324,13 +324,13 @@ public enum SFSymbol2: String, CaseIterable {
     case envelopeFillBadgeShieldRighthalfFill = "envelope.fill.badge.shield.righthalf.fill"
     case mailStack = "mail.stack"
     case mailStackFill = "mail.stack.fill"
-    case mail = "mail"
+    case mail
     case mailFill = "mail.fill"
     case mailAndTextMagnifyingGlass = "mail.and.text.magnifyingglass"
     case rectangleAndTextMagnifyingGlass = "rectangle.and.text.magnifyingglass"
     case arrowUpRightAndArrowDownLeftRectangle = "arrow.up.right.and.arrow.down.left.rectangle"
     case arrowUpRightAndArrowDownLeftRectangleFill = "arrow.up.right.and.arrow.down.left.rectangle.fill"
-    case gearshape = "gearshape"
+    case gearshape
     case gearshapeFill = "gearshape.fill"
     case gearshape2 = "gearshape.2"
     case gearshape2Fill = "gearshape.2.fill"
@@ -342,7 +342,7 @@ public enum SFSymbol2: String, CaseIterable {
     case bagCircleFill = "bag.circle.fill"
     case creditcardCircle = "creditcard.circle"
     case creditcardCircleFill = "creditcard.circle.fill"
-    case giftcard = "giftcard"
+    case giftcard
     case giftcardFill = "giftcard.fill"
     case walletPass = "wallet.pass"
     case walletPassFill = "wallet.pass.fill"
@@ -350,10 +350,10 @@ public enum SFSymbol2: String, CaseIterable {
     case dialMinFill = "dial.min.fill"
     case dialMax = "dial.max"
     case dialMaxFill = "dial.max.fill"
-    case gyroscope = "gyroscope"
-    case barometer = "barometer"
+    case gyroscope
+    case barometer
     case metronomeFill = "metronome.fill"
-    case amplifier = "amplifier"
+    case amplifier
     case dieFace1 = "die.face.1"
     case dieFace1Fill = "die.face.1.fill"
     case dieFace2 = "die.face.2"
@@ -367,36 +367,36 @@ public enum SFSymbol2: String, CaseIterable {
     case dieFace6 = "die.face.6"
     case dieFace6Fill = "die.face.6.fill"
     case squareGrid3X3FillSquare = "square.grid.3x3.fill.square"
-    case pianokeys = "pianokeys"
+    case pianokeys
     case paintbrushPointed = "paintbrush.pointed"
     case paintbrushPointedFill = "paintbrush.pointed.fill"
-    case ruler = "ruler"
+    case ruler
     case rulerFill = "ruler.fill"
-    case level = "level"
+    case level
     case levelFill = "level.fill"
     case wrenchAndScrewdriver = "wrench.and.screwdriver"
     case wrenchAndScrewdriverFill = "wrench.and.screwdriver.fill"
-    case applescript = "applescript"
+    case applescript
     case applescriptFill = "applescript.fill"
-    case scroll = "scroll"
+    case scroll
     case scrollFill = "scroll.fill"
-    case stethoscope = "stethoscope"
+    case stethoscope
     case printerFillAndPaperFill = "printer.fill.and.paper.fill"
     case printerDotmatrix = "printer.dotmatrix"
     case printerDotmatrixFill = "printer.dotmatrix.fill"
     case printerDotmatrixFillAndPaperFill = "printer.dotmatrix.fill.and.paper.fill"
-    case scanner = "scanner"
+    case scanner
     case scannerFill = "scanner.fill"
     case faxMachine = "faxmachine"
-    case `case` = "case"
+    case `case`
     case caseFill = "case.fill"
     case latch2Case = "latch.2.case"
     case latch2CaseFill = "latch.2.case.fill"
     case crossCase = "cross.case"
     case crossCaseFill = "cross.case.fill"
-    case puzzlepiece = "puzzlepiece"
+    case puzzlepiece
     case puzzlepieceFill = "puzzlepiece.fill"
-    case homekit = "homekit"
+    case homekit
     case houseCircle = "house.circle"
     case houseCircleFill = "house.circle.fill"
     case musicNoteHouse = "music.note.house"
@@ -405,7 +405,7 @@ public enum SFSymbol2: String, CaseIterable {
     case buildingColumnsFill = "building.columns.fill"
     case squareSplitBottomRightQuarter = "square.split.bottomrightquarter"
     case squareSplitBottomRightQuarterFill = "square.split.bottomrightquarter.fill"
-    case building = "building"
+    case building
     case buildingFill = "building.fill"
     case building2 = "building.2"
     case building2Fill = "building.2.fill"
@@ -421,43 +421,43 @@ public enum SFSymbol2: String, CaseIterable {
     case lockRectangleStackFill = "lock.rectangle.stack.fill"
     case lockRectangleOnRectangle = "lock.rectangle.on.rectangle"
     case lockRectangleOnRectangleFill = "lock.rectangle.on.rectangle.fill"
-    case key = "key"
+    case key
     case keyFill = "key.fill"
     case move3D = "move.3d"
     case scale3D = "scale.3d"
     case rotate3D = "rotate.3d"
     case timelineSelection = "timeline.selection"
-    case cpu = "cpu"
-    case memorychip = "memorychip"
-    case opticaldisc = "opticaldisc"
+    case cpu
+    case memorychip
+    case opticaldisc
     case fourKTv = "4k.tv"
     case fourKTvFill = "4k.tv.fill"
     case tvAndHifispeakerFill = "tv.and.hifispeaker.fill"
-    case display = "display"
+    case display
     case displayTrianglebadgeExclamationmark = "display.trianglebadge.exclamationmark"
     case display2 = "display.2"
-    case pc = "pc"
+    case pc
     case macproGen1 = "macpro.gen1"
     case macproGen2 = "macpro.gen2"
     case macproGen2Fill = "macpro.gen2.fill"
     case macproGen3 = "macpro.gen3"
     case serverRack = "server.rack"
-    case xserve = "xserve"
+    case xserve
     case macproGen3Server = "macpro.gen3.server"
-    case laptopcomputer = "laptopcomputer"
+    case laptopcomputer
     case laptopcomputerAndIphone = "laptopcomputer.and.iphone"
     case macMini = "macmini"
     case macMiniFill = "macmini.fill"
     case airportExpress = "airport.express"
     case airportExtremeTower = "airport.extreme.tower"
     case airportExtreme = "airport.extreme"
-    case ipod = "ipod"
-    case flipphone = "flipphone"
-    case candybarphone = "candybarphone"
+    case ipod
+    case flipphone
+    case candybarphone
     case iphonehomeButton = "iphone.homebutton"
     case iphonehomeButtonRadiowavesLeftAndRight = "iphone.homebutton.radiowaves.left.and.right"
     case iphonehomeButtonSlash = "iphone.homebutton.slash"
-    case iphone = "iphone"
+    case iphone
     case iphoneRadiowavesLeftAndRight = "iphone.radiowaves.left.and.right"
     case iphoneSlash = "iphone.slash"
     case arrowTurnUpRightIphone = "arrow.turn.up.right.iphone"
@@ -465,29 +465,29 @@ public enum SFSymbol2: String, CaseIterable {
     case appsIphone = "apps.iphone"
     case appsIphoneBadgePlus = "apps.iphone.badge.plus"
     case appsIphoneLandscape = "apps.iphone.landscape"
-    case ipodtouch = "ipodtouch"
+    case ipodtouch
     case ipodShuffleGen1 = "ipodshuffle.gen1"
     case ipodShuffleGen2 = "ipodshuffle.gen2"
     case ipodShuffleGen3 = "ipodshuffle.gen3"
     case ipodShuffleGen4 = "ipodshuffle.gen4"
     case ipadhomeButton = "ipad.homebutton"
-    case ipad = "ipad"
+    case ipad
     case appsIpad = "apps.ipad"
     case ipadhomeButtonLandscape = "ipad.homebutton.landscape"
     case ipadLandscape = "ipad.landscape"
     case appsIpadLandscape = "apps.ipad.landscape"
-    case applewatch = "applewatch"
+    case applewatch
     case applewatchWatchface = "applewatch.watchface"
     case applewatchRadiowavesLeftAndRight = "applewatch.radiowaves.left.and.right"
     case applewatchSlash = "applewatch.slash"
-    case airpods = "airpods"
-    case earpods = "earpods"
-    case airpodspro = "airpodspro"
-    case homepod = "homepod"
+    case airpods
+    case earpods
+    case airpodspro
+    case homepod
     case homepodFill = "homepod.fill"
-    case radio = "radio"
+    case radio
     case radioFill = "radio.fill"
-    case appletv = "appletv"
+    case appletv
     case appletvFill = "appletv.fill"
     case signpostRight = "signpost.right"
     case signpostRightFill = "signpost.right.fill"
@@ -497,7 +497,7 @@ public enum SFSymbol2: String, CaseIterable {
     case wave3Right = "wave.3.right"
     case wave3RightCircle = "wave.3.right.circle"
     case wave3RightCircleFill = "wave.3.right.circle.fill"
-    case pip = "pip"
+    case pip
     case pipFill = "pip.fill"
     case pipExit = "pip.exit"
     case pipEnter = "pip.enter"
@@ -514,31 +514,31 @@ public enum SFSymbol2: String, CaseIterable {
     case boltCarFill = "bolt.car.fill"
     case car2 = "car.2"
     case car2Fill = "car.2.fill"
-    case bus = "bus"
+    case bus
     case busFill = "bus.fill"
     case busDoubledecker = "bus.doubledecker"
     case busDoubledeckerFill = "bus.doubledecker.fill"
-    case tram = "tram"
+    case tram
     case tramTunnelFill = "tram.tunnel.fill"
-    case bicycle = "bicycle"
-    case lungs = "lungs"
+    case bicycle
+    case lungs
     case lungsFill = "lungs.fill"
-    case pills = "pills"
+    case pills
     case pillsFill = "pills.fill"
-    case cross = "cross"
+    case cross
     case crossFill = "cross.fill"
     case crossCircle = "cross.circle"
     case crossCircleFill = "cross.circle.fill"
-    case leaf = "leaf"
+    case leaf
     case leafFill = "leaf.fill"
     case leafArrowTriangleCirclepath = "leaf.arrow.triangle.circlepath"
     case faceSmiling = "face.smiling"
     case faceSmilingFill = "face.smiling.fill"
     case faceDashed = "face.dashed"
     case faceDashedFill = "face.dashed.fill"
-    case crown = "crown"
+    case crown
     case crownFill = "crown.fill"
-    case comb = "comb"
+    case comb
     case combFill = "comb.fill"
     case plusViewFinder = "plus.viewfinder"
     case docTextFillViewFinder = "doc.text.fill.viewfinder"
@@ -594,7 +594,7 @@ public enum SFSymbol2: String, CaseIterable {
     case squareSplitDiagonal2X2Fill = "square.split.diagonal.2x2.fill"
     case squareSplitDiagonal = "square.split.diagonal"
     case squareSplitDiagonalFill = "square.split.diagonal.fill"
-    case mosaic = "mosaic"
+    case mosaic
     case mosaicFill = "mosaic.fill"
     case rectangleSplit2X1 = "rectangle.split.2x1"
     case rectangleSplit2X1Fill = "rectangle.split.2x1.fill"
@@ -602,7 +602,7 @@ public enum SFSymbol2: String, CaseIterable {
     case rectangleSplit1X2Fill = "rectangle.split.1x2.fill"
     case rectangleSplit2X2 = "rectangle.split.2x2"
     case rectangleSplit2X2Fill = "rectangle.split.2x2.fill"
-    case tablecells = "tablecells"
+    case tablecells
     case tablecellsFill = "tablecells.fill"
     case tablecellsBadgeEllipsis = "tablecells.badge.ellipsis"
     case tablecellsBadgeEllipsisFill = "tablecells.badge.ellipsis.fill"
@@ -626,7 +626,7 @@ public enum SFSymbol2: String, CaseIterable {
     case pointFillTopLeftDownCurvedtoPointFillBottomRightUp = "point.fill.topleft.down.curvedto.point.fill.bottomright.up"
     case sliderVertical3 = "slider.vertical.3"
     case cubeTransparent = "cube.transparent"
-    case shippingbox = "shippingbox"
+    case shippingbox
     case shippingboxFill = "shippingbox.fill"
     case squareStack3DUpBadgeA = "square.stack.3d.up.badge.a"
     case squareStack3DUpBadgeAFill = "square.stack.3d.up.badge.a.fill"
@@ -643,7 +643,7 @@ public enum SFSymbol2: String, CaseIterable {
     case lJoystickDownFill = "l.joystick.down.fill"
     case rJoystickDown = "r.joystick.down"
     case rJoystickDownFill = "r.joystick.down.fill"
-    case dpad = "dpad"
+    case dpad
     case dpadFill = "dpad.fill"
     case dpadLeftFill = "dpad.left.fill"
     case dpadUpFill = "dpad.up.fill"
@@ -683,7 +683,7 @@ public enum SFSymbol2: String, CaseIterable {
     case zlRectangleRoundedTopFill = "zl.rectangle.roundedtop.fill"
     case zrRectangleRoundedTop = "zr.rectangle.roundedtop"
     case zrRectangleRoundedTopFill = "zr.rectangle.roundedtop.fill"
-    case paintpalette = "paintpalette"
+    case paintpalette
     case paintpaletteFill = "paintpalette.fill"
     case figureWalk = "figure.walk"
     case figureWalkCircle = "figure.walk.circle"
@@ -726,16 +726,16 @@ public enum SFSymbol2: String, CaseIterable {
     case waveformPathEcgRectangleFill = "waveform.path.ecg.rectangle.fill"
     case staroflifeCircle = "staroflife.circle"
     case staroflifeCircleFill = "staroflife.circle.fill"
-    case simcard = "simcard"
+    case simcard
     case simcardFill = "simcard.fill"
     case simcard2 = "simcard.2"
     case simcard2Fill = "simcard.2.fill"
-    case sdcard = "sdcard"
+    case sdcard
     case sdcardFill = "sdcard.fill"
-    case touchid = "touchid"
-    case bonjour = "bonjour"
-    case atom = "atom"
-    case scalemass = "scalemass"
+    case touchid
+    case bonjour
+    case atom
+    case scalemass
     case scalemassFill = "scalemass.fill"
     case headphonesCircle = "headphones.circle"
     case headphonesCircleFill = "headphones.circle.fill"
@@ -748,9 +748,9 @@ public enum SFSymbol2: String, CaseIterable {
     case airplaneCircle = "airplane.circle"
     case airplaneCircleFill = "airplane.circle.fill"
     case hourglassBadgePlus = "hourglass.badge.plus"
-    case banknote = "banknote"
+    case banknote
     case banknoteFill = "banknote.fill"
-    case paragraphsign = "paragraphsign"
+    case paragraphsign
     case cameraFilters = "camera.filters"
     case arrowLeftAndRightRightTriangleLeftRightTriangleRight = "arrow.left.and.right.righttriangle.left.righttriangle.right"
     case arrowLeftAndRightRightTriangleLeftRightTriangleRightFill = "arrow.left.and.right.righttriangle.left.righttriangle.right.fill"
@@ -762,14 +762,14 @@ public enum SFSymbol2: String, CaseIterable {
     case arrowtriangleRightFillAndLineVerticalAndArrowtriangleLeftFill = "arrowtriangle.right.fill.and.line.vertical.and.arrowtriangle.left.fill"
     case lifePreserver = "lifepreserver"
     case lifePreserverFill = "lifepreserver.fill"
-    case binoculars = "binoculars"
+    case binoculars
     case binocularsFill = "binoculars.fill"
     case battery100Bolt = "battery.100.bolt"
     case minusPlusbatteryBlock = "minus.plus.batteryblock"
     case minusPlusbatteryBlockFill = "minus.plus.batteryblock.fill"
     case boltFillbatteryBlock = "bolt.fill.batteryblock"
     case boltFillbatteryBlockFill = "bolt.fill.batteryblock.fill"
-    case fiberchannel = "fiberchannel"
+    case fiberchannel
     case squareFillTextGrid1X2 = "square.fill.text.grid.1x2"
     case listTriangle = "list.triangle"
     case listStar = "list.star"
@@ -779,10 +779,10 @@ public enum SFSymbol2: String, CaseIterable {
     case lineHorizontal3CircleFill = "line.horizontal.3.circle.fill"
     case lineHorizontal2DecreaseCircle = "line.horizontal.2.decrease.circle"
     case lineHorizontal2DecreaseCircleFill = "line.horizontal.2.decrease.circle.fill"
-    case abc = "abc"
-    case shadow = "shadow"
-    case k = "k"
-    case fn = "fn"
+    case abc
+    case shadow
+    case k
+    case fn
     case aMagnify = "a.magnify"
     case atCircle = "at.circle"
     case atCircleFill = "at.circle.fill"
@@ -800,7 +800,7 @@ public enum SFSymbol2: String, CaseIterable {
     case xmarkRectanglePortraitFill = "xmark.rectangle.portrait.fill"
     case xmarkDiamond = "xmark.diamond"
     case xmarkDiamondFill = "xmark.diamond.fill"
-    case curlybraces = "curlybraces"
+    case curlybraces
     case curlybracesSquare = "curlybraces.square"
     case curlybracesSquareFill = "curlybraces.square.fill"
     case checkmarkRectanglePortrait = "checkmark.rectangle.portrait"

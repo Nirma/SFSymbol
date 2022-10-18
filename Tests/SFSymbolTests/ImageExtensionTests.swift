@@ -5,9 +5,9 @@
 //  Created by Nicholas Maccharoli on 2020/07/16.
 //
 
-import XCTest
-import SwiftUI
 @testable import SFSymbol
+import SwiftUI
+import XCTest
 
 @available(macOS 11, *)
 class ImageExtensionTests: XCTestCase {
