@@ -20,86 +20,86 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-enum SFSymbol: String {
+public enum SFSymbol: String {
     
-    enum Number0: String {
+    public enum Number0: String {
         case circleFill = "0.circle.fill"
         case circle = "0.circle"
         case squareFill = "0.square.fill"
         case square = "0.square"
     }
 
-    enum Number00: String {
+    public enum Number00: String {
         case circleFill = "00.circle.fill"
         case circle = "00.circle"
         case squareFill = "00.square.fill"
         case square = "00.square"
     }
 
-    enum Number01: String {
+    public enum Number01: String {
         case circleFill = "01.circle.fill"
         case circle = "01.circle"
         case squareFill = "01.square.fill"
         case square = "01.square"
     }
 
-    enum Number02: String {
+    public enum Number02: String {
         case circleFill = "02.circle.fill"
         case circle = "02.circle"
         case squareFill = "02.square.fill"
         case square = "02.square"
     }
 
-    enum Number03: String {
+    public enum Number03: String {
         case circleFill = "03.circle.fill"
         case circle = "03.circle"
         case squareFill = "03.square.fill"
         case square = "03.square"
     }
 
-    enum Number04: String {
+    public enum Number04: String {
         case circleFill = "04.circle.fill"
         case circle = "04.circle"
         case squareFill = "04.square.fill"
         case square = "04.square"
     }
 
-    enum Number05: String {
+    public enum Number05: String {
         case circleFill = "05.circle.fill"
         case circle = "05.circle"
         case squareFill = "05.square.fill"
         case square = "05.square"
     }
 
-    enum Number06: String {
+    public enum Number06: String {
         case circleFill = "06.circle.fill"
         case circle = "06.circle"
         case squareFill = "06.square.fill"
         case square = "06.square"
     }
 
-    enum Number07: String {
+    public enum Number07: String {
         case circleFill = "07.circle.fill"
         case circle = "07.circle"
         case squareFill = "07.square.fill"
         case square = "07.square"
     }
 
-    enum Number08: String {
+    public enum Number08: String {
         case circleFill = "08.circle.fill"
         case circle = "08.circle"
         case squareFill = "08.square.fill"
         case square = "08.square"
     }
 
-    enum Number09: String {
+    public enum Number09: String {
         case circleFill = "09.circle.fill"
         case circle = "09.circle"
         case squareFill = "09.square.fill"
         case square = "09.square"
     }
 
-    enum Number1: String {
+    public enum Number1: String {
         case circleFill = "1.circle.fill"
         case circle = "1.circle"
         case magnifyingglass = "1.magnifyingglass"
@@ -107,231 +107,231 @@ enum SFSymbol: String {
         case square = "1.square"
     }
 
-    enum Number10: String {
+    public enum Number10: String {
         case circleFill = "10.circle.fill"
         case circle = "10.circle"
         case squareFill = "10.square.fill"
         case square = "10.square"
     }
 
-    enum Number11: String {
+    public enum Number11: String {
         case circleFill = "11.circle.fill"
         case circle = "11.circle"
         case squareFill = "11.square.fill"
         case square = "11.square"
     }
 
-    enum Number12: String {
+    public enum Number12: String {
         case circleFill = "12.circle.fill"
         case circle = "12.circle"
         case squareFill = "12.square.fill"
         case square = "12.square"
     }
 
-    enum Number13: String {
+    public enum Number13: String {
         case circleFill = "13.circle.fill"
         case circle = "13.circle"
         case squareFill = "13.square.fill"
         case square = "13.square"
     }
 
-    enum Number14: String {
+    public enum Number14: String {
         case circleFill = "14.circle.fill"
         case circle = "14.circle"
         case squareFill = "14.square.fill"
         case square = "14.square"
     }
 
-    enum Number15: String {
+    public enum Number15: String {
         case circleFill = "15.circle.fill"
         case circle = "15.circle"
         case squareFill = "15.square.fill"
         case square = "15.square"
     }
 
-    enum Number16: String {
+    public enum Number16: String {
         case circleFill = "16.circle.fill"
         case circle = "16.circle"
         case squareFill = "16.square.fill"
         case square = "16.square"
     }
 
-    enum Number17: String {
+    public enum Number17: String {
         case circleFill = "17.circle.fill"
         case circle = "17.circle"
         case squareFill = "17.square.fill"
         case square = "17.square"
     }
 
-    enum Number18: String {
+    public enum Number18: String {
         case circleFill = "18.circle.fill"
         case circle = "18.circle"
         case squareFill = "18.square.fill"
         case square = "18.square"
     }
 
-    enum Number19: String {
+    public enum Number19: String {
         case circleFill = "19.circle.fill"
         case circle = "19.circle"
         case squareFill = "19.square.fill"
         case square = "19.square"
     }
 
-    enum Number2: String {
+    public enum Number2: String {
         case circleFill = "2.circle.fill"
         case circle = "2.circle"
         case squareFill = "2.square.fill"
         case square = "2.square"
     }
 
-    enum Number20: String {
+    public enum Number20: String {
         case circleFill = "20.circle.fill"
         case circle = "20.circle"
         case squareFill = "20.square.fill"
         case square = "20.square"
     }
 
-    enum Number21: String {
+    public enum Number21: String {
         case circleFill = "21.circle.fill"
         case circle = "21.circle"
         case squareFill = "21.square.fill"
         case square = "21.square"
     }
 
-    enum Number22: String {
+    public enum Number22: String {
         case circleFill = "22.circle.fill"
         case circle = "22.circle"
         case squareFill = "22.square.fill"
         case square = "22.square"
     }
 
-    enum Number23: String {
+    public enum Number23: String {
         case circleFill = "23.circle.fill"
         case circle = "23.circle"
         case squareFill = "23.square.fill"
         case square = "23.square"
     }
 
-    enum Number24: String {
+    public enum Number24: String {
         case circleFill = "24.circle.fill"
         case circle = "24.circle"
         case squareFill = "24.square.fill"
         case square = "24.square"
     }
 
-    enum Number25: String {
+    public enum Number25: String {
         case circleFill = "25.circle.fill"
         case circle = "25.circle"
         case squareFill = "25.square.fill"
         case square = "25.square"
     }
 
-    enum Number26: String {
+    public enum Number26: String {
         case circleFill = "26.circle.fill"
         case circle = "26.circle"
         case squareFill = "26.square.fill"
         case square = "26.square"
     }
 
-    enum Number27: String {
+    public enum Number27: String {
         case circleFill = "27.circle.fill"
         case circle = "27.circle"
         case squareFill = "27.square.fill"
         case square = "27.square"
     }
 
-    enum Number28: String {
+    public enum Number28: String {
         case circleFill = "28.circle.fill"
         case circle = "28.circle"
         case squareFill = "28.square.fill"
         case square = "28.square"
     }
 
-    enum Number29: String {
+    public enum Number29: String {
         case circleFill = "29.circle.fill"
         case circle = "29.circle"
         case squareFill = "29.square.fill"
         case square = "29.square"
     }
 
-    enum Number3: String {
+    public enum Number3: String {
         case circleFill = "3.circle.fill"
         case circle = "3.circle"
         case squareFill = "3.square.fill"
         case square = "3.square"
     }
 
-    enum Number30: String {
+    public enum Number30: String {
         case circleFill = "30.circle.fill"
         case circle = "30.circle"
         case squareFill = "30.square.fill"
         case square = "30.square"
     }
 
-    enum Number31: String {
+    public enum Number31: String {
         case circleFill = "31.circle.fill"
         case circle = "31.circle"
         case squareFill = "31.square.fill"
         case square = "31.square"
     }
 
-    enum Number32: String {
+    public enum Number32: String {
         case circleFill = "32.circle.fill"
         case circle = "32.circle"
         case squareFill = "32.square.fill"
         case square = "32.square"
     }
 
-    enum Number33: String {
+    public enum Number33: String {
         case circleFill = "33.circle.fill"
         case circle = "33.circle"
         case squareFill = "33.square.fill"
         case square = "33.square"
     }
 
-    enum Number34: String {
+    public enum Number34: String {
         case circleFill = "34.circle.fill"
         case circle = "34.circle"
         case squareFill = "34.square.fill"
         case square = "34.square"
     }
 
-    enum Number35: String {
+    public enum Number35: String {
         case circleFill = "35.circle.fill"
         case circle = "35.circle"
         case squareFill = "35.square.fill"
         case square = "35.square"
     }
 
-    enum Number36: String {
+    public enum Number36: String {
         case circleFill = "36.circle.fill"
         case circle = "36.circle"
         case squareFill = "36.square.fill"
         case square = "36.square"
     }
 
-    enum Number37: String {
+    public enum Number37: String {
         case circleFill = "37.circle.fill"
         case circle = "37.circle"
         case squareFill = "37.square.fill"
         case square = "37.square"
     }
 
-    enum Number38: String {
+    public enum Number38: String {
         case circleFill = "38.circle.fill"
         case circle = "38.circle"
         case squareFill = "38.square.fill"
         case square = "38.square"
     }
 
-    enum Number39: String {
+    public enum Number39: String {
         case circleFill = "39.circle.fill"
         case circle = "39.circle"
         case squareFill = "39.square.fill"
         case square = "39.square"
     }
 
-    enum Number4: String {
+    public enum Number4: String {
         case altCircleFill = "4.alt.circle.fill"
         case altCircle = "4.alt.circle"
         case altSquareFill = "4.alt.square.fill"
@@ -342,91 +342,91 @@ enum SFSymbol: String {
         case square = "4.square"
     }
 
-    enum Number40: String {
+    public enum Number40: String {
         case circleFill = "40.circle.fill"
         case circle = "40.circle"
         case squareFill = "40.square.fill"
         case square = "40.square"
     }
 
-    enum Number41: String {
+    public enum Number41: String {
         case circleFill = "41.circle.fill"
         case circle = "41.circle"
         case squareFill = "41.square.fill"
         case square = "41.square"
     }
 
-    enum Number42: String {
+    public enum Number42: String {
         case circleFill = "42.circle.fill"
         case circle = "42.circle"
         case squareFill = "42.square.fill"
         case square = "42.square"
     }
 
-    enum Number43: String {
+    public enum Number43: String {
         case circleFill = "43.circle.fill"
         case circle = "43.circle"
         case squareFill = "43.square.fill"
         case square = "43.square"
     }
 
-    enum Number44: String {
+    public enum Number44: String {
         case circleFill = "44.circle.fill"
         case circle = "44.circle"
         case squareFill = "44.square.fill"
         case square = "44.square"
     }
 
-    enum Number45: String {
+    public enum Number45: String {
         case circleFill = "45.circle.fill"
         case circle = "45.circle"
         case squareFill = "45.square.fill"
         case square = "45.square"
     }
 
-    enum Number46: String {
+    public enum Number46: String {
         case circleFill = "46.circle.fill"
         case circle = "46.circle"
         case squareFill = "46.square.fill"
         case square = "46.square"
     }
 
-    enum Number47: String {
+    public enum Number47: String {
         case circleFill = "47.circle.fill"
         case circle = "47.circle"
         case squareFill = "47.square.fill"
         case square = "47.square"
     }
 
-    enum Number48: String {
+    public enum Number48: String {
         case circleFill = "48.circle.fill"
         case circle = "48.circle"
         case squareFill = "48.square.fill"
         case square = "48.square"
     }
 
-    enum Number49: String {
+    public enum Number49: String {
         case circleFill = "49.circle.fill"
         case circle = "49.circle"
         case squareFill = "49.square.fill"
         case square = "49.square"
     }
 
-    enum Number5: String {
+    public enum Number5: String {
         case circleFill = "5.circle.fill"
         case circle = "5.circle"
         case squareFill = "5.square.fill"
         case square = "5.square"
     }
 
-    enum Number50: String {
+    public enum Number50: String {
         case circleFill = "50.circle.fill"
         case circle = "50.circle"
         case squareFill = "50.square.fill"
         case square = "50.square"
     }
 
-    enum Number6: String {
+    public enum Number6: String {
         case altCircleFill = "6.alt.circle.fill"
         case altCircle = "6.alt.circle"
         case altSquareFill = "6.alt.square.fill"
@@ -437,21 +437,21 @@ enum SFSymbol: String {
         case square = "6.square"
     }
 
-    enum Number7: String {
+    public enum Number7: String {
         case circleFill = "7.circle.fill"
         case circle = "7.circle"
         case squareFill = "7.square.fill"
         case square = "7.square"
     }
 
-    enum Number8: String {
+    public enum Number8: String {
         case circleFill = "8.circle.fill"
         case circle = "8.circle"
         case squareFill = "8.square.fill"
         case square = "8.square"
     }
 
-    enum Number9: String {
+    public enum Number9: String {
         case altCircleFill = "9.alt.circle.fill"
         case altCircle = "9.alt.circle"
         case altSquareFill = "9.alt.square.fill"
@@ -464,7 +464,7 @@ enum SFSymbol: String {
 
     case a = "a"
 
-    enum LetterA: String {
+    public enum LetterA: String {
         case circleFill = "a.circle.fill"
         case circle = "a.circle"
         case squareFill = "a.square.fill"
@@ -479,7 +479,7 @@ enum SFSymbol: String {
 
     case alarm = "alarm"
 
-    enum Alarm: String {
+    public enum Alarm: String {
         case fill = "alarm.fill"
     }
 
@@ -487,19 +487,19 @@ enum SFSymbol: String {
 
     case ant = "ant"
 
-    enum Ant: String {
+    public enum Ant: String {
         case circleFill = "ant.circle.fill"
         case circle = "ant.circle"
         case fill = "ant.fill"
     }
 
-    enum Antenna: String {
+    public enum Antenna: String {
         case radiowavesLeftAndRight = "antenna.radiowaves.left.and.right"
     }
 
     case app = "app"
 
-    enum App: String {
+    public enum App: String {
         case badgeFill = "app.badge.fill"
         case badge = "app.badge"
         case fill = "app.fill"
@@ -509,13 +509,13 @@ enum SFSymbol: String {
 
     case archivebox = "archivebox"
 
-    enum Archivebox: String {
+    public enum Archivebox: String {
         case fill = "archivebox.fill"
     }
 
     case arkit = "arkit"
 
-    enum Arrow: String {
+    public enum Arrow: String {
         case branch = "arrow.branch"
         case clockwiseCircleFill = "arrow.clockwise.circle.fill"
         case clockwiseCircle = "arrow.clockwise.circle"
@@ -641,18 +641,18 @@ enum SFSymbol: String {
         case uturnUp = "arrow.uturn.up"
     }
 
-    enum Arrow2: String {
+    public enum Arrow2: String {
         case circlepathCircleFill = "arrow.2.circlepath.circle.fill"
         case circlepathCircle = "arrow.2.circlepath.circle"
         case circlepath = "arrow.2.circlepath"
         case squarepath = "arrow.2.squarepath"
     }
 
-    enum Arrow3: String {
+    public enum Arrow3: String {
         case trianglepath = "arrow.3.trianglepath"
     }
 
-    enum Arrowshape: String {
+    public enum Arrowshape: String {
         case turnUpLeft2Fill = "arrowshape.turn.up.left.2.fill"
         case turnUpLeft2 = "arrowshape.turn.up.left.2"
         case turnUpLeftCircleFill = "arrowshape.turn.up.left.circle.fill"
@@ -665,7 +665,7 @@ enum SFSymbol: String {
         case turnUpRight = "arrowshape.turn.up.right"
     }
 
-    enum Arrowtriangle: String {
+    public enum Arrowtriangle: String {
         case downCircleFill = "arrowtriangle.down.circle.fill"
         case downCircle = "arrowtriangle.down.circle"
         case downFill = "arrowtriangle.down.fill"
@@ -692,26 +692,26 @@ enum SFSymbol: String {
         case up = "arrowtriangle.up"
     }
 
-    enum Asterisk: String {
+    public enum Asterisk: String {
         case circleFill = "asterisk.circle.fill"
         case circle = "asterisk.circle"
     }
 
     case at = "at"
 
-    enum At: String {
+    public enum At: String {
         case badgeMinus = "at.badge.minus"
         case badgePlus = "at.badge.plus"
     }
 
-    enum Australsign: String {
+    public enum Australsign: String {
         case circleFill = "australsign.circle.fill"
         case circle = "australsign.circle"
         case squareFill = "australsign.square.fill"
         case square = "australsign.square"
     }
 
-    enum LetterB: String {
+    public enum LetterB: String {
         case circleFill = "b.circle.fill"
         case circle = "b.circle"
         case squareFill = "b.square.fill"
@@ -720,7 +720,7 @@ enum SFSymbol: String {
 
     case backward = "backward"
 
-    enum Backward: String {
+    public enum Backward: String {
         case endAltFill = "backward.end.alt.fill"
         case endAlt = "backward.end.alt"
         case endFill = "backward.end.fill"
@@ -728,13 +728,13 @@ enum SFSymbol: String {
         case fill = "backward.fill"
     }
 
-    enum Badge: String {
+    public enum Badge: String {
         case plusRadiowavesRight = "badge.plus.radiowaves.right"
     }
 
     case bag = "bag"
 
-    enum Bag: String {
+    public enum Bag: String {
         case badgeMinusFill = "bag.badge.minus.fill"
         case badgeMinus = "bag.badge.minus"
         case badgePlusFill = "bag.badge.plus.fill"
@@ -742,7 +742,7 @@ enum SFSymbol: String {
         case fill = "bag.fill"
     }
 
-    enum Bahtsign: String {
+    public enum Bahtsign: String {
         case circleFill = "bahtsign.circle.fill"
         case circle = "bahtsign.circle"
         case squareFill = "bahtsign.square.fill"
@@ -751,13 +751,13 @@ enum SFSymbol: String {
 
     case bandage = "bandage"
 
-    enum Bandage: String {
+    public enum Bandage: String {
         case fill = "bandage.fill"
     }
 
     case barcode = "barcode"
 
-    enum Barcode: String {
+    public enum Barcode: String {
         case viewfinder = "barcode.viewfinder"
     }
 
@@ -767,14 +767,14 @@ enum SFSymbol: String {
 
     case battery25 = "battery.25"
 
-    enum Bed: String {
+    public enum Bed: String {
         case doubleFill = "bed.double.fill"
         case double = "bed.double"
     }
 
     case bell = "bell"
 
-    enum Bell: String {
+    public enum Bell: String {
         case circleFill = "bell.circle.fill"
         case circle = "bell.circle"
         case fill = "bell.fill"
@@ -782,12 +782,12 @@ enum SFSymbol: String {
         case slash = "bell.slash"
     }
 
-    enum Bin: String {
+    public enum Bin: String {
         case xmarkFill = "bin.xmark.fill"
         case xmark = "bin.xmark"
     }
 
-    enum Bitcoinsign: String {
+    public enum Bitcoinsign: String {
         case circleFill = "bitcoinsign.circle.fill"
         case circle = "bitcoinsign.circle"
         case squareFill = "bitcoinsign.square.fill"
@@ -796,14 +796,14 @@ enum SFSymbol: String {
 
     case bold = "bold"
 
-    enum Bold: String {
+    public enum Bold: String {
         case italicUnderline = "bold.italic.underline"
         case underline = "bold.underline"
     }
 
     case bolt = "bolt"
 
-    enum Bolt: String {
+    public enum Bolt: String {
         case badgeAFill = "bolt.badge.a.fill"
         case badgeA = "bolt.badge.a"
         case circleFill = "bolt.circle.fill"
@@ -821,7 +821,7 @@ enum SFSymbol: String {
 
     case book = "book"
 
-    enum Book: String {
+    public enum Book: String {
         case circleFill = "book.circle.fill"
         case circle = "book.circle"
         case fill = "book.fill"
@@ -829,17 +829,17 @@ enum SFSymbol: String {
 
     case bookmark = "bookmark"
 
-    enum Bookmark: String {
+    public enum Bookmark: String {
         case fill = "bookmark.fill"
     }
 
     case briefcase = "briefcase"
 
-    enum Briefcase: String {
+    public enum Briefcase: String {
         case fill = "briefcase.fill"
     }
 
-    enum Bubble: String {
+    public enum Bubble: String {
         case leftAndBubbleRightFill = "bubble.left.and.bubble.right.fill"
         case leftAndBubbleRight = "bubble.left.and.bubble.right"
         case leftFill = "bubble.left.fill"
@@ -856,11 +856,11 @@ enum SFSymbol: String {
 
     case burst = "burst"
 
-    enum Burst: String {
+    public enum Burst: String {
         case fill = "burst.fill"
     }
 
-    enum LetterC: String {
+    public enum LetterC: String {
         case circleFill = "c.circle.fill"
         case circle = "c.circle"
         case squareFill = "c.square.fill"
@@ -869,7 +869,7 @@ enum SFSymbol: String {
 
     case calendar = "calendar"
 
-    enum Calendar: String {
+    public enum Calendar: String {
         case badgeMinus = "calendar.badge.minus"
         case badgePlus = "calendar.badge.plus"
         case circleFill = "calendar.circle.fill"
@@ -878,7 +878,7 @@ enum SFSymbol: String {
 
     case camera = "camera"
 
-    enum Camera: String {
+    public enum Camera: String {
         case circleFill = "camera.circle.fill"
         case circle = "camera.circle"
         case fill = "camera.fill"
@@ -891,28 +891,28 @@ enum SFSymbol: String {
 
     case capslock = "capslock"
 
-    enum Capslock: String {
+    public enum Capslock: String {
         case fill = "capslock.fill"
     }
 
     case capsule = "capsule"
 
-    enum Capsule: String {
+    public enum Capsule: String {
         case fill = "capsule.fill"
     }
 
-    enum Captions: String {
+    public enum Captions: String {
         case bubbleFill = "captions.bubble.fill"
         case bubble = "captions.bubble"
     }
 
-    enum Car: String {
+    public enum Car: String {
         case fill = "car.fill"
     }
 
     case cart = "cart"
 
-    enum Cart: String {
+    public enum Cart: String {
         case badgeMinusFill = "cart.badge.minus.fill"
         case badgeMinus = "cart.badge.minus"
         case badgePlusFill = "cart.badge.plus.fill"
@@ -920,21 +920,21 @@ enum SFSymbol: String {
         case fill = "cart.fill"
     }
 
-    enum Cedisign: String {
+    public enum Cedisign: String {
         case circleFill = "cedisign.circle.fill"
         case circle = "cedisign.circle"
         case squareFill = "cedisign.square.fill"
         case square = "cedisign.square"
     }
 
-    enum Centsign: String {
+    public enum Centsign: String {
         case circleFill = "centsign.circle.fill"
         case circle = "centsign.circle"
         case squareFill = "centsign.square.fill"
         case square = "centsign.square"
     }
 
-    enum Chart: String {
+    public enum Chart: String {
         case barFill = "chart.bar.fill"
         case bar = "chart.bar"
         case pieFill = "chart.pie.fill"
@@ -943,7 +943,7 @@ enum SFSymbol: String {
 
     case checkmark = "checkmark"
 
-    enum Checkmark: String {
+    public enum Checkmark: String {
         case circleFill = "checkmark.circle.fill"
         case circle = "checkmark.circle"
         case rectangleFill = "checkmark.rectangle.fill"
@@ -956,7 +956,7 @@ enum SFSymbol: String {
         case square = "checkmark.square"
     }
 
-    enum Chevron: String {
+    public enum Chevron: String {
         case compactDown = "chevron.compact.down"
         case compactLeft = "chevron.compact.left"
         case compactRight = "chevron.compact.right"
@@ -989,7 +989,7 @@ enum SFSymbol: String {
 
     case circle = "circle"
 
-    enum Circle: String {
+    public enum Circle: String {
         case bottomthirdSplit = "circle.bottomthird.split"
         case fill = "circle.fill"
         case grid3X3Fill = "circle.grid.3x3.fill"
@@ -1002,19 +1002,19 @@ enum SFSymbol: String {
 
     case clear = "clear"
 
-    enum Clear: String {
+    public enum Clear: String {
         case fill = "clear.fill"
     }
 
     case clock = "clock"
 
-    enum Clock: String {
+    public enum Clock: String {
         case fill = "clock.fill"
     }
 
     case cloud = "cloud"
 
-    enum Cloud: String {
+    public enum Cloud: String {
         case boltFill = "cloud.bolt.fill"
         case boltRainFill = "cloud.bolt.rain.fill"
         case boltRain = "cloud.bolt.rain"
@@ -1048,7 +1048,7 @@ enum SFSymbol: String {
         case sun = "cloud.sun"
     }
 
-    enum Coloncurrencysign: String {
+    public enum Coloncurrencysign: String {
         case circleFill = "coloncurrencysign.circle.fill"
         case circle = "coloncurrencysign.circle"
         case squareFill = "coloncurrencysign.square.fill"
@@ -1061,17 +1061,17 @@ enum SFSymbol: String {
 
     case creditcard = "creditcard"
 
-    enum Creditcard: String {
+    public enum Creditcard: String {
         case fill = "creditcard.fill"
     }
 
     case crop = "crop"
 
-    enum Crop: String {
+    public enum Crop: String {
         case rotate = "crop.rotate"
     }
 
-    enum Cruzeirosign: String {
+    public enum Cruzeirosign: String {
         case circleFill = "cruzeirosign.circle.fill"
         case circle = "cruzeirosign.circle"
         case squareFill = "cruzeirosign.square.fill"
@@ -1080,28 +1080,28 @@ enum SFSymbol: String {
 
     case cube = "cube"
 
-    enum Cube: String {
+    public enum Cube: String {
         case boxFill = "cube.box.fill"
         case box = "cube.box"
         case fill = "cube.fill"
     }
 
-    enum Cursor: String {
+    public enum Cursor: String {
         case rays = "cursor.rays"
     }
 
-    enum LetterD: String {
+    public enum LetterD: String {
         case circleFill = "d.circle.fill"
         case circle = "d.circle"
         case squareFill = "d.square.fill"
         case square = "d.square"
     }
 
-    enum Decrease: String {
+    public enum Decrease: String {
         case quotelevel = "decrease.quotelevel"
     }
 
-    enum Delete: String {
+    public enum Delete: String {
         case leftFill = "delete.left.fill"
         case left = "delete.left"
         case rightFill = "delete.right.fill"
@@ -1112,13 +1112,13 @@ enum SFSymbol: String {
 
     case dial = "dial"
 
-    enum Dial: String {
+    public enum Dial: String {
         case fill = "dial.fill"
     }
 
     case divide = "divide"
 
-    enum Divide: String {
+    public enum Divide: String {
         case circleFill = "divide.circle.fill"
         case circle = "divide.circle"
         case squareFill = "divide.square.fill"
@@ -1127,7 +1127,7 @@ enum SFSymbol: String {
 
     case doc = "doc"
 
-    enum Doc: String {
+    public enum Doc: String {
         case append = "doc.append"
         case circleFill = "doc.circle.fill"
         case circle = "doc.circle"
@@ -1144,21 +1144,21 @@ enum SFSymbol: String {
         case text = "doc.text"
     }
 
-    enum Dollarsign: String {
+    public enum Dollarsign: String {
         case circleFill = "dollarsign.circle.fill"
         case circle = "dollarsign.circle"
         case squareFill = "dollarsign.square.fill"
         case square = "dollarsign.square"
     }
 
-    enum Dongsign: String {
+    public enum Dongsign: String {
         case circleFill = "dongsign.circle.fill"
         case circle = "dongsign.circle"
         case squareFill = "dongsign.square.fill"
         case square = "dongsign.square"
     }
 
-    enum Dot: String {
+    public enum Dot: String {
         case circleFill = "dot.circle.fill"
         case circle = "dot.circle"
         case radiowavesLeftAndRight = "dot.radiowaves.left.and.right"
@@ -1167,12 +1167,12 @@ enum SFSymbol: String {
         case square = "dot.square"
     }
 
-    enum Drop: String {
+    public enum Drop: String {
         case triangleFill = "drop.triangle.fill"
         case triangle = "drop.triangle"
     }
 
-    enum LetterE: String {
+    public enum LetterE: String {
         case circleFill = "e.circle.fill"
         case circle = "e.circle"
         case squareFill = "e.square.fill"
@@ -1183,25 +1183,25 @@ enum SFSymbol: String {
 
     case eject = "eject"
 
-    enum Eject: String {
+    public enum Eject: String {
         case fill = "eject.fill"
     }
 
-    enum Ellipses: String {
+    public enum Ellipses: String {
         case bubbleFill = "ellipses.bubble.fill"
         case bubble = "ellipses.bubble"
     }
 
     case ellipsis = "ellipsis"
 
-    enum Ellipsis: String {
+    public enum Ellipsis: String {
         case circleFill = "ellipsis.circle.fill"
         case circle = "ellipsis.circle"
     }
 
     case envelope = "envelope"
 
-    enum Envelope: String {
+    public enum Envelope: String {
         case badgeFill = "envelope.badge.fill"
         case badge = "envelope.badge"
         case circleFill = "envelope.circle.fill"
@@ -1213,7 +1213,7 @@ enum SFSymbol: String {
 
     case equal = "equal"
 
-    enum Equal: String {
+    public enum Equal: String {
         case circleFill = "equal.circle.fill"
         case circle = "equal.circle"
         case squareFill = "equal.square.fill"
@@ -1222,7 +1222,7 @@ enum SFSymbol: String {
 
     case escape = "escape"
 
-    enum Eurosign: String {
+    public enum Eurosign: String {
         case circleFill = "eurosign.circle.fill"
         case circle = "eurosign.circle"
         case squareFill = "eurosign.square.fill"
@@ -1231,7 +1231,7 @@ enum SFSymbol: String {
 
     case exclamationmark = "exclamationmark"
 
-    enum Exclamationmark: String {
+    public enum Exclamationmark: String {
         case bubbleFill = "exclamationmark.bubble.fill"
         case bubble = "exclamationmark.bubble"
         case circleFill = "exclamationmark.circle.fill"
@@ -1250,7 +1250,7 @@ enum SFSymbol: String {
 
     case eye = "eye"
 
-    enum Eye: String {
+    public enum Eye: String {
         case fill = "eye.fill"
         case slashFill = "eye.slash.fill"
         case slash = "eye.slash"
@@ -1258,14 +1258,14 @@ enum SFSymbol: String {
 
     case eyedropper = "eyedropper"
 
-    enum Eyedropper: String {
+    public enum Eyedropper: String {
         case full = "eyedropper.full"
         case halffull = "eyedropper.halffull"
     }
 
     case eyeglasses = "eyeglasses"
 
-    enum LetterF: String {
+    public enum LetterF: String {
         case circleFill = "f.circle.fill"
         case circle = "f.circle"
         case cursiveCircleFill = "f.cursive.circle.fill"
@@ -1279,13 +1279,13 @@ enum SFSymbol: String {
 
     case film = "film"
 
-    enum Film: String {
+    public enum Film: String {
         case fill = "film.fill"
     }
 
     case flag = "flag"
 
-    enum Flag: String {
+    public enum Flag: String {
         case circleFill = "flag.circle.fill"
         case circle = "flag.circle"
         case fill = "flag.fill"
@@ -1295,11 +1295,11 @@ enum SFSymbol: String {
 
     case flame = "flame"
 
-    enum Flame: String {
+    public enum Flame: String {
         case fill = "flame.fill"
     }
 
-    enum Florinsign: String {
+    public enum Florinsign: String {
         case circleFill = "florinsign.circle.fill"
         case circle = "florinsign.circle"
         case squareFill = "florinsign.square.fill"
@@ -1308,13 +1308,13 @@ enum SFSymbol: String {
 
     case flowchart = "flowchart"
 
-    enum Flowchart: String {
+    public enum Flowchart: String {
         case fill = "flowchart.fill"
     }
 
     case folder = "folder"
 
-    enum Folder: String {
+    public enum Folder: String {
         case badgeMinusFill = "folder.badge.minus.fill"
         case badgeMinus = "folder.badge.minus"
         case badgePersonCropFill = "folder.badge.person.crop.fill"
@@ -1328,7 +1328,7 @@ enum SFSymbol: String {
 
     case forward = "forward"
 
-    enum Forward: String {
+    public enum Forward: String {
         case endAltFill = "forward.end.alt.fill"
         case endAlt = "forward.end.alt"
         case endFill = "forward.end.fill"
@@ -1336,7 +1336,7 @@ enum SFSymbol: String {
         case fill = "forward.fill"
     }
 
-    enum Francsign: String {
+    public enum Francsign: String {
         case circleFill = "francsign.circle.fill"
         case circle = "francsign.circle"
         case squareFill = "francsign.square.fill"
@@ -1347,7 +1347,7 @@ enum SFSymbol: String {
 
     case fx = "fx"
 
-    enum LetterG: String {
+    public enum LetterG: String {
         case circleFill = "g.circle.fill"
         case circle = "g.circle"
         case squareFill = "g.square.fill"
@@ -1356,13 +1356,13 @@ enum SFSymbol: String {
 
     case gamecontroller = "gamecontroller"
 
-    enum Gamecontroller: String {
+    public enum Gamecontroller: String {
         case fill = "gamecontroller.fill"
     }
 
     case gauge = "gauge"
 
-    enum Gauge: String {
+    public enum Gauge: String {
         case badgeMinus = "gauge.badge.minus"
         case badgePlus = "gauge.badge.plus"
     }
@@ -1371,7 +1371,7 @@ enum SFSymbol: String {
 
     case gift = "gift"
 
-    enum Gift: String {
+    public enum Gift: String {
         case fill = "gift.fill"
     }
 
@@ -1379,117 +1379,117 @@ enum SFSymbol: String {
 
     case gobackward = "gobackward"
 
-    enum Gobackward: String {
+    public enum Gobackward: String {
         case minus = "gobackward.minus"
     }
 
     case gobackward10 = "gobackward.10"
 
-    enum Gobackward10: String {
+    public enum Gobackward10: String {
         case ar = "gobackward.10.ar"
         case hi = "gobackward.10.hi"
     }
 
     case gobackward15 = "gobackward.15"
 
-    enum Gobackward15: String {
+    public enum Gobackward15: String {
         case ar = "gobackward.15.ar"
         case hi = "gobackward.15.hi"
     }
 
     case gobackward30 = "gobackward.30"
 
-    enum Gobackward30: String {
+    public enum Gobackward30: String {
         case ar = "gobackward.30.ar"
         case hi = "gobackward.30.hi"
     }
 
     case gobackward45 = "gobackward.45"
 
-    enum Gobackward45: String {
+    public enum Gobackward45: String {
         case ar = "gobackward.45.ar"
         case hi = "gobackward.45.hi"
     }
 
     case gobackward60 = "gobackward.60"
 
-    enum Gobackward60: String {
+    public enum Gobackward60: String {
         case ar = "gobackward.60.ar"
         case hi = "gobackward.60.hi"
     }
 
     case gobackward75 = "gobackward.75"
 
-    enum Gobackward75: String {
+    public enum Gobackward75: String {
         case ar = "gobackward.75.ar"
         case hi = "gobackward.75.hi"
     }
 
     case gobackward90 = "gobackward.90"
 
-    enum Gobackward90: String {
+    public enum Gobackward90: String {
         case ar = "gobackward.90.ar"
         case hi = "gobackward.90.hi"
     }
 
     case goforward = "goforward"
 
-    enum Goforward: String {
+    public enum Goforward: String {
         case plus = "goforward.plus"
     }
 
     case goforward10 = "goforward.10"
 
-    enum Goforward10: String {
+    public enum Goforward10: String {
         case ar = "goforward.10.ar"
         case hi = "goforward.10.hi"
     }
 
     case goforward15 = "goforward.15"
 
-    enum Goforward15: String {
+    public enum Goforward15: String {
         case ar = "goforward.15.ar"
         case hi = "goforward.15.hi"
     }
 
     case goforward30 = "goforward.30"
 
-    enum Goforward30: String {
+    public enum Goforward30: String {
         case ar = "goforward.30.ar"
         case hi = "goforward.30.hi"
     }
 
     case goforward45 = "goforward.45"
 
-    enum Goforward45: String {
+    public enum Goforward45: String {
         case ar = "goforward.45.ar"
         case hi = "goforward.45.hi"
     }
 
     case goforward60 = "goforward.60"
 
-    enum Goforward60: String {
+    public enum Goforward60: String {
         case ar = "goforward.60.ar"
         case hi = "goforward.60.hi"
     }
 
     case goforward75 = "goforward.75"
 
-    enum Goforward75: String {
+    public enum Goforward75: String {
         case ar = "goforward.75.ar"
         case hi = "goforward.75.hi"
     }
 
     case goforward90 = "goforward.90"
 
-    enum Goforward90: String {
+    public enum Goforward90: String {
         case ar = "goforward.90.ar"
         case hi = "goforward.90.hi"
     }
 
     case greaterthan = "greaterthan"
 
-    enum Greaterthan: String {
+    public enum Greaterthan: String {
         case circleFill = "greaterthan.circle.fill"
         case circle = "greaterthan.circle"
         case squareFill = "greaterthan.square.fill"
@@ -1498,12 +1498,12 @@ enum SFSymbol: String {
 
     case grid = "grid"
 
-    enum Grid: String {
+    public enum Grid: String {
         case circleFill = "grid.circle.fill"
         case circle = "grid.circle"
     }
 
-    enum Guaranisign: String {
+    public enum Guaranisign: String {
         case circleFill = "guaranisign.circle.fill"
         case circle = "guaranisign.circle"
         case squareFill = "guaranisign.square.fill"
@@ -1512,7 +1512,7 @@ enum SFSymbol: String {
 
     case guitars = "guitars"
 
-    enum LetterH: String {
+    public enum LetterH: String {
         case circleFill = "h.circle.fill"
         case circle = "h.circle"
         case squareFill = "h.square.fill"
@@ -1521,11 +1521,11 @@ enum SFSymbol: String {
 
     case hammer = "hammer"
 
-    enum Hammer: String {
+    public enum Hammer: String {
         case fill = "hammer.fill"
     }
 
-    enum Hand: String {
+    public enum Hand: String {
         case drawFill = "hand.draw.fill"
         case draw = "hand.draw"
         case pointLeftFill = "hand.point.left.fill"
@@ -1544,7 +1544,7 @@ enum SFSymbol: String {
 
     case hare = "hare"
 
-    enum Hare: String {
+    public enum Hare: String {
         case fill = "hare.fill"
     }
 
@@ -1552,7 +1552,7 @@ enum SFSymbol: String {
 
     case heart = "heart"
 
-    enum Heart: String {
+    public enum Heart: String {
         case circleFill = "heart.circle.fill"
         case circle = "heart.circle"
         case fill = "heart.fill"
@@ -1566,30 +1566,30 @@ enum SFSymbol: String {
 
     case hexagon = "hexagon"
 
-    enum Hexagon: String {
+    public enum Hexagon: String {
         case fill = "hexagon.fill"
     }
 
     case hifispeaker = "hifispeaker"
 
-    enum Hifispeaker: String {
+    public enum Hifispeaker: String {
         case fill = "hifispeaker.fill"
     }
 
     case hourglass = "hourglass"
 
-    enum Hourglass: String {
+    public enum Hourglass: String {
         case bottomhalfFill = "hourglass.bottomhalf.fill"
         case tophalfFill = "hourglass.tophalf.fill"
     }
 
     case house = "house"
 
-    enum House: String {
+    public enum House: String {
         case fill = "house.fill"
     }
 
-    enum Hryvniasign: String {
+    public enum Hryvniasign: String {
         case circleFill = "hryvniasign.circle.fill"
         case circle = "hryvniasign.circle"
         case squareFill = "hryvniasign.square.fill"
@@ -1598,7 +1598,7 @@ enum SFSymbol: String {
 
     case hurricane = "hurricane"
 
-    enum LetterI: String {
+    public enum LetterI: String {
         case circleFill = "i.circle.fill"
         case circle = "i.circle"
         case squareFill = "i.square.fill"
@@ -1607,7 +1607,7 @@ enum SFSymbol: String {
 
     case icloud = "icloud"
 
-    enum Icloud: String {
+    public enum Icloud: String {
         case andArrowDownFill = "icloud.and.arrow.down.fill"
         case andArrowDown = "icloud.and.arrow.down"
         case andArrowUpFill = "icloud.and.arrow.up.fill"
@@ -1619,11 +1619,11 @@ enum SFSymbol: String {
         case slash = "icloud.slash"
     }
 
-    enum Increase: String {
+    public enum Increase: String {
         case quotelevel = "increase.quotelevel"
     }
 
-    enum Indianrupeesign: String {
+    public enum Indianrupeesign: String {
         case circleFill = "indianrupeesign.circle.fill"
         case circle = "indianrupeesign.circle"
         case squareFill = "indianrupeesign.square.fill"
@@ -1632,21 +1632,21 @@ enum SFSymbol: String {
 
     case info = "info"
 
-    enum Info: String {
+    public enum Info: String {
         case circleFill = "info.circle.fill"
         case circle = "info.circle"
     }
 
     case italic = "italic"
 
-    enum LetterJ: String {
+    public enum LetterJ: String {
         case circleFill = "j.circle.fill"
         case circle = "j.circle"
         case squareFill = "j.square.fill"
         case square = "j.square"
     }
 
-    enum LetterK: String {
+    public enum LetterK: String {
         case circleFill = "k.circle.fill"
         case circle = "k.circle"
         case squareFill = "k.square.fill"
@@ -1655,29 +1655,29 @@ enum SFSymbol: String {
 
     case keyboard = "keyboard"
 
-    enum Keyboard: String {
+    public enum Keyboard: String {
         case chevronCompactDown = "keyboard.chevron.compact.down"
     }
 
-    enum Kipsign: String {
+    public enum Kipsign: String {
         case circleFill = "kipsign.circle.fill"
         case circle = "kipsign.circle"
         case squareFill = "kipsign.square.fill"
         case square = "kipsign.square"
     }
 
-    enum LetterL: String {
+    public enum LetterL: String {
         case circleFill = "l.circle.fill"
         case circle = "l.circle"
         case squareFill = "l.square.fill"
         case square = "l.square"
     }
 
-    enum Largecircle: String {
+    public enum Largecircle: String {
         case fillCircle = "largecircle.fill.circle"
     }
 
-    enum Larisign: String {
+    public enum Larisign: String {
         case circleFill = "larisign.circle.fill"
         case circle = "larisign.circle"
         case squareFill = "larisign.square.fill"
@@ -1686,33 +1686,33 @@ enum SFSymbol: String {
 
     case lasso = "lasso"
 
-    enum Leaf: String {
+    public enum Leaf: String {
         case arrowCirclepath = "leaf.arrow.circlepath"
     }
 
     case lessthan = "lessthan"
 
-    enum Lessthan: String {
+    public enum Lessthan: String {
         case circleFill = "lessthan.circle.fill"
         case circle = "lessthan.circle"
         case squareFill = "lessthan.square.fill"
         case square = "lessthan.square"
     }
 
-    enum Light: String {
+    public enum Light: String {
         case max = "light.max"
         case min = "light.min"
     }
 
     case lightbulb = "lightbulb"
 
-    enum Lightbulb: String {
+    public enum Lightbulb: String {
         case fill = "lightbulb.fill"
         case slashFill = "lightbulb.slash.fill"
         case slash = "lightbulb.slash"
     }
 
-    enum Line: String {
+    public enum Line: String {
         case horizontal3DecreaseCircleFill = "line.horizontal.3.decrease.circle.fill"
         case horizontal3DecreaseCircle = "line.horizontal.3.decrease.circle"
         case horizontal3Decrease = "line.horizontal.3.decrease"
@@ -1721,21 +1721,21 @@ enum SFSymbol: String {
 
     case link = "link"
 
-    enum Link: String {
+    public enum Link: String {
         case circleFill = "link.circle.fill"
         case circle = "link.circle"
         case icloudFill = "link.icloud.fill"
         case icloud = "link.icloud"
     }
 
-    enum Lirasign: String {
+    public enum Lirasign: String {
         case circleFill = "lirasign.circle.fill"
         case circle = "lirasign.circle"
         case squareFill = "lirasign.square.fill"
         case square = "lirasign.square"
     }
 
-    enum List: String {
+    public enum List: String {
         case bulletBelowRectangle = "list.bullet.below.rectangle"
         case bulletIndent = "list.bullet.indent"
         case bullet = "list.bullet"
@@ -1746,14 +1746,14 @@ enum SFSymbol: String {
 
     case livephoto = "livephoto"
 
-    enum Livephoto: String {
+    public enum Livephoto: String {
         case play = "livephoto.play"
         case slash = "livephoto.slash"
     }
 
     case location = "location"
 
-    enum Location: String {
+    public enum Location: String {
         case circleFill = "location.circle.fill"
         case circle = "location.circle"
         case fill = "location.fill"
@@ -1767,7 +1767,7 @@ enum SFSymbol: String {
 
     case lock = "lock"
 
-    enum Lock: String {
+    public enum Lock: String {
         case circleFill = "lock.circle.fill"
         case circle = "lock.circle"
         case fill = "lock.fill"
@@ -1783,7 +1783,7 @@ enum SFSymbol: String {
         case slash = "lock.slash"
     }
 
-    enum LetterM: String {
+    public enum LetterM: String {
         case circleFill = "m.circle.fill"
         case circle = "m.circle"
         case squareFill = "m.square.fill"
@@ -1794,12 +1794,12 @@ enum SFSymbol: String {
 
     case magnifyingglass = "magnifyingglass"
 
-    enum Magnifyingglass: String {
+    public enum Magnifyingglass: String {
         case circleFill = "magnifyingglass.circle.fill"
         case circle = "magnifyingglass.circle"
     }
 
-    enum Manatsign: String {
+    public enum Manatsign: String {
         case circleFill = "manatsign.circle.fill"
         case circle = "manatsign.circle"
         case squareFill = "manatsign.square.fill"
@@ -1808,27 +1808,27 @@ enum SFSymbol: String {
 
     case map = "map"
 
-    enum Map: String {
+    public enum Map: String {
         case fill = "map.fill"
     }
 
     case mappin = "mappin"
 
-    enum Mappin: String {
+    public enum Mappin: String {
         case andEllipse = "mappin.and.ellipse"
         case slash = "mappin.slash"
     }
 
     case memories = "memories"
 
-    enum Memories: String {
+    public enum Memories: String {
         case badgeMinus = "memories.badge.minus"
         case badgePlus = "memories.badge.plus"
     }
 
     case message = "message"
 
-    enum Message: String {
+    public enum Message: String {
         case circleFill = "message.circle.fill"
         case circle = "message.circle"
         case fill = "message.fill"
@@ -1838,7 +1838,7 @@ enum SFSymbol: String {
 
     case mic = "mic"
 
-    enum Mic: String {
+    public enum Mic: String {
         case circleFill = "mic.circle.fill"
         case circle = "mic.circle"
         case fill = "mic.fill"
@@ -1846,7 +1846,7 @@ enum SFSymbol: String {
         case slash = "mic.slash"
     }
 
-    enum Millsign: String {
+    public enum Millsign: String {
         case circleFill = "millsign.circle.fill"
         case circle = "millsign.circle"
         case squareFill = "millsign.square.fill"
@@ -1855,7 +1855,7 @@ enum SFSymbol: String {
 
     case minus = "minus"
 
-    enum Minus: String {
+    public enum Minus: String {
         case circleFill = "minus.circle.fill"
         case circle = "minus.circle"
         case magnifyingglass = "minus.magnifyingglass"
@@ -1868,7 +1868,7 @@ enum SFSymbol: String {
 
     case moon = "moon"
 
-    enum Moon: String {
+    public enum Moon: String {
         case circleFill = "moon.circle.fill"
         case circle = "moon.circle"
         case fill = "moon.fill"
@@ -1880,14 +1880,14 @@ enum SFSymbol: String {
 
     case multiply = "multiply"
 
-    enum Multiply: String {
+    public enum Multiply: String {
         case circleFill = "multiply.circle.fill"
         case circle = "multiply.circle"
         case squareFill = "multiply.square.fill"
         case square = "multiply.square"
     }
 
-    enum Music: String {
+    public enum Music: String {
         case houseFill = "music.house.fill"
         case house = "music.house"
         case mic = "music.mic"
@@ -1895,14 +1895,14 @@ enum SFSymbol: String {
         case note = "music.note"
     }
 
-    enum LetterN: String {
+    public enum LetterN: String {
         case circleFill = "n.circle.fill"
         case circle = "n.circle"
         case squareFill = "n.square.fill"
         case square = "n.square"
     }
 
-    enum Nairasign: String {
+    public enum Nairasign: String {
         case circleFill = "nairasign.circle.fill"
         case circle = "nairasign.circle"
         case squareFill = "nairasign.square.fill"
@@ -1913,14 +1913,14 @@ enum SFSymbol: String {
 
     case number = "number"
 
-    enum Number: String {
+    public enum Number: String {
         case circleFill = "number.circle.fill"
         case circle = "number.circle"
         case squareFill = "number.square.fill"
         case square = "number.square"
     }
 
-    enum LetterO: String {
+    public enum LetterO: String {
         case circleFill = "o.circle.fill"
         case circle = "o.circle"
         case squareFill = "o.square.fill"
@@ -1929,7 +1929,7 @@ enum SFSymbol: String {
 
     case option = "option"
 
-    enum LetterP: String {
+    public enum LetterP: String {
         case circleFill = "p.circle.fill"
         case circle = "p.circle"
         case squareFill = "p.square.fill"
@@ -1938,13 +1938,13 @@ enum SFSymbol: String {
 
     case paintbrush = "paintbrush"
 
-    enum Paintbrush: String {
+    public enum Paintbrush: String {
         case fill = "paintbrush.fill"
     }
 
     case pano = "pano"
 
-    enum Pano: String {
+    public enum Pano: String {
         case fill = "pano.fill"
     }
 
@@ -1952,7 +1952,7 @@ enum SFSymbol: String {
 
     case paperplane = "paperplane"
 
-    enum Paperplane: String {
+    public enum Paperplane: String {
         case fill = "paperplane.fill"
     }
 
@@ -1960,7 +1960,7 @@ enum SFSymbol: String {
 
     case pause = "pause"
 
-    enum Pause: String {
+    public enum Pause: String {
         case circleFill = "pause.circle.fill"
         case circle = "pause.circle"
         case fill = "pause.fill"
@@ -1970,7 +1970,7 @@ enum SFSymbol: String {
 
     case pencil = "pencil"
 
-    enum Pencil: String {
+    public enum Pencil: String {
         case andEllipsisRectangle = "pencil.and.ellipsis.rectangle"
         case andOutline = "pencil.and.outline"
         case circleFill = "pencil.circle.fill"
@@ -1986,7 +1986,7 @@ enum SFSymbol: String {
 
     case person = "person"
 
-    enum Person: String {
+    public enum Person: String {
         case andPersonFill = "person.and.person.fill"
         case andPerson = "person.and.person"
         case badgeMinusFill = "person.badge.minus.fill"
@@ -2016,14 +2016,14 @@ enum SFSymbol: String {
         case icloud = "person.icloud"
     }
 
-    enum Person2: String {
+    public enum Person2: String {
         case squareStackFill = "person.2.square.stack.fill"
         case squareStack = "person.2.square.stack"
     }
 
     case person3 = "person.3"
 
-    enum Person3: String {
+    public enum Person3: String {
         case fill = "person.3.fill"
     }
 
@@ -2031,14 +2031,14 @@ enum SFSymbol: String {
 
     case perspective = "perspective"
 
-    enum Pesetasign: String {
+    public enum Pesetasign: String {
         case circleFill = "pesetasign.circle.fill"
         case circle = "pesetasign.circle"
         case squareFill = "pesetasign.square.fill"
         case square = "pesetasign.square"
     }
 
-    enum Pesosign: String {
+    public enum Pesosign: String {
         case circleFill = "pesosign.circle.fill"
         case circle = "pesosign.circle"
         case squareFill = "pesosign.square.fill"
@@ -2047,7 +2047,7 @@ enum SFSymbol: String {
 
     case phone = "phone"
 
-    enum Phone: String {
+    public enum Phone: String {
         case arrowDownLeftFill = "phone.arrow.down.left.fill"
         case arrowDownLeft = "phone.arrow.down.left"
         case arrowRightFill = "phone.arrow.right.fill"
@@ -2067,7 +2067,7 @@ enum SFSymbol: String {
 
     case photo = "photo"
 
-    enum Photo: String {
+    public enum Photo: String {
         case fill = "photo.fill"
         case onRectangleFill = "photo.on.rectangle.fill"
         case onRectangle = "photo.on.rectangle"
@@ -2075,7 +2075,7 @@ enum SFSymbol: String {
 
     case pin = "pin"
 
-    enum Pin: String {
+    public enum Pin: String {
         case fill = "pin.fill"
         case slashFill = "pin.slash.fill"
         case slash = "pin.slash"
@@ -2083,7 +2083,7 @@ enum SFSymbol: String {
 
     case play = "play"
 
-    enum Play: String {
+    public enum Play: String {
         case circleFill = "play.circle.fill"
         case circle = "play.circle"
         case fill = "play.fill"
@@ -2093,13 +2093,13 @@ enum SFSymbol: String {
 
     case playpause = "playpause"
 
-    enum Playpause: String {
+    public enum Playpause: String {
         case fill = "playpause.fill"
     }
 
     case plus = "plus"
 
-    enum Plus: String {
+    public enum Plus: String {
         case appFill = "plus.app.fill"
         case app = "plus.app"
         case bubbleFill = "plus.bubble.fill"
@@ -2120,7 +2120,7 @@ enum SFSymbol: String {
 
     case plusminus = "plusminus"
 
-    enum Plusminus: String {
+    public enum Plusminus: String {
         case circleFill = "plusminus.circle.fill"
         case circle = "plusminus.circle"
     }
@@ -2129,7 +2129,7 @@ enum SFSymbol: String {
 
     case printer = "printer"
 
-    enum Printer: String {
+    public enum Printer: String {
         case fill = "printer.fill"
     }
 
@@ -2137,12 +2137,12 @@ enum SFSymbol: String {
 
     case purchased = "purchased"
 
-    enum Purchased: String {
+    public enum Purchased: String {
         case circleFill = "purchased.circle.fill"
         case circle = "purchased.circle"
     }
 
-    enum LetterQ: String {
+    public enum LetterQ: String {
         case circleFill = "q.circle.fill"
         case circle = "q.circle"
         case squareFill = "q.square.fill"
@@ -2151,13 +2151,13 @@ enum SFSymbol: String {
 
     case qrcode = "qrcode"
 
-    enum Qrcode: String {
+    public enum Qrcode: String {
         case viewfinder = "qrcode.viewfinder"
     }
 
     case questionmark = "questionmark"
 
-    enum Questionmark: String {
+    public enum Questionmark: String {
         case circleFill = "questionmark.circle.fill"
         case circle = "questionmark.circle"
         case diamondFill = "questionmark.diamond.fill"
@@ -2170,19 +2170,19 @@ enum SFSymbol: String {
         case video = "questionmark.video"
     }
 
-    enum Quote: String {
+    public enum Quote: String {
         case bubbleFill = "quote.bubble.fill"
         case bubble = "quote.bubble"
     }
 
-    enum LetterR: String {
+    public enum LetterR: String {
         case circleFill = "r.circle.fill"
         case circle = "r.circle"
         case squareFill = "r.square.fill"
         case square = "r.square"
     }
 
-    enum Radiowaves: String {
+    public enum Radiowaves: String {
         case left = "radiowaves.left"
         case right = "radiowaves.right"
     }
@@ -2195,7 +2195,7 @@ enum SFSymbol: String {
 
     case rectangle = "rectangle"
 
-    enum Rectangle: String {
+    public enum Rectangle: String {
         case andArrowUpRightAndArrowDownLeftSlash = "rectangle.and.arrow.up.right.and.arrow.down.left.slash"
         case andArrowUpRightAndArrowDownLeft = "rectangle.and.arrow.up.right.and.arrow.down.left"
         case andPaperclip = "rectangle.and.paperclip"
@@ -2233,7 +2233,7 @@ enum SFSymbol: String {
         case stack = "rectangle.stack"
     }
 
-    enum Rectangle3: String {
+    public enum Rectangle3: String {
         case offgridFill = "rectangle.3.offgrid.fill"
         case offgrid = "rectangle.3.offgrid"
     }
@@ -2246,39 +2246,39 @@ enum SFSymbol: String {
 
     case rhombus = "rhombus"
 
-    enum Rhombus: String {
+    public enum Rhombus: String {
         case fill = "rhombus.fill"
     }
 
-    enum Ring: String {
+    public enum Ring: String {
         case circleFill = "ring.circle.fill"
         case circle = "ring.circle"
     }
 
     case rosette = "rosette"
 
-    enum Rotate: String {
+    public enum Rotate: String {
         case leftFill = "rotate.left.fill"
         case left = "rotate.left"
         case rightFill = "rotate.right.fill"
         case right = "rotate.right"
     }
 
-    enum Rublesign: String {
+    public enum Rublesign: String {
         case circleFill = "rublesign.circle.fill"
         case circle = "rublesign.circle"
         case squareFill = "rublesign.square.fill"
         case square = "rublesign.square"
     }
 
-    enum Rupeesign: String {
+    public enum Rupeesign: String {
         case circleFill = "rupeesign.circle.fill"
         case circle = "rupeesign.circle"
         case squareFill = "rupeesign.square.fill"
         case square = "rupeesign.square"
     }
 
-    enum LetterS: String {
+    public enum LetterS: String {
         case circleFill = "s.circle.fill"
         case circle = "s.circle"
         case squareFill = "s.square.fill"
@@ -2287,7 +2287,7 @@ enum SFSymbol: String {
 
     case safari = "safari"
 
-    enum Safari: String {
+    public enum Safari: String {
         case fill = "safari.fill"
     }
 
@@ -2297,11 +2297,11 @@ enum SFSymbol: String {
 
     case scribble = "scribble"
 
-    enum Selection: String {
+    public enum Selection: String {
         case pinInOut = "selection.pin.in.out"
     }
 
-    enum Sheqelsign: String {
+    public enum Sheqelsign: String {
         case circleFill = "sheqelsign.circle.fill"
         case circle = "sheqelsign.circle"
         case squareFill = "sheqelsign.square.fill"
@@ -2310,7 +2310,7 @@ enum SFSymbol: String {
 
     case shield = "shield"
 
-    enum Shield: String {
+    public enum Shield: String {
         case fill = "shield.fill"
         case lefthalfFill = "shield.lefthalf.fill"
         case slashFill = "shield.slash.fill"
@@ -2319,13 +2319,13 @@ enum SFSymbol: String {
 
     case shift = "shift"
 
-    enum Shift: String {
+    public enum Shift: String {
         case fill = "shift.fill"
     }
 
     case shuffle = "shuffle"
 
-    enum Sidebar: String {
+    public enum Sidebar: String {
         case left = "sidebar.left"
         case right = "sidebar.right"
     }
@@ -2334,12 +2334,12 @@ enum SFSymbol: String {
 
     case skew = "skew"
 
-    enum Slash: String {
+    public enum Slash: String {
         case circleFill = "slash.circle.fill"
         case circle = "slash.circle"
     }
 
-    enum Slider: String {
+    public enum Slider: String {
         case horizontal3 = "slider.horizontal.3"
         case horizontalBelowRectangle = "slider.horizontal.below.rectangle"
     }
@@ -2348,13 +2348,13 @@ enum SFSymbol: String {
 
     case smiley = "smiley"
 
-    enum Smiley: String {
+    public enum Smiley: String {
         case fill = "smiley.fill"
     }
 
     case smoke = "smoke"
 
-    enum Smoke: String {
+    public enum Smoke: String {
         case fill = "smoke.fill"
     }
 
@@ -2362,7 +2362,7 @@ enum SFSymbol: String {
 
     case sparkles = "sparkles"
 
-    enum Speaker: String {
+    public enum Speaker: String {
         case zzzFillRtl = "speaker.zzz.fill.rtl"
     }
 
@@ -2370,13 +2370,13 @@ enum SFSymbol: String {
 
     case sportscourt = "sportscourt"
 
-    enum Sportscourt: String {
+    public enum Sportscourt: String {
         case fill = "sportscourt.fill"
     }
 
     case square = "square"
 
-    enum Square: String {
+    public enum Square: String {
         case andArrowDownFill = "square.and.arrow.down.fill"
         case andArrowDownOnSquareFill = "square.and.arrow.down.on.square.fill"
         case andArrowDownOnSquare = "square.and.arrow.down.on.square"
@@ -2419,13 +2419,13 @@ enum SFSymbol: String {
         case stack = "square.stack"
     }
 
-    enum Squares: String {
+    public enum Squares: String {
         case belowRectangle = "squares.below.rectangle"
     }
 
     case star = "star"
 
-    enum Star: String {
+    public enum Star: String {
         case circleFill = "star.circle.fill"
         case circle = "star.circle"
         case fill = "star.fill"
@@ -2436,11 +2436,11 @@ enum SFSymbol: String {
 
     case staroflife = "staroflife"
 
-    enum Staroflife: String {
+    public enum Staroflife: String {
         case fill = "staroflife.fill"
     }
 
-    enum Sterlingsign: String {
+    public enum Sterlingsign: String {
         case circleFill = "sterlingsign.circle.fill"
         case circle = "sterlingsign.circle"
         case squareFill = "sterlingsign.square.fill"
@@ -2449,19 +2449,19 @@ enum SFSymbol: String {
 
     case stop = "stop"
 
-    enum Stop: String {
+    public enum Stop: String {
         case fill = "stop.fill"
     }
 
     case stopwatch = "stopwatch"
 
-    enum Stopwatch: String {
+    public enum Stopwatch: String {
         case fill = "stopwatch.fill"
     }
 
     case strikethrough = "strikethrough"
 
-    enum Suit: String {
+    public enum Suit: String {
         case clubFill = "suit.club.fill"
         case club = "suit.club"
         case diamondFill = "suit.diamond.fill"
@@ -2474,7 +2474,7 @@ enum SFSymbol: String {
 
     case sum = "sum"
 
-    enum Sun: String {
+    public enum Sun: String {
         case dustFill = "sun.dust.fill"
         case dust = "sun.dust"
         case hazeFill = "sun.haze.fill"
@@ -2487,17 +2487,17 @@ enum SFSymbol: String {
 
     case sunrise = "sunrise"
 
-    enum Sunrise: String {
+    public enum Sunrise: String {
         case fill = "sunrise.fill"
     }
 
     case sunset = "sunset"
 
-    enum Sunset: String {
+    public enum Sunset: String {
         case fill = "sunset.fill"
     }
 
-    enum LetterT: String {
+    public enum LetterT: String {
         case bubbleFill = "t.bubble.fill"
         case bubble = "t.bubble"
         case circleFill = "t.circle.fill"
@@ -2508,7 +2508,7 @@ enum SFSymbol: String {
 
     case table = "table"
 
-    enum Table: String {
+    public enum Table: String {
         case badgeMoreFill = "table.badge.more.fill"
         case badgeMore = "table.badge.more"
         case fill = "table.fill"
@@ -2516,7 +2516,7 @@ enum SFSymbol: String {
 
     case tag = "tag"
 
-    enum Tag: String {
+    public enum Tag: String {
         case circleFill = "tag.circle.fill"
         case circle = "tag.circle"
         case fill = "tag.fill"
@@ -2524,14 +2524,14 @@ enum SFSymbol: String {
 
     case teletype = "teletype"
 
-    enum Tengesign: String {
+    public enum Tengesign: String {
         case circleFill = "tengesign.circle.fill"
         case circle = "tengesign.circle"
         case squareFill = "tengesign.square.fill"
         case square = "tengesign.square"
     }
 
-    enum Text: String {
+    public enum Text: String {
         case aligncenter = "text.aligncenter"
         case alignleft = "text.alignleft"
         case alignright = "text.alignright"
@@ -2557,7 +2557,7 @@ enum SFSymbol: String {
 
     case textformat = "textformat"
 
-    enum Textformat: String {
+    public enum Textformat: String {
         case abcDottedunderline = "textformat.abc.dottedunderline"
         case abc = "textformat.abc"
         case alt = "textformat.alt"
@@ -2570,7 +2570,7 @@ enum SFSymbol: String {
 
     case thermometer = "thermometer"
 
-    enum Thermometer: String {
+    public enum Thermometer: String {
         case snowflake = "thermometer.snowflake"
         case sun = "thermometer.sun"
     }
@@ -2583,17 +2583,17 @@ enum SFSymbol: String {
 
     case tortoise = "tortoise"
 
-    enum Tortoise: String {
+    public enum Tortoise: String {
         case fill = "tortoise.fill"
     }
 
-    enum Tram: String {
+    public enum Tram: String {
         case fill = "tram.fill"
     }
 
     case trash = "trash"
 
-    enum Trash: String {
+    public enum Trash: String {
         case circleFill = "trash.circle.fill"
         case circle = "trash.circle"
         case fill = "trash.fill"
@@ -2603,7 +2603,7 @@ enum SFSymbol: String {
 
     case tray = "tray"
 
-    enum Tray: String {
+    public enum Tray: String {
         case andArrowDownFill = "tray.and.arrow.down.fill"
         case andArrowDown = "tray.and.arrow.down"
         case andArrowUpFill = "tray.and.arrow.up.fill"
@@ -2615,13 +2615,13 @@ enum SFSymbol: String {
 
     case tray2 = "tray.2"
 
-    enum Tray2: String {
+    public enum Tray2: String {
         case fill = "tray.2.fill"
     }
 
     case triangle = "triangle"
 
-    enum Triangle: String {
+    public enum Triangle: String {
         case fill = "triangle.fill"
         case lefthalfFill = "triangle.lefthalf.fill"
         case righthalfFill = "triangle.righthalf.fill"
@@ -2629,7 +2629,7 @@ enum SFSymbol: String {
 
     case tropicalstorm = "tropicalstorm"
 
-    enum Tugriksign: String {
+    public enum Tugriksign: String {
         case circleFill = "tugriksign.circle.fill"
         case circle = "tugriksign.circle"
         case squareFill = "tugriksign.square.fill"
@@ -2638,7 +2638,7 @@ enum SFSymbol: String {
 
     case tuningfork = "tuningfork"
 
-    enum Turkishlirasign: String {
+    public enum Turkishlirasign: String {
         case circleFill = "turkishlirasign.circle.fill"
         case circle = "turkishlirasign.circle"
         case squareFill = "turkishlirasign.square.fill"
@@ -2647,7 +2647,7 @@ enum SFSymbol: String {
 
     case tv = "tv"
 
-    enum Tv: String {
+    public enum Tv: String {
         case circleFill = "tv.circle.fill"
         case circle = "tv.circle"
         case fill = "tv.fill"
@@ -2655,26 +2655,26 @@ enum SFSymbol: String {
         case musicNote = "tv.music.note"
     }
 
-    enum LetterU: String {
+    public enum LetterU: String {
         case circleFill = "u.circle.fill"
         case circle = "u.circle"
         case squareFill = "u.square.fill"
         case square = "u.square"
     }
 
-    enum Uiwindow: String {
+    public enum Uiwindow: String {
         case split2X1 = "uiwindow.split.2x1"
     }
 
     case umbrella = "umbrella"
 
-    enum Umbrella: String {
+    public enum Umbrella: String {
         case fill = "umbrella.fill"
     }
 
     case underline = "underline"
 
-    enum LetterV: String {
+    public enum LetterV: String {
         case circleFill = "v.circle.fill"
         case circle = "v.circle"
         case squareFill = "v.square.fill"
@@ -2683,7 +2683,7 @@ enum SFSymbol: String {
 
     case video = "video"
 
-    enum Video: String {
+    public enum Video: String {
         case badgePlusFill = "video.badge.plus.fill"
         case badgePlus = "video.badge.plus"
         case circleFill = "video.circle.fill"
@@ -2693,21 +2693,21 @@ enum SFSymbol: String {
         case slash = "video.slash"
     }
 
-    enum View: String {
+    public enum View: String {
         case _2d = "view.2d"
         case _3d = "view.3d"
     }
 
     case viewfinder = "viewfinder"
 
-    enum Viewfinder: String {
+    public enum Viewfinder: String {
         case circleFill = "viewfinder.circle.fill"
         case circle = "viewfinder.circle"
     }
 
     case volume = "volume"
 
-    enum Volume: String {
+    public enum Volume: String {
         case fill = "volume.fill"
         case slashFillRtl = "volume.slash.fill.rtl"
         case slashFill = "volume.slash.fill"
@@ -2719,30 +2719,30 @@ enum SFSymbol: String {
 
     case volume1 = "volume.1"
 
-    enum Volume1: String {
+    public enum Volume1: String {
         case fill = "volume.1.fill"
     }
 
     case volume2 = "volume.2"
 
-    enum Volume2: String {
+    public enum Volume2: String {
         case fill = "volume.2.fill"
     }
 
     case volume3 = "volume.3"
 
-    enum Volume3: String {
+    public enum Volume3: String {
         case fill = "volume.3.fill"
     }
 
-    enum LetterW: String {
+    public enum LetterW: String {
         case circleFill = "w.circle.fill"
         case circle = "w.circle"
         case squareFill = "w.square.fill"
         case square = "w.square"
     }
 
-    enum Wand: String {
+    public enum Wand: String {
         case andRaysInverse = "wand.and.rays.inverse"
         case andRays = "wand.and.rays"
         case andStarsInverse = "wand.and.stars.inverse"
@@ -2751,7 +2751,7 @@ enum SFSymbol: String {
 
     case waveform = "waveform"
 
-    enum Waveform: String {
+    public enum Waveform: String {
         case circleFill = "waveform.circle.fill"
         case circle = "waveform.circle"
         case pathBadgeMinus = "waveform.path.badge.minus"
@@ -2762,18 +2762,18 @@ enum SFSymbol: String {
 
     case wifi = "wifi"
 
-    enum Wifi: String {
+    public enum Wifi: String {
         case exclamationmark = "wifi.exclamationmark"
         case slash = "wifi.slash"
     }
 
     case wind = "wind"
 
-    enum Wind: String {
+    public enum Wind: String {
         case snow = "wind.snow"
     }
 
-    enum Wonsign: String {
+    public enum Wonsign: String {
         case circleFill = "wonsign.circle.fill"
         case circle = "wonsign.circle"
         case squareFill = "wonsign.square.fill"
@@ -2782,11 +2782,11 @@ enum SFSymbol: String {
 
     case wrench = "wrench"
 
-    enum Wrench: String {
+    public enum Wrench: String {
         case fill = "wrench.fill"
     }
 
-    enum LetterX: String {
+    public enum LetterX: String {
         case circleFill = "x.circle.fill"
         case circle = "x.circle"
         case squareFill = "x.square.fill"
@@ -2796,7 +2796,7 @@ enum SFSymbol: String {
 
     case xmark = "xmark"
 
-    enum Xmark: String {
+    public enum Xmark: String {
         case circleFill = "xmark.circle.fill"
         case circle = "xmark.circle"
         case icloudFill = "xmark.icloud.fill"
@@ -2813,21 +2813,21 @@ enum SFSymbol: String {
         case square = "xmark.square"
     }
 
-    enum LetterY: String {
+    public enum LetterY: String {
         case circleFill = "y.circle.fill"
         case circle = "y.circle"
         case squareFill = "y.square.fill"
         case square = "y.square"
     }
 
-    enum Yensign: String {
+    public enum Yensign: String {
         case circleFill = "yensign.circle.fill"
         case circle = "yensign.circle"
         case squareFill = "yensign.square.fill"
         case square = "yensign.square"
     }
 
-    enum LetterZ: String {
+    public enum LetterZ: String {
         case circleFill = "z.circle.fill"
         case circle = "z.circle"
         case squareFill = "z.square.fill"
