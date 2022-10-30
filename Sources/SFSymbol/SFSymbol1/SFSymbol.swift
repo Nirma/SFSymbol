@@ -20,1663 +20,2819 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-public enum SFSymbol: String, CaseIterable {
-    case number0CircleFill = "0.circle.fill"
-    case number0Circle = "0.circle"
-    case number0SquareFill = "0.square.fill"
-    case number0Square = "0.square"
-    case number00CircleFill = "00.circle.fill"
-    case number00Circle = "00.circle"
-    case number00SquareFill = "00.square.fill"
-    case number00Square = "00.square"
-    case number01CircleFill = "01.circle.fill"
-    case number01Circle = "01.circle"
-    case number01SquareFill = "01.square.fill"
-    case number01Square = "01.square"
-    case number02CircleFill = "02.circle.fill"
-    case number02Circle = "02.circle"
-    case number02SquareFill = "02.square.fill"
-    case number02Square = "02.square"
-    case number03CircleFill = "03.circle.fill"
-    case number03Circle = "03.circle"
-    case number03SquareFill = "03.square.fill"
-    case number03Square = "03.square"
-    case number04CircleFill = "04.circle.fill"
-    case number04Circle = "04.circle"
-    case number04SquareFill = "04.square.fill"
-    case number04Square = "04.square"
-    case number05CircleFill = "05.circle.fill"
-    case number05Circle = "05.circle"
-    case number05SquareFill = "05.square.fill"
-    case number05Square = "05.square"
-    case number06CircleFill = "06.circle.fill"
-    case number06Circle = "06.circle"
-    case number06SquareFill = "06.square.fill"
-    case number06Square = "06.square"
-    case number07CircleFill = "07.circle.fill"
-    case number07Circle = "07.circle"
-    case number07SquareFill = "07.square.fill"
-    case number07Square = "07.square"
-    case number08CircleFill = "08.circle.fill"
-    case number08Circle = "08.circle"
-    case number08SquareFill = "08.square.fill"
-    case number08Square = "08.square"
-    case number09CircleFill = "09.circle.fill"
-    case number09Circle = "09.circle"
-    case number09SquareFill = "09.square.fill"
-    case number09Square = "09.square"
-    case number1CircleFill = "1.circle.fill"
-    case number1Circle = "1.circle"
-    case number1Magnifyingglass = "1.magnifyingglass"
-    case number1SquareFill = "1.square.fill"
-    case number1Square = "1.square"
-    case number10CircleFill = "10.circle.fill"
-    case number10Circle = "10.circle"
-    case number10SquareFill = "10.square.fill"
-    case number10Square = "10.square"
-    case number11CircleFill = "11.circle.fill"
-    case number11Circle = "11.circle"
-    case number11SquareFill = "11.square.fill"
-    case number11Square = "11.square"
-    case number12CircleFill = "12.circle.fill"
-    case number12Circle = "12.circle"
-    case number12SquareFill = "12.square.fill"
-    case number12Square = "12.square"
-    case number13CircleFill = "13.circle.fill"
-    case number13Circle = "13.circle"
-    case number13SquareFill = "13.square.fill"
-    case number13Square = "13.square"
-    case number14CircleFill = "14.circle.fill"
-    case number14Circle = "14.circle"
-    case number14SquareFill = "14.square.fill"
-    case number14Square = "14.square"
-    case number15CircleFill = "15.circle.fill"
-    case number15Circle = "15.circle"
-    case number15SquareFill = "15.square.fill"
-    case number15Square = "15.square"
-    case number16CircleFill = "16.circle.fill"
-    case number16Circle = "16.circle"
-    case number16SquareFill = "16.square.fill"
-    case number16Square = "16.square"
-    case number17CircleFill = "17.circle.fill"
-    case number17Circle = "17.circle"
-    case number17SquareFill = "17.square.fill"
-    case number17Square = "17.square"
-    case number18CircleFill = "18.circle.fill"
-    case number18Circle = "18.circle"
-    case number18SquareFill = "18.square.fill"
-    case number18Square = "18.square"
-    case number19CircleFill = "19.circle.fill"
-    case number19Circle = "19.circle"
-    case number19SquareFill = "19.square.fill"
-    case number19Square = "19.square"
-    case number2CircleFill = "2.circle.fill"
-    case number2Circle = "2.circle"
-    case number2SquareFill = "2.square.fill"
-    case number2Square = "2.square"
-    case number20CircleFill = "20.circle.fill"
-    case number20Circle = "20.circle"
-    case number20SquareFill = "20.square.fill"
-    case number20Square = "20.square"
-    case number21CircleFill = "21.circle.fill"
-    case number21Circle = "21.circle"
-    case number21SquareFill = "21.square.fill"
-    case number21Square = "21.square"
-    case number22CircleFill = "22.circle.fill"
-    case number22Circle = "22.circle"
-    case number22SquareFill = "22.square.fill"
-    case number22Square = "22.square"
-    case number23CircleFill = "23.circle.fill"
-    case number23Circle = "23.circle"
-    case number23SquareFill = "23.square.fill"
-    case number23Square = "23.square"
-    case number24CircleFill = "24.circle.fill"
-    case number24Circle = "24.circle"
-    case number24SquareFill = "24.square.fill"
-    case number24Square = "24.square"
-    case number25CircleFill = "25.circle.fill"
-    case number25Circle = "25.circle"
-    case number25SquareFill = "25.square.fill"
-    case number25Square = "25.square"
-    case number26CircleFill = "26.circle.fill"
-    case number26Circle = "26.circle"
-    case number26SquareFill = "26.square.fill"
-    case number26Square = "26.square"
-    case number27CircleFill = "27.circle.fill"
-    case number27Circle = "27.circle"
-    case number27SquareFill = "27.square.fill"
-    case number27Square = "27.square"
-    case number28CircleFill = "28.circle.fill"
-    case number28Circle = "28.circle"
-    case number28SquareFill = "28.square.fill"
-    case number28Square = "28.square"
-    case number29CircleFill = "29.circle.fill"
-    case number29Circle = "29.circle"
-    case number29SquareFill = "29.square.fill"
-    case number29Square = "29.square"
-    case number3CircleFill = "3.circle.fill"
-    case number3Circle = "3.circle"
-    case number3SquareFill = "3.square.fill"
-    case number3Square = "3.square"
-    case number30CircleFill = "30.circle.fill"
-    case number30Circle = "30.circle"
-    case number30SquareFill = "30.square.fill"
-    case number30Square = "30.square"
-    case number31CircleFill = "31.circle.fill"
-    case number31Circle = "31.circle"
-    case number31SquareFill = "31.square.fill"
-    case number31Square = "31.square"
-    case number32CircleFill = "32.circle.fill"
-    case number32Circle = "32.circle"
-    case number32SquareFill = "32.square.fill"
-    case number32Square = "32.square"
-    case number33CircleFill = "33.circle.fill"
-    case number33Circle = "33.circle"
-    case number33SquareFill = "33.square.fill"
-    case number33Square = "33.square"
-    case number34CircleFill = "34.circle.fill"
-    case number34Circle = "34.circle"
-    case number34SquareFill = "34.square.fill"
-    case number34Square = "34.square"
-    case number35CircleFill = "35.circle.fill"
-    case number35Circle = "35.circle"
-    case number35SquareFill = "35.square.fill"
-    case number35Square = "35.square"
-    case number36CircleFill = "36.circle.fill"
-    case number36Circle = "36.circle"
-    case number36SquareFill = "36.square.fill"
-    case number36Square = "36.square"
-    case number37CircleFill = "37.circle.fill"
-    case number37Circle = "37.circle"
-    case number37SquareFill = "37.square.fill"
-    case number37Square = "37.square"
-    case number38CircleFill = "38.circle.fill"
-    case number38Circle = "38.circle"
-    case number38SquareFill = "38.square.fill"
-    case number38Square = "38.square"
-    case number39CircleFill = "39.circle.fill"
-    case number39Circle = "39.circle"
-    case number39SquareFill = "39.square.fill"
-    case number39Square = "39.square"
-    case number4AltCircleFill = "4.alt.circle.fill"
-    case number4AltCircle = "4.alt.circle"
-    case number4AltSquareFill = "4.alt.square.fill"
-    case number4AltSquare = "4.alt.square"
-    case number4CircleFill = "4.circle.fill"
-    case number4Circle = "4.circle"
-    case number4SquareFill = "4.square.fill"
-    case number4Square = "4.square"
-    case number40CircleFill = "40.circle.fill"
-    case number40Circle = "40.circle"
-    case number40SquareFill = "40.square.fill"
-    case number40Square = "40.square"
-    case number41CircleFill = "41.circle.fill"
-    case number41Circle = "41.circle"
-    case number41SquareFill = "41.square.fill"
-    case number41Square = "41.square"
-    case number42CircleFill = "42.circle.fill"
-    case number42Circle = "42.circle"
-    case number42SquareFill = "42.square.fill"
-    case number42Square = "42.square"
-    case number43CircleFill = "43.circle.fill"
-    case number43Circle = "43.circle"
-    case number43SquareFill = "43.square.fill"
-    case number43Square = "43.square"
-    case number44CircleFill = "44.circle.fill"
-    case number44Circle = "44.circle"
-    case number44SquareFill = "44.square.fill"
-    case number44Square = "44.square"
-    case number45CircleFill = "45.circle.fill"
-    case number45Circle = "45.circle"
-    case number45SquareFill = "45.square.fill"
-    case number45Square = "45.square"
-    case number46CircleFill = "46.circle.fill"
-    case number46Circle = "46.circle"
-    case number46SquareFill = "46.square.fill"
-    case number46Square = "46.square"
-    case number47CircleFill = "47.circle.fill"
-    case number47Circle = "47.circle"
-    case number47SquareFill = "47.square.fill"
-    case number47Square = "47.square"
-    case number48CircleFill = "48.circle.fill"
-    case number48Circle = "48.circle"
-    case number48SquareFill = "48.square.fill"
-    case number48Square = "48.square"
-    case number49CircleFill = "49.circle.fill"
-    case number49Circle = "49.circle"
-    case number49SquareFill = "49.square.fill"
-    case number49Square = "49.square"
-    case number5CircleFill = "5.circle.fill"
-    case number5Circle = "5.circle"
-    case number5SquareFill = "5.square.fill"
-    case number5Square = "5.square"
-    case number50CircleFill = "50.circle.fill"
-    case number50Circle = "50.circle"
-    case number50SquareFill = "50.square.fill"
-    case number50Square = "50.square"
-    case number6AltCircleFill = "6.alt.circle.fill"
-    case number6AltCircle = "6.alt.circle"
-    case number6AltSquareFill = "6.alt.square.fill"
-    case number6AltSquare = "6.alt.square"
-    case number6CircleFill = "6.circle.fill"
-    case number6Circle = "6.circle"
-    case number6SquareFill = "6.square.fill"
-    case number6Square = "6.square"
-    case number7CircleFill = "7.circle.fill"
-    case number7Circle = "7.circle"
-    case number7SquareFill = "7.square.fill"
-    case number7Square = "7.square"
-    case number8CircleFill = "8.circle.fill"
-    case number8Circle = "8.circle"
-    case number8SquareFill = "8.square.fill"
-    case number8Square = "8.square"
-    case number9AltCircleFill = "9.alt.circle.fill"
-    case number9AltCircle = "9.alt.circle"
-    case number9AltSquareFill = "9.alt.square.fill"
-    case number9AltSquare = "9.alt.square"
-    case number9CircleFill = "9.circle.fill"
-    case number9Circle = "9.circle"
-    case number9SquareFill = "9.square.fill"
-    case number9Square = "9.square"
-    case aCircleFill = "a.circle.fill"
-    case aCircle = "a.circle"
-    case aSquareFill = "a.square.fill"
-    case aSquare = "a.square"
-    case a
-    case airplane
-    case airplayaudio
-    case airplayvideo
-    case alarmFill = "alarm.fill"
-    case alarm
-    case alt
-    case antCircleFill = "ant.circle.fill"
-    case antCircle = "ant.circle"
-    case antFill = "ant.fill"
-    case ant
-    case antennaRadiowavesLeftAndRight = "antenna.radiowaves.left.and.right"
-    case appBadgeFill = "app.badge.fill"
-    case appBadge = "app.badge"
-    case appFill = "app.fill"
-    case appGiftFill = "app.gift.fill"
-    case appGift = "app.gift"
-    case app
-    case archiveboxFill = "archivebox.fill"
-    case archivebox
-    case arkit
-    case arrow2CirclepathCircleFill = "arrow.2.circlepath.circle.fill"
-    case arrow2CirclepathCircle = "arrow.2.circlepath.circle"
-    case arrow2Circlepath = "arrow.2.circlepath"
-    case arrow2Squarepath = "arrow.2.squarepath"
-    case arrow3Trianglepath = "arrow.3.trianglepath"
-    case arrowBranch = "arrow.branch"
-    case arrowClockwiseCircleFill = "arrow.clockwise.circle.fill"
-    case arrowClockwiseCircle = "arrow.clockwise.circle"
-    case arrowClockwiseIcloudFill = "arrow.clockwise.icloud.fill"
-    case arrowClockwiseIcloud = "arrow.clockwise.icloud"
-    case arrowClockwise = "arrow.clockwise"
-    case arrowCounterclockwiseCircleFill = "arrow.counterclockwise.circle.fill"
-    case arrowCounterclockwiseCircle = "arrow.counterclockwise.circle"
-    case arrowCounterclockwiseIcloudFill = "arrow.counterclockwise.icloud.fill"
-    case arrowCounterclockwiseIcloud = "arrow.counterclockwise.icloud"
-    case arrowCounterclockwise = "arrow.counterclockwise"
-    case arrowDownCircleFill = "arrow.down.circle.fill"
-    case arrowDownCircle = "arrow.down.circle"
-    case arrowDownDocFill = "arrow.down.doc.fill"
-    case arrowDownDoc = "arrow.down.doc"
-    case arrowDownLeftCircleFill = "arrow.down.left.circle.fill"
-    case arrowDownLeftCircle = "arrow.down.left.circle"
-    case arrowDownLeftSquareFill = "arrow.down.left.square.fill"
-    case arrowDownLeftSquare = "arrow.down.left.square"
-    case arrowDownLeftVideoFill = "arrow.down.left.video.fill"
-    case arrowDownLeftVideo = "arrow.down.left.video"
-    case arrowDownLeft = "arrow.down.left"
-    case arrowDownRightAndArrowUpLeft = "arrow.down.right.and.arrow.up.left"
-    case arrowDownRightCircleFill = "arrow.down.right.circle.fill"
-    case arrowDownRightCircle = "arrow.down.right.circle"
-    case arrowDownRightSquareFill = "arrow.down.right.square.fill"
-    case arrowDownRightSquare = "arrow.down.right.square"
-    case arrowDownRight = "arrow.down.right"
-    case arrowDownSquareFill = "arrow.down.square.fill"
-    case arrowDownSquare = "arrow.down.square"
-    case arrowDownToLineAlt = "arrow.down.to.line.alt"
-    case arrowDownToLine = "arrow.down.to.line"
-    case arrowDown = "arrow.down"
-    case arrowLeftAndRightCircleFill = "arrow.left.and.right.circle.fill"
-    case arrowLeftAndRightCircle = "arrow.left.and.right.circle"
-    case arrowLeftAndRightSquareFill = "arrow.left.and.right.square.fill"
-    case arrowLeftAndRightSquare = "arrow.left.and.right.square"
-    case arrowLeftAndRight = "arrow.left.and.right"
-    case arrowLeftCircleFill = "arrow.left.circle.fill"
-    case arrowLeftCircle = "arrow.left.circle"
-    case arrowLeftSquareFill = "arrow.left.square.fill"
-    case arrowLeftSquare = "arrow.left.square"
-    case arrowLeftToLineAlt = "arrow.left.to.line.alt"
-    case arrowLeftToLine = "arrow.left.to.line"
-    case arrowLeft = "arrow.left"
-    case arrowMerge = "arrow.merge"
-    case arrowRightArrowLeftCircleFill = "arrow.right.arrow.left.circle.fill"
-    case arrowRightArrowLeftCircle = "arrow.right.arrow.left.circle"
-    case arrowRightArrowLeftSquareFill = "arrow.right.arrow.left.square.fill"
-    case arrowRightArrowLeftSquare = "arrow.right.arrow.left.square"
-    case arrowRightArrowLeft = "arrow.right.arrow.left"
-    case arrowRightCircleFill = "arrow.right.circle.fill"
-    case arrowRightCircle = "arrow.right.circle"
-    case arrowRightSquareFill = "arrow.right.square.fill"
-    case arrowRightSquare = "arrow.right.square"
-    case arrowRightToLineAlt = "arrow.right.to.line.alt"
-    case arrowRightToLine = "arrow.right.to.line"
-    case arrowRight = "arrow.right"
-    case arrowSwap = "arrow.swap"
-    case arrowTurnDownLeft = "arrow.turn.down.left"
-    case arrowTurnDownRight = "arrow.turn.down.right"
-    case arrowTurnLeftDown = "arrow.turn.left.down"
-    case arrowTurnLeftUp = "arrow.turn.left.up"
-    case arrowTurnRightDown = "arrow.turn.right.down"
-    case arrowTurnRightUp = "arrow.turn.right.up"
-    case arrowTurnUpLeft = "arrow.turn.up.left"
-    case arrowTurnUpRight = "arrow.turn.up.right"
-    case arrowUpAndDownCircleFill = "arrow.up.and.down.circle.fill"
-    case arrowUpAndDownCircle = "arrow.up.and.down.circle"
-    case arrowUpAndDownSquareFill = "arrow.up.and.down.square.fill"
-    case arrowUpAndDownSquare = "arrow.up.and.down.square"
-    case arrowUpAndDown = "arrow.up.and.down"
-    case arrowUpArrowDownCircleFill = "arrow.up.arrow.down.circle.fill"
-    case arrowUpArrowDownCircle = "arrow.up.arrow.down.circle"
-    case arrowUpArrowDownSquareFill = "arrow.up.arrow.down.square.fill"
-    case arrowUpArrowDownSquare = "arrow.up.arrow.down.square"
-    case arrowUpArrowDown = "arrow.up.arrow.down"
-    case arrowUpBinFill = "arrow.up.bin.fill"
-    case arrowUpBin = "arrow.up.bin"
-    case arrowUpCircleFill = "arrow.up.circle.fill"
-    case arrowUpCircle = "arrow.up.circle"
-    case arrowUpDocFill = "arrow.up.doc.fill"
-    case arrowUpDoc = "arrow.up.doc"
-    case arrowUpLeftAndArrowDownRight = "arrow.up.left.and.arrow.down.right"
-    case arrowUpLeftCircleFill = "arrow.up.left.circle.fill"
-    case arrowUpLeftCircle = "arrow.up.left.circle"
-    case arrowUpLeftSquareFill = "arrow.up.left.square.fill"
-    case arrowUpLeftSquare = "arrow.up.left.square"
-    case arrowUpLeft = "arrow.up.left"
-    case arrowUpRightCircleFill = "arrow.up.right.circle.fill"
-    case arrowUpRightDiamondFill = "arrow.up.right.diamond.fill"
-    case arrowUpRightDiamond = "arrow.up.right.diamond"
-    case arrowUpRightSquareFill = "arrow.up.right.square.fill"
-    case arrowUpRightSquare = "arrow.up.right.square"
-    case arrowUpRightVideoFill = "arrow.up.right.video.fill"
-    case arrowUpRightVideo = "arrow.up.right.video"
-    case arrowUpRight = "arrow.up.right"
-    case arrowUpSquareFill = "arrow.up.square.fill"
-    case arrowUpSquare = "arrow.up.square"
-    case arrowUpToLineAlt = "arrow.up.to.line.alt"
-    case arrowUpToLine = "arrow.up.to.line"
-    case arrowUp = "arrow.up"
-    case arrowUprightCircle = "arrow.upright.circle"
-    case arrowUturnDownCircleFill = "arrow.uturn.down.circle.fill"
-    case arrowUturnDownCircle = "arrow.uturn.down.circle"
-    case arrowUturnDownSquareFill = "arrow.uturn.down.square.fill"
-    case arrowUturnDownSquare = "arrow.uturn.down.square"
-    case arrowUturnDown = "arrow.uturn.down"
-    case arrowUturnLeftCircleFill = "arrow.uturn.left.circle.fill"
-    case arrowUturnLeftCircle = "arrow.uturn.left.circle"
-    case arrowUturnLeftSquareFill = "arrow.uturn.left.square.fill"
-    case arrowUturnLeftSquare = "arrow.uturn.left.square"
-    case arrowUturnLeft = "arrow.uturn.left"
-    case arrowUturnRightCircleFill = "arrow.uturn.right.circle.fill"
-    case arrowUturnRightCircle = "arrow.uturn.right.circle"
-    case arrowUturnRightSquareFill = "arrow.uturn.right.square.fill"
-    case arrowUturnRightSquare = "arrow.uturn.right.square"
-    case arrowUturnRight = "arrow.uturn.right"
-    case arrowUturnUpCircleFill = "arrow.uturn.up.circle.fill"
-    case arrowUturnUpCircle = "arrow.uturn.up.circle"
-    case arrowUturnUpSquareFill = "arrow.uturn.up.square.fill"
-    case arrowUturnUpSquare = "arrow.uturn.up.square"
-    case arrowUturnUp = "arrow.uturn.up"
-    case arrowshapeTurnUpLeft2Fill = "arrowshape.turn.up.left.2.fill"
-    case arrowshapeTurnUpLeft2 = "arrowshape.turn.up.left.2"
-    case arrowshapeTurnUpLeftCircleFill = "arrowshape.turn.up.left.circle.fill"
-    case arrowshapeTurnUpLeftCircle = "arrowshape.turn.up.left.circle"
-    case arrowshapeTurnUpLeftFill = "arrowshape.turn.up.left.fill"
-    case arrowshapeTurnUpLeft = "arrowshape.turn.up.left"
-    case arrowshapeTurnUpRightCircleFill = "arrowshape.turn.up.right.circle.fill"
-    case arrowshapeTurnUpRightCircle = "arrowshape.turn.up.right.circle"
-    case arrowshapeTurnUpRightFill = "arrowshape.turn.up.right.fill"
-    case arrowshapeTurnUpRight = "arrowshape.turn.up.right"
-    case arrowtriangleDownCircleFill = "arrowtriangle.down.circle.fill"
-    case arrowtriangleDownCircle = "arrowtriangle.down.circle"
-    case arrowtriangleDownFill = "arrowtriangle.down.fill"
-    case arrowtriangleDownSquareFill = "arrowtriangle.down.square.fill"
-    case arrowtriangleDownSquare = "arrowtriangle.down.square"
-    case arrowtriangleDown = "arrowtriangle.down"
-    case arrowtriangleLeftCircleFill = "arrowtriangle.left.circle.fill"
-    case arrowtriangleLeftCircle = "arrowtriangle.left.circle"
-    case arrowtriangleLeftFill = "arrowtriangle.left.fill"
-    case arrowtriangleLeftSquareFill = "arrowtriangle.left.square.fill"
-    case arrowtriangleLeftSquare = "arrowtriangle.left.square"
-    case arrowtriangleLeft = "arrowtriangle.left"
-    case arrowtriangleRightCircleFill = "arrowtriangle.right.circle.fill"
-    case arrowtriangleRightCircle = "arrowtriangle.right.circle"
-    case arrowtriangleRightFill = "arrowtriangle.right.fill"
-    case arrowtriangleRightSquareFill = "arrowtriangle.right.square.fill"
-    case arrowtriangleRightSquare = "arrowtriangle.right.square"
-    case arrowtriangleRight = "arrowtriangle.right"
-    case arrowtriangleUpCircleFill = "arrowtriangle.up.circle.fill"
-    case arrowtriangleUpCircle = "arrowtriangle.up.circle"
-    case arrowtriangleUpFill = "arrowtriangle.up.fill"
-    case arrowtriangleUpSquareFill = "arrowtriangle.up.square.fill"
-    case arrowtriangleUpSquare = "arrowtriangle.up.square"
-    case arrowtriangleUp = "arrowtriangle.up"
-    case asteriskCircleFill = "asterisk.circle.fill"
-    case asteriskCircle = "asterisk.circle"
-    case atBadgeMinus = "at.badge.minus"
-    case atBadgePlus = "at.badge.plus"
-    case at
-    case australsignCircleFill = "australsign.circle.fill"
-    case australsignCircle = "australsign.circle"
-    case australsignSquareFill = "australsign.square.fill"
-    case australsignSquare = "australsign.square"
-    case bCircleFill = "b.circle.fill"
-    case bCircle = "b.circle"
-    case bSquareFill = "b.square.fill"
-    case bSquare = "b.square"
-    case backwardEndAltFill = "backward.end.alt.fill"
-    case backwardEndAlt = "backward.end.alt"
-    case backwardEndFill = "backward.end.fill"
-    case backwardEnd = "backward.end"
-    case backwardFill = "backward.fill"
-    case backward
-    case badgePlusRadiowavesRight = "badge.plus.radiowaves.right"
-    case bagBadgeMinusFill = "bag.badge.minus.fill"
-    case bagBadgeMinus = "bag.badge.minus"
-    case bagBadgePlusFill = "bag.badge.plus.fill"
-    case bagBadgePlus = "bag.badge.plus"
-    case bagFill = "bag.fill"
-    case bag
-    case bahtsignCircleFill = "bahtsign.circle.fill"
-    case bahtsignCircle = "bahtsign.circle"
-    case bahtsignSquareFill = "bahtsign.square.fill"
-    case bahtsignSquare = "bahtsign.square"
-    case bandageFill = "bandage.fill"
-    case bandage
-    case barcodeViewfinder = "barcode.viewfinder"
-    case barcode
+enum SFSymbol: String {
+    
+    enum Number0: String {
+        case circleFill = "0.circle.fill"
+        case circle = "0.circle"
+        case squareFill = "0.square.fill"
+        case square = "0.square"
+    }
+
+    enum Number00: String {
+        case circleFill = "00.circle.fill"
+        case circle = "00.circle"
+        case squareFill = "00.square.fill"
+        case square = "00.square"
+    }
+
+    enum Number01: String {
+        case circleFill = "01.circle.fill"
+        case circle = "01.circle"
+        case squareFill = "01.square.fill"
+        case square = "01.square"
+    }
+
+    enum Number02: String {
+        case circleFill = "02.circle.fill"
+        case circle = "02.circle"
+        case squareFill = "02.square.fill"
+        case square = "02.square"
+    }
+
+    enum Number03: String {
+        case circleFill = "03.circle.fill"
+        case circle = "03.circle"
+        case squareFill = "03.square.fill"
+        case square = "03.square"
+    }
+
+    enum Number04: String {
+        case circleFill = "04.circle.fill"
+        case circle = "04.circle"
+        case squareFill = "04.square.fill"
+        case square = "04.square"
+    }
+
+    enum Number05: String {
+        case circleFill = "05.circle.fill"
+        case circle = "05.circle"
+        case squareFill = "05.square.fill"
+        case square = "05.square"
+    }
+
+    enum Number06: String {
+        case circleFill = "06.circle.fill"
+        case circle = "06.circle"
+        case squareFill = "06.square.fill"
+        case square = "06.square"
+    }
+
+    enum Number07: String {
+        case circleFill = "07.circle.fill"
+        case circle = "07.circle"
+        case squareFill = "07.square.fill"
+        case square = "07.square"
+    }
+
+    enum Number08: String {
+        case circleFill = "08.circle.fill"
+        case circle = "08.circle"
+        case squareFill = "08.square.fill"
+        case square = "08.square"
+    }
+
+    enum Number09: String {
+        case circleFill = "09.circle.fill"
+        case circle = "09.circle"
+        case squareFill = "09.square.fill"
+        case square = "09.square"
+    }
+
+    enum Number1: String {
+        case circleFill = "1.circle.fill"
+        case circle = "1.circle"
+        case magnifyingglass = "1.magnifyingglass"
+        case squareFill = "1.square.fill"
+        case square = "1.square"
+    }
+
+    enum Number10: String {
+        case circleFill = "10.circle.fill"
+        case circle = "10.circle"
+        case squareFill = "10.square.fill"
+        case square = "10.square"
+    }
+
+    enum Number11: String {
+        case circleFill = "11.circle.fill"
+        case circle = "11.circle"
+        case squareFill = "11.square.fill"
+        case square = "11.square"
+    }
+
+    enum Number12: String {
+        case circleFill = "12.circle.fill"
+        case circle = "12.circle"
+        case squareFill = "12.square.fill"
+        case square = "12.square"
+    }
+
+    enum Number13: String {
+        case circleFill = "13.circle.fill"
+        case circle = "13.circle"
+        case squareFill = "13.square.fill"
+        case square = "13.square"
+    }
+
+    enum Number14: String {
+        case circleFill = "14.circle.fill"
+        case circle = "14.circle"
+        case squareFill = "14.square.fill"
+        case square = "14.square"
+    }
+
+    enum Number15: String {
+        case circleFill = "15.circle.fill"
+        case circle = "15.circle"
+        case squareFill = "15.square.fill"
+        case square = "15.square"
+    }
+
+    enum Number16: String {
+        case circleFill = "16.circle.fill"
+        case circle = "16.circle"
+        case squareFill = "16.square.fill"
+        case square = "16.square"
+    }
+
+    enum Number17: String {
+        case circleFill = "17.circle.fill"
+        case circle = "17.circle"
+        case squareFill = "17.square.fill"
+        case square = "17.square"
+    }
+
+    enum Number18: String {
+        case circleFill = "18.circle.fill"
+        case circle = "18.circle"
+        case squareFill = "18.square.fill"
+        case square = "18.square"
+    }
+
+    enum Number19: String {
+        case circleFill = "19.circle.fill"
+        case circle = "19.circle"
+        case squareFill = "19.square.fill"
+        case square = "19.square"
+    }
+
+    enum Number2: String {
+        case circleFill = "2.circle.fill"
+        case circle = "2.circle"
+        case squareFill = "2.square.fill"
+        case square = "2.square"
+    }
+
+    enum Number20: String {
+        case circleFill = "20.circle.fill"
+        case circle = "20.circle"
+        case squareFill = "20.square.fill"
+        case square = "20.square"
+    }
+
+    enum Number21: String {
+        case circleFill = "21.circle.fill"
+        case circle = "21.circle"
+        case squareFill = "21.square.fill"
+        case square = "21.square"
+    }
+
+    enum Number22: String {
+        case circleFill = "22.circle.fill"
+        case circle = "22.circle"
+        case squareFill = "22.square.fill"
+        case square = "22.square"
+    }
+
+    enum Number23: String {
+        case circleFill = "23.circle.fill"
+        case circle = "23.circle"
+        case squareFill = "23.square.fill"
+        case square = "23.square"
+    }
+
+    enum Number24: String {
+        case circleFill = "24.circle.fill"
+        case circle = "24.circle"
+        case squareFill = "24.square.fill"
+        case square = "24.square"
+    }
+
+    enum Number25: String {
+        case circleFill = "25.circle.fill"
+        case circle = "25.circle"
+        case squareFill = "25.square.fill"
+        case square = "25.square"
+    }
+
+    enum Number26: String {
+        case circleFill = "26.circle.fill"
+        case circle = "26.circle"
+        case squareFill = "26.square.fill"
+        case square = "26.square"
+    }
+
+    enum Number27: String {
+        case circleFill = "27.circle.fill"
+        case circle = "27.circle"
+        case squareFill = "27.square.fill"
+        case square = "27.square"
+    }
+
+    enum Number28: String {
+        case circleFill = "28.circle.fill"
+        case circle = "28.circle"
+        case squareFill = "28.square.fill"
+        case square = "28.square"
+    }
+
+    enum Number29: String {
+        case circleFill = "29.circle.fill"
+        case circle = "29.circle"
+        case squareFill = "29.square.fill"
+        case square = "29.square"
+    }
+
+    enum Number3: String {
+        case circleFill = "3.circle.fill"
+        case circle = "3.circle"
+        case squareFill = "3.square.fill"
+        case square = "3.square"
+    }
+
+    enum Number30: String {
+        case circleFill = "30.circle.fill"
+        case circle = "30.circle"
+        case squareFill = "30.square.fill"
+        case square = "30.square"
+    }
+
+    enum Number31: String {
+        case circleFill = "31.circle.fill"
+        case circle = "31.circle"
+        case squareFill = "31.square.fill"
+        case square = "31.square"
+    }
+
+    enum Number32: String {
+        case circleFill = "32.circle.fill"
+        case circle = "32.circle"
+        case squareFill = "32.square.fill"
+        case square = "32.square"
+    }
+
+    enum Number33: String {
+        case circleFill = "33.circle.fill"
+        case circle = "33.circle"
+        case squareFill = "33.square.fill"
+        case square = "33.square"
+    }
+
+    enum Number34: String {
+        case circleFill = "34.circle.fill"
+        case circle = "34.circle"
+        case squareFill = "34.square.fill"
+        case square = "34.square"
+    }
+
+    enum Number35: String {
+        case circleFill = "35.circle.fill"
+        case circle = "35.circle"
+        case squareFill = "35.square.fill"
+        case square = "35.square"
+    }
+
+    enum Number36: String {
+        case circleFill = "36.circle.fill"
+        case circle = "36.circle"
+        case squareFill = "36.square.fill"
+        case square = "36.square"
+    }
+
+    enum Number37: String {
+        case circleFill = "37.circle.fill"
+        case circle = "37.circle"
+        case squareFill = "37.square.fill"
+        case square = "37.square"
+    }
+
+    enum Number38: String {
+        case circleFill = "38.circle.fill"
+        case circle = "38.circle"
+        case squareFill = "38.square.fill"
+        case square = "38.square"
+    }
+
+    enum Number39: String {
+        case circleFill = "39.circle.fill"
+        case circle = "39.circle"
+        case squareFill = "39.square.fill"
+        case square = "39.square"
+    }
+
+    enum Number4: String {
+        case altCircleFill = "4.alt.circle.fill"
+        case altCircle = "4.alt.circle"
+        case altSquareFill = "4.alt.square.fill"
+        case altSquare = "4.alt.square"
+        case circleFill = "4.circle.fill"
+        case circle = "4.circle"
+        case squareFill = "4.square.fill"
+        case square = "4.square"
+    }
+
+    enum Number40: String {
+        case circleFill = "40.circle.fill"
+        case circle = "40.circle"
+        case squareFill = "40.square.fill"
+        case square = "40.square"
+    }
+
+    enum Number41: String {
+        case circleFill = "41.circle.fill"
+        case circle = "41.circle"
+        case squareFill = "41.square.fill"
+        case square = "41.square"
+    }
+
+    enum Number42: String {
+        case circleFill = "42.circle.fill"
+        case circle = "42.circle"
+        case squareFill = "42.square.fill"
+        case square = "42.square"
+    }
+
+    enum Number43: String {
+        case circleFill = "43.circle.fill"
+        case circle = "43.circle"
+        case squareFill = "43.square.fill"
+        case square = "43.square"
+    }
+
+    enum Number44: String {
+        case circleFill = "44.circle.fill"
+        case circle = "44.circle"
+        case squareFill = "44.square.fill"
+        case square = "44.square"
+    }
+
+    enum Number45: String {
+        case circleFill = "45.circle.fill"
+        case circle = "45.circle"
+        case squareFill = "45.square.fill"
+        case square = "45.square"
+    }
+
+    enum Number46: String {
+        case circleFill = "46.circle.fill"
+        case circle = "46.circle"
+        case squareFill = "46.square.fill"
+        case square = "46.square"
+    }
+
+    enum Number47: String {
+        case circleFill = "47.circle.fill"
+        case circle = "47.circle"
+        case squareFill = "47.square.fill"
+        case square = "47.square"
+    }
+
+    enum Number48: String {
+        case circleFill = "48.circle.fill"
+        case circle = "48.circle"
+        case squareFill = "48.square.fill"
+        case square = "48.square"
+    }
+
+    enum Number49: String {
+        case circleFill = "49.circle.fill"
+        case circle = "49.circle"
+        case squareFill = "49.square.fill"
+        case square = "49.square"
+    }
+
+    enum Number5: String {
+        case circleFill = "5.circle.fill"
+        case circle = "5.circle"
+        case squareFill = "5.square.fill"
+        case square = "5.square"
+    }
+
+    enum Number50: String {
+        case circleFill = "50.circle.fill"
+        case circle = "50.circle"
+        case squareFill = "50.square.fill"
+        case square = "50.square"
+    }
+
+    enum Number6: String {
+        case altCircleFill = "6.alt.circle.fill"
+        case altCircle = "6.alt.circle"
+        case altSquareFill = "6.alt.square.fill"
+        case altSquare = "6.alt.square"
+        case circleFill = "6.circle.fill"
+        case circle = "6.circle"
+        case squareFill = "6.square.fill"
+        case square = "6.square"
+    }
+
+    enum Number7: String {
+        case circleFill = "7.circle.fill"
+        case circle = "7.circle"
+        case squareFill = "7.square.fill"
+        case square = "7.square"
+    }
+
+    enum Number8: String {
+        case circleFill = "8.circle.fill"
+        case circle = "8.circle"
+        case squareFill = "8.square.fill"
+        case square = "8.square"
+    }
+
+    enum Number9: String {
+        case altCircleFill = "9.alt.circle.fill"
+        case altCircle = "9.alt.circle"
+        case altSquareFill = "9.alt.square.fill"
+        case altSquare = "9.alt.square"
+        case circleFill = "9.circle.fill"
+        case circle = "9.circle"
+        case squareFill = "9.square.fill"
+        case square = "9.square"
+    }
+
+    case a = "a"
+
+    enum LetterA: String {
+        case circleFill = "a.circle.fill"
+        case circle = "a.circle"
+        case squareFill = "a.square.fill"
+        case square = "a.square"
+    }
+
+    case airplane = "airplane"
+
+    case airplayaudio = "airplayaudio"
+
+    case airplayvideo = "airplayvideo"
+
+    case alarm = "alarm"
+
+    enum Alarm: String {
+        case fill = "alarm.fill"
+    }
+
+    case alt = "alt"
+
+    case ant = "ant"
+
+    enum Ant: String {
+        case circleFill = "ant.circle.fill"
+        case circle = "ant.circle"
+        case fill = "ant.fill"
+    }
+
+    enum Antenna: String {
+        case radiowavesLeftAndRight = "antenna.radiowaves.left.and.right"
+    }
+
+    case app = "app"
+
+    enum App: String {
+        case badgeFill = "app.badge.fill"
+        case badge = "app.badge"
+        case fill = "app.fill"
+        case giftFill = "app.gift.fill"
+        case gift = "app.gift"
+    }
+
+    case archivebox = "archivebox"
+
+    enum Archivebox: String {
+        case fill = "archivebox.fill"
+    }
+
+    case arkit = "arkit"
+
+    enum Arrow: String {
+        case branch = "arrow.branch"
+        case clockwiseCircleFill = "arrow.clockwise.circle.fill"
+        case clockwiseCircle = "arrow.clockwise.circle"
+        case clockwiseIcloudFill = "arrow.clockwise.icloud.fill"
+        case clockwiseIcloud = "arrow.clockwise.icloud"
+        case clockwise = "arrow.clockwise"
+        case counterclockwiseCircleFill = "arrow.counterclockwise.circle.fill"
+        case counterclockwiseCircle = "arrow.counterclockwise.circle"
+        case counterclockwiseIcloudFill = "arrow.counterclockwise.icloud.fill"
+        case counterclockwiseIcloud = "arrow.counterclockwise.icloud"
+        case counterclockwise = "arrow.counterclockwise"
+        case downCircleFill = "arrow.down.circle.fill"
+        case downCircle = "arrow.down.circle"
+        case downDocFill = "arrow.down.doc.fill"
+        case downDoc = "arrow.down.doc"
+        case downLeftCircleFill = "arrow.down.left.circle.fill"
+        case downLeftCircle = "arrow.down.left.circle"
+        case downLeftSquareFill = "arrow.down.left.square.fill"
+        case downLeftSquare = "arrow.down.left.square"
+        case downLeftVideoFill = "arrow.down.left.video.fill"
+        case downLeftVideo = "arrow.down.left.video"
+        case downLeft = "arrow.down.left"
+        case downRightAndArrowUpLeft = "arrow.down.right.and.arrow.up.left"
+        case downRightCircleFill = "arrow.down.right.circle.fill"
+        case downRightCircle = "arrow.down.right.circle"
+        case downRightSquareFill = "arrow.down.right.square.fill"
+        case downRightSquare = "arrow.down.right.square"
+        case downRight = "arrow.down.right"
+        case downSquareFill = "arrow.down.square.fill"
+        case downSquare = "arrow.down.square"
+        case downToLineAlt = "arrow.down.to.line.alt"
+        case downToLine = "arrow.down.to.line"
+        case down = "arrow.down"
+        case leftAndRightCircleFill = "arrow.left.and.right.circle.fill"
+        case leftAndRightCircle = "arrow.left.and.right.circle"
+        case leftAndRightSquareFill = "arrow.left.and.right.square.fill"
+        case leftAndRightSquare = "arrow.left.and.right.square"
+        case leftAndRight = "arrow.left.and.right"
+        case leftCircleFill = "arrow.left.circle.fill"
+        case leftCircle = "arrow.left.circle"
+        case leftSquareFill = "arrow.left.square.fill"
+        case leftSquare = "arrow.left.square"
+        case leftToLineAlt = "arrow.left.to.line.alt"
+        case leftToLine = "arrow.left.to.line"
+        case left = "arrow.left"
+        case merge = "arrow.merge"
+        case rightArrowLeftCircleFill = "arrow.right.arrow.left.circle.fill"
+        case rightArrowLeftCircle = "arrow.right.arrow.left.circle"
+        case rightArrowLeftSquareFill = "arrow.right.arrow.left.square.fill"
+        case rightArrowLeftSquare = "arrow.right.arrow.left.square"
+        case rightArrowLeft = "arrow.right.arrow.left"
+        case rightCircleFill = "arrow.right.circle.fill"
+        case rightCircle = "arrow.right.circle"
+        case rightSquareFill = "arrow.right.square.fill"
+        case rightSquare = "arrow.right.square"
+        case rightToLineAlt = "arrow.right.to.line.alt"
+        case rightToLine = "arrow.right.to.line"
+        case right = "arrow.right"
+        case swap = "arrow.swap"
+        case turnDownLeft = "arrow.turn.down.left"
+        case turnDownRight = "arrow.turn.down.right"
+        case turnLeftDown = "arrow.turn.left.down"
+        case turnLeftUp = "arrow.turn.left.up"
+        case turnRightDown = "arrow.turn.right.down"
+        case turnRightUp = "arrow.turn.right.up"
+        case turnUpLeft = "arrow.turn.up.left"
+        case turnUpRight = "arrow.turn.up.right"
+        case upAndDownCircleFill = "arrow.up.and.down.circle.fill"
+        case upAndDownCircle = "arrow.up.and.down.circle"
+        case upAndDownSquareFill = "arrow.up.and.down.square.fill"
+        case upAndDownSquare = "arrow.up.and.down.square"
+        case upAndDown = "arrow.up.and.down"
+        case upArrowDownCircleFill = "arrow.up.arrow.down.circle.fill"
+        case upArrowDownCircle = "arrow.up.arrow.down.circle"
+        case upArrowDownSquareFill = "arrow.up.arrow.down.square.fill"
+        case upArrowDownSquare = "arrow.up.arrow.down.square"
+        case upArrowDown = "arrow.up.arrow.down"
+        case upBinFill = "arrow.up.bin.fill"
+        case upBin = "arrow.up.bin"
+        case upCircleFill = "arrow.up.circle.fill"
+        case upCircle = "arrow.up.circle"
+        case upDocFill = "arrow.up.doc.fill"
+        case upDoc = "arrow.up.doc"
+        case upLeftAndArrowDownRight = "arrow.up.left.and.arrow.down.right"
+        case upLeftCircleFill = "arrow.up.left.circle.fill"
+        case upLeftCircle = "arrow.up.left.circle"
+        case upLeftSquareFill = "arrow.up.left.square.fill"
+        case upLeftSquare = "arrow.up.left.square"
+        case upLeft = "arrow.up.left"
+        case upRightCircleFill = "arrow.up.right.circle.fill"
+        case upRightDiamondFill = "arrow.up.right.diamond.fill"
+        case upRightDiamond = "arrow.up.right.diamond"
+        case upRightSquareFill = "arrow.up.right.square.fill"
+        case upRightSquare = "arrow.up.right.square"
+        case upRightVideoFill = "arrow.up.right.video.fill"
+        case upRightVideo = "arrow.up.right.video"
+        case upRight = "arrow.up.right"
+        case upSquareFill = "arrow.up.square.fill"
+        case upSquare = "arrow.up.square"
+        case upToLineAlt = "arrow.up.to.line.alt"
+        case upToLine = "arrow.up.to.line"
+        case up = "arrow.up"
+        case uprightCircle = "arrow.upright.circle"
+        case uturnDownCircleFill = "arrow.uturn.down.circle.fill"
+        case uturnDownCircle = "arrow.uturn.down.circle"
+        case uturnDownSquareFill = "arrow.uturn.down.square.fill"
+        case uturnDownSquare = "arrow.uturn.down.square"
+        case uturnDown = "arrow.uturn.down"
+        case uturnLeftCircleFill = "arrow.uturn.left.circle.fill"
+        case uturnLeftCircle = "arrow.uturn.left.circle"
+        case uturnLeftSquareFill = "arrow.uturn.left.square.fill"
+        case uturnLeftSquare = "arrow.uturn.left.square"
+        case uturnLeft = "arrow.uturn.left"
+        case uturnRightCircleFill = "arrow.uturn.right.circle.fill"
+        case uturnRightCircle = "arrow.uturn.right.circle"
+        case uturnRightSquareFill = "arrow.uturn.right.square.fill"
+        case uturnRightSquare = "arrow.uturn.right.square"
+        case uturnRight = "arrow.uturn.right"
+        case uturnUpCircleFill = "arrow.uturn.up.circle.fill"
+        case uturnUpCircle = "arrow.uturn.up.circle"
+        case uturnUpSquareFill = "arrow.uturn.up.square.fill"
+        case uturnUpSquare = "arrow.uturn.up.square"
+        case uturnUp = "arrow.uturn.up"
+    }
+
+    enum Arrow2: String {
+        case circlepathCircleFill = "arrow.2.circlepath.circle.fill"
+        case circlepathCircle = "arrow.2.circlepath.circle"
+        case circlepath = "arrow.2.circlepath"
+        case squarepath = "arrow.2.squarepath"
+    }
+
+    enum Arrow3: String {
+        case trianglepath = "arrow.3.trianglepath"
+    }
+
+    enum Arrowshape: String {
+        case turnUpLeft2Fill = "arrowshape.turn.up.left.2.fill"
+        case turnUpLeft2 = "arrowshape.turn.up.left.2"
+        case turnUpLeftCircleFill = "arrowshape.turn.up.left.circle.fill"
+        case turnUpLeftCircle = "arrowshape.turn.up.left.circle"
+        case turnUpLeftFill = "arrowshape.turn.up.left.fill"
+        case turnUpLeft = "arrowshape.turn.up.left"
+        case turnUpRightCircleFill = "arrowshape.turn.up.right.circle.fill"
+        case turnUpRightCircle = "arrowshape.turn.up.right.circle"
+        case turnUpRightFill = "arrowshape.turn.up.right.fill"
+        case turnUpRight = "arrowshape.turn.up.right"
+    }
+
+    enum Arrowtriangle: String {
+        case downCircleFill = "arrowtriangle.down.circle.fill"
+        case downCircle = "arrowtriangle.down.circle"
+        case downFill = "arrowtriangle.down.fill"
+        case downSquareFill = "arrowtriangle.down.square.fill"
+        case downSquare = "arrowtriangle.down.square"
+        case down = "arrowtriangle.down"
+        case leftCircleFill = "arrowtriangle.left.circle.fill"
+        case leftCircle = "arrowtriangle.left.circle"
+        case leftFill = "arrowtriangle.left.fill"
+        case leftSquareFill = "arrowtriangle.left.square.fill"
+        case leftSquare = "arrowtriangle.left.square"
+        case left = "arrowtriangle.left"
+        case rightCircleFill = "arrowtriangle.right.circle.fill"
+        case rightCircle = "arrowtriangle.right.circle"
+        case rightFill = "arrowtriangle.right.fill"
+        case rightSquareFill = "arrowtriangle.right.square.fill"
+        case rightSquare = "arrowtriangle.right.square"
+        case right = "arrowtriangle.right"
+        case upCircleFill = "arrowtriangle.up.circle.fill"
+        case upCircle = "arrowtriangle.up.circle"
+        case upFill = "arrowtriangle.up.fill"
+        case upSquareFill = "arrowtriangle.up.square.fill"
+        case upSquare = "arrowtriangle.up.square"
+        case up = "arrowtriangle.up"
+    }
+
+    enum Asterisk: String {
+        case circleFill = "asterisk.circle.fill"
+        case circle = "asterisk.circle"
+    }
+
+    case at = "at"
+
+    enum At: String {
+        case badgeMinus = "at.badge.minus"
+        case badgePlus = "at.badge.plus"
+    }
+
+    enum Australsign: String {
+        case circleFill = "australsign.circle.fill"
+        case circle = "australsign.circle"
+        case squareFill = "australsign.square.fill"
+        case square = "australsign.square"
+    }
+
+    enum LetterB: String {
+        case circleFill = "b.circle.fill"
+        case circle = "b.circle"
+        case squareFill = "b.square.fill"
+        case square = "b.square"
+    }
+
+    case backward = "backward"
+
+    enum Backward: String {
+        case endAltFill = "backward.end.alt.fill"
+        case endAlt = "backward.end.alt"
+        case endFill = "backward.end.fill"
+        case end = "backward.end"
+        case fill = "backward.fill"
+    }
+
+    enum Badge: String {
+        case plusRadiowavesRight = "badge.plus.radiowaves.right"
+    }
+
+    case bag = "bag"
+
+    enum Bag: String {
+        case badgeMinusFill = "bag.badge.minus.fill"
+        case badgeMinus = "bag.badge.minus"
+        case badgePlusFill = "bag.badge.plus.fill"
+        case badgePlus = "bag.badge.plus"
+        case fill = "bag.fill"
+    }
+
+    enum Bahtsign: String {
+        case circleFill = "bahtsign.circle.fill"
+        case circle = "bahtsign.circle"
+        case squareFill = "bahtsign.square.fill"
+        case square = "bahtsign.square"
+    }
+
+    case bandage = "bandage"
+
+    enum Bandage: String {
+        case fill = "bandage.fill"
+    }
+
+    case barcode = "barcode"
+
+    enum Barcode: String {
+        case viewfinder = "barcode.viewfinder"
+    }
+
     case battery0 = "battery.0"
+
     case battery100 = "battery.100"
+
     case battery25 = "battery.25"
-    case bedDoubleFill = "bed.double.fill"
-    case bedDouble = "bed.double"
-    case bellCircleFill = "bell.circle.fill"
-    case bellCircle = "bell.circle"
-    case bellFill = "bell.fill"
-    case bellSlashFill = "bell.slash.fill"
-    case bellSlash = "bell.slash"
-    case bell
-    case binXmarkFill = "bin.xmark.fill"
-    case binXmark = "bin.xmark"
-    case bitcoinsignCircleFill = "bitcoinsign.circle.fill"
-    case bitcoinsignCircle = "bitcoinsign.circle"
-    case bitcoinsignSquareFill = "bitcoinsign.square.fill"
-    case bitcoinsignSquare = "bitcoinsign.square"
-    case boldItalicUnderline = "bold.italic.underline"
-    case boldUnderline = "bold.underline"
-    case bold
-    case boltBadgeAFill = "bolt.badge.a.fill"
-    case boltBadgeA = "bolt.badge.a"
-    case boltCircleFill = "bolt.circle.fill"
-    case boltCircle = "bolt.circle"
-    case boltFill = "bolt.fill"
-    case boltHorizontalCircleFill = "bolt.horizontal.circle.fill"
-    case boltHorizontalCircle = "bolt.horizontal.circle"
-    case boltHorizontalFill = "bolt.horizontal.fill"
-    case boltHorizontalIcloudFill = "bolt.horizontal.icloud.fill"
-    case boltHorizontalIcloud = "bolt.horizontal.icloud"
-    case boltHorizontal = "bolt.horizontal"
-    case boltSlashFill = "bolt.slash.fill"
-    case boltSlash = "bolt.slash"
-    case bolt
-    case bookCircleFill = "book.circle.fill"
-    case bookCircle = "book.circle"
-    case bookFill = "book.fill"
-    case book
-    case bookmarkFill = "bookmark.fill"
-    case bookmark
-    case briefcaseFill = "briefcase.fill"
-    case briefcase
-    case bubbleLeftAndBubbleRightFill = "bubble.left.and.bubble.right.fill"
-    case bubbleLeftAndBubbleRight = "bubble.left.and.bubble.right"
-    case bubbleLeftFill = "bubble.left.fill"
-    case bubbleLeft = "bubble.left"
-    case bubbleMiddleBottomFill = "bubble.middle.bottom.fill"
-    case bubbleMiddleBottom = "bubble.middle.bottom"
-    case bubbleMiddleTopFill = "bubble.middle.top.fill"
-    case bubbleMiddleTop = "bubble.middle.top"
-    case bubbleRightFill = "bubble.right.fill"
-    case bubbleRight = "bubble.right"
-    case burn
-    case burstFill = "burst.fill"
-    case burst
-    case cCircleFill = "c.circle.fill"
-    case cCircle = "c.circle"
-    case cSquareFill = "c.square.fill"
-    case cSquare = "c.square"
-    case calendarBadgeMinus = "calendar.badge.minus"
-    case calendarBadgePlus = "calendar.badge.plus"
-    case calendarCircleFill = "calendar.circle.fill"
-    case calendarCircle = "calendar.circle"
-    case calendar
-    case cameraCircleFill = "camera.circle.fill"
-    case cameraCircle = "camera.circle"
-    case cameraFill = "camera.fill"
-    case cameraOnRectangleFill = "camera.on.rectangle.fill"
-    case cameraOnRectangle = "camera.on.rectangle"
-    case cameraRotateFill = "camera.rotate.fill"
-    case cameraRotate = "camera.rotate"
-    case cameraViewfinder = "camera.viewfinder"
-    case camera
-    case capslockFill = "capslock.fill"
-    case capslock
-    case capsuleFill = "capsule.fill"
-    case capsule
-    case captionsBubbleFill = "captions.bubble.fill"
-    case captionsBubble = "captions.bubble"
-    case carFill = "car.fill"
-    case cartBadgeMinusFill = "cart.badge.minus.fill"
-    case cartBadgeMinus = "cart.badge.minus"
-    case cartBadgePlusFill = "cart.badge.plus.fill"
-    case cartBadgePlus = "cart.badge.plus"
-    case cartFill = "cart.fill"
-    case cart
-    case cedisignCircleFill = "cedisign.circle.fill"
-    case cedisignCircle = "cedisign.circle"
-    case cedisignSquareFill = "cedisign.square.fill"
-    case cedisignSquare = "cedisign.square"
-    case centsignCircleFill = "centsign.circle.fill"
-    case centsignCircle = "centsign.circle"
-    case centsignSquareFill = "centsign.square.fill"
-    case centsignSquare = "centsign.square"
-    case chartBarFill = "chart.bar.fill"
-    case chartBar = "chart.bar"
-    case chartPieFill = "chart.pie.fill"
-    case chartPie = "chart.pie"
-    case checkmarkCircleFill = "checkmark.circle.fill"
-    case checkmarkCircle = "checkmark.circle"
-    case checkmarkRectangleFill = "checkmark.rectangle.fill"
-    case checkmarkRectangle = "checkmark.rectangle"
-    case checkmarkSealFill = "checkmark.seal.fill"
-    case checkmarkSeal = "checkmark.seal"
-    case checkmarkShieldFill = "checkmark.shield.fill"
-    case checkmarkShield = "checkmark.shield"
-    case checkmarkSquareFill = "checkmark.square.fill"
-    case checkmarkSquare = "checkmark.square"
-    case checkmark
-    case chevronCompactDown = "chevron.compact.down"
-    case chevronCompactLeft = "chevron.compact.left"
-    case chevronCompactRight = "chevron.compact.right"
-    case chevronCompactUp = "chevron.compact.up"
-    case chevronDownCircleFill = "chevron.down.circle.fill"
-    case chevronDownCircle = "chevron.down.circle"
-    case chevronDownSquareFill = "chevron.down.square.fill"
-    case chevronDownSquare = "chevron.down.square"
-    case chevronDown = "chevron.down"
-    case chevronLeft2 = "chevron.left.2"
-    case chevronLeftCircleFill = "chevron.left.circle.fill"
-    case chevronLeftCircle = "chevron.left.circle"
-    case chevronLeftSlashChevronRight = "chevron.left.slash.chevron.right"
-    case chevronLeftSquareFill = "chevron.left.square.fill"
-    case chevronLeftSquare = "chevron.left.square"
-    case chevronLeft = "chevron.left"
-    case chevronRight2 = "chevron.right.2"
-    case chevronRightCircleFill = "chevron.right.circle.fill"
-    case chevronRightCircle = "chevron.right.circle"
-    case chevronRightSquareFill = "chevron.right.square.fill"
-    case chevronRightSquare = "chevron.right.square"
-    case chevronRight = "chevron.right"
-    case chevronUpChevronDown = "chevron.up.chevron.down"
-    case chevronUpCircleFill = "chevron.up.circle.fill"
-    case chevronUpCircle = "chevron.up.circle"
-    case chevronUpSquareFill = "chevron.up.square.fill"
-    case chevronUpSquare = "chevron.up.square"
-    case chevronUp = "chevron.up"
-    case circleBottomthirdSplit = "circle.bottomthird.split"
-    case circleFill = "circle.fill"
-    case circleGrid3x3Fill = "circle.grid.3x3.fill"
-    case circleGrid3x3 = "circle.grid.3x3"
-    case circleGridHexFill = "circle.grid.hex.fill"
-    case circleGridHex = "circle.grid.hex"
-    case circleLefthalfFill = "circle.lefthalf.fill"
-    case circleRighthalfFill = "circle.righthalf.fill"
-    case circle
-    case clearFill = "clear.fill"
-    case clear
-    case clockFill = "clock.fill"
-    case clock
-    case cloudBoltFill = "cloud.bolt.fill"
-    case cloudBoltRainFill = "cloud.bolt.rain.fill"
-    case cloudBoltRain = "cloud.bolt.rain"
-    case cloudBolt = "cloud.bolt"
-    case cloudDrizzleFill = "cloud.drizzle.fill"
-    case cloudDrizzle = "cloud.drizzle"
-    case cloudFill = "cloud.fill"
-    case cloudFogFill = "cloud.fog.fill"
-    case cloudFog = "cloud.fog"
-    case cloudHailFill = "cloud.hail.fill"
-    case cloudHail = "cloud.hail"
-    case cloudHeavyrainFill = "cloud.heavyrain.fill"
-    case cloudHeavyrain = "cloud.heavyrain"
-    case cloudMoonBoltFill = "cloud.moon.bolt.fill"
-    case cloudMoonBolt = "cloud.moon.bolt"
-    case cloudMoonFill = "cloud.moon.fill"
-    case cloudMoonRainFill = "cloud.moon.rain.fill"
-    case cloudMoonRain = "cloud.moon.rain"
-    case cloudMoon = "cloud.moon"
-    case cloudRainFill = "cloud.rain.fill"
-    case cloudRain = "cloud.rain"
-    case cloudSleetFill = "cloud.sleet.fill"
-    case cloudSleet = "cloud.sleet"
-    case cloudSnowFill = "cloud.snow.fill"
-    case cloudSnow = "cloud.snow"
-    case cloudSunBoltFill = "cloud.sun.bolt.fill"
-    case cloudSunBolt = "cloud.sun.bolt"
-    case cloudSunFill = "cloud.sun.fill"
-    case cloudSunRainFill = "cloud.sun.rain.fill"
-    case cloudSunRain = "cloud.sun.rain"
-    case cloudSun = "cloud.sun"
-    case cloud
-    case coloncurrencysignCircleFill = "coloncurrencysign.circle.fill"
-    case coloncurrencysignCircle = "coloncurrencysign.circle"
-    case coloncurrencysignSquareFill = "coloncurrencysign.square.fill"
-    case coloncurrencysignSquare = "coloncurrencysign.square"
-    case command
-    case control
-    case creditcardFill = "creditcard.fill"
-    case creditcard
-    case cropRotate = "crop.rotate"
-    case crop
-    case cruzeirosignCircleFill = "cruzeirosign.circle.fill"
-    case cruzeirosignCircle = "cruzeirosign.circle"
-    case cruzeirosignSquareFill = "cruzeirosign.square.fill"
-    case cruzeirosignSquare = "cruzeirosign.square"
-    case cubeBoxFill = "cube.box.fill"
-    case cubeBox = "cube.box"
-    case cubeFill = "cube.fill"
-    case cube
-    case cursorRays = "cursor.rays"
-    case dCircleFill = "d.circle.fill"
-    case dCircle = "d.circle"
-    case dSquareFill = "d.square.fill"
-    case dSquare = "d.square"
-    case decreaseQuotelevel = "decrease.quotelevel"
-    case deleteLeftFill = "delete.left.fill"
-    case deleteLeft = "delete.left"
-    case deleteRightFill = "delete.right.fill"
-    case deleteRight = "delete.right"
-    case desktopcomputer
-    case dialFill = "dial.fill"
-    case dial
-    case divideCircleFill = "divide.circle.fill"
-    case divideCircle = "divide.circle"
-    case divideSquareFill = "divide.square.fill"
-    case divideSquare = "divide.square"
-    case divide
-    case docAppend = "doc.append"
-    case docCircleFill = "doc.circle.fill"
-    case docCircle = "doc.circle"
-    case docFill = "doc.fill"
-    case docOnClipboardFill = "doc.on.clipboard.fill"
-    case docOnClipboard = "doc.on.clipboard"
-    case docOnDocFill = "doc.on.doc.fill"
-    case docOnDoc = "doc.on.doc"
-    case docPlaintext = "doc.plaintext"
-    case docRichtext = "doc.richtext"
-    case docTextFill = "doc.text.fill"
-    case docTextMagnifyingglass = "doc.text.magnifyingglass"
-    case docTextViewfinder = "doc.text.viewfinder"
-    case docText = "doc.text"
-    case doc
-    case dollarsignCircleFill = "dollarsign.circle.fill"
-    case dollarsignCircle = "dollarsign.circle"
-    case dollarsignSquareFill = "dollarsign.square.fill"
-    case dollarsignSquare = "dollarsign.square"
-    case dongsignCircleFill = "dongsign.circle.fill"
-    case dongsignCircle = "dongsign.circle"
-    case dongsignSquareFill = "dongsign.square.fill"
-    case dongsignSquare = "dongsign.square"
-    case dotCircleFill = "dot.circle.fill"
-    case dotCircle = "dot.circle"
-    case dotRadiowavesLeftAndRight = "dot.radiowaves.left.and.right"
-    case dotRadiowavesRight = "dot.radiowaves.right"
-    case dotSquareFill = "dot.square.fill"
-    case dotSquare = "dot.square"
-    case dropTriangleFill = "drop.triangle.fill"
-    case dropTriangle = "drop.triangle"
-    case eCircleFill = "e.circle.fill"
-    case eCircle = "e.circle"
-    case eSquareFill = "e.square.fill"
-    case eSquare = "e.square"
-    case ear
-    case ejectFill = "eject.fill"
-    case eject
-    case ellipsesBubbleFill = "ellipses.bubble.fill"
-    case ellipsesBubble = "ellipses.bubble"
-    case ellipsisCircleFill = "ellipsis.circle.fill"
-    case ellipsisCircle = "ellipsis.circle"
-    case ellipsis
-    case envelopeBadgeFill = "envelope.badge.fill"
-    case envelopeBadge = "envelope.badge"
-    case envelopeCircleFill = "envelope.circle.fill"
-    case envelopeCircle = "envelope.circle"
-    case envelopeFill = "envelope.fill"
-    case envelopeOpenFill = "envelope.open.fill"
-    case envelopeOpen = "envelope.open"
-    case envelope
-    case equalCircleFill = "equal.circle.fill"
-    case equalCircle = "equal.circle"
-    case equalSquareFill = "equal.square.fill"
-    case equalSquare = "equal.square"
-    case equal
-    case escape
-    case eurosignCircleFill = "eurosign.circle.fill"
-    case eurosignCircle = "eurosign.circle"
-    case eurosignSquareFill = "eurosign.square.fill"
-    case eurosignSquare = "eurosign.square"
-    case exclamationmarkBubbleFill = "exclamationmark.bubble.fill"
-    case exclamationmarkBubble = "exclamationmark.bubble"
-    case exclamationmarkCircleFill = "exclamationmark.circle.fill"
-    case exclamationmarkCircle = "exclamationmark.circle"
-    case exclamationmarkIcloudFill = "exclamationmark.icloud.fill"
-    case exclamationmarkIcloud = "exclamationmark.icloud"
-    case exclamationmarkOctagonFill = "exclamationmark.octagon.fill"
-    case exclamationmarkOctagon = "exclamationmark.octagon"
-    case exclamationmarkShieldFill = "exclamationmark.shield.fill"
-    case exclamationmarkShield = "exclamationmark.shield"
-    case exclamationmarkSquareFill = "exclamationmark.square.fill"
-    case exclamationmarkSquare = "exclamationmark.square"
-    case exclamationmarkTriangleFill = "exclamationmark.triangle.fill"
-    case exclamationmarkTriangle = "exclamationmark.triangle"
-    case exclamationmark
-    case eyeFill = "eye.fill"
-    case eyeSlashFill = "eye.slash.fill"
-    case eyeSlash = "eye.slash"
-    case eye
-    case eyedropperFull = "eyedropper.full"
-    case eyedropperHalffull = "eyedropper.halffull"
-    case eyedropper
-    case eyeglasses
-    case fCircleFill = "f.circle.fill"
-    case fCircle = "f.circle"
-    case fCursiveCircleFill = "f.cursive.circle.fill"
-    case fCursiveCircle = "f.cursive.circle"
-    case fCursive = "f.cursive"
-    case fSquareFill = "f.square.fill"
-    case fSquare = "f.square"
-    case faceid
-    case filmFill = "film.fill"
-    case film
-    case flagCircleFill = "flag.circle.fill"
-    case flagCircle = "flag.circle"
-    case flagFill = "flag.fill"
-    case flagSlashFill = "flag.slash.fill"
-    case flagSlash = "flag.slash"
-    case flag
-    case flameFill = "flame.fill"
-    case flame
-    case florinsignCircleFill = "florinsign.circle.fill"
-    case florinsignCircle = "florinsign.circle"
-    case florinsignSquareFill = "florinsign.square.fill"
-    case florinsignSquare = "florinsign.square"
-    case flowchartFill = "flowchart.fill"
-    case flowchart
-    case folderBadgeMinusFill = "folder.badge.minus.fill"
-    case folderBadgeMinus = "folder.badge.minus"
-    case folderBadgePersonCropFill = "folder.badge.person.crop.fill"
-    case folderBadgePersonCrop = "folder.badge.person.crop"
-    case folderBadgePlusFill = "folder.badge.plus.fill"
-    case folderBadgePlus = "folder.badge.plus"
-    case folderCircleFill = "folder.circle.fill"
-    case folderCircle = "folder.circle"
-    case folderFill = "folder.fill"
-    case folder
-    case forwardEndAltFill = "forward.end.alt.fill"
-    case forwardEndAlt = "forward.end.alt"
-    case forwardEndFill = "forward.end.fill"
-    case forwardEnd = "forward.end"
-    case forwardFill = "forward.fill"
-    case forward
-    case francsignCircleFill = "francsign.circle.fill"
-    case francsignCircle = "francsign.circle"
-    case francsignSquareFill = "francsign.square.fill"
-    case francsignSquare = "francsign.square"
-    case function
-    case fx
-    case gCircleFill = "g.circle.fill"
-    case gCircle = "g.circle"
-    case gSquareFill = "g.square.fill"
-    case gSquare = "g.square"
-    case gamecontrollerFill = "gamecontroller.fill"
-    case gamecontroller
-    case gaugeBadgeMinus = "gauge.badge.minus"
-    case gaugeBadgePlus = "gauge.badge.plus"
-    case gauge
-    case gear
-    case giftFill = "gift.fill"
-    case gift
-    case globe
-    case gobackward10Ar = "gobackward.10.ar"
-    case gobackward10Hi = "gobackward.10.hi"
+
+    enum Bed: String {
+        case doubleFill = "bed.double.fill"
+        case double = "bed.double"
+    }
+
+    case bell = "bell"
+
+    enum Bell: String {
+        case circleFill = "bell.circle.fill"
+        case circle = "bell.circle"
+        case fill = "bell.fill"
+        case slashFill = "bell.slash.fill"
+        case slash = "bell.slash"
+    }
+
+    enum Bin: String {
+        case xmarkFill = "bin.xmark.fill"
+        case xmark = "bin.xmark"
+    }
+
+    enum Bitcoinsign: String {
+        case circleFill = "bitcoinsign.circle.fill"
+        case circle = "bitcoinsign.circle"
+        case squareFill = "bitcoinsign.square.fill"
+        case square = "bitcoinsign.square"
+    }
+
+    case bold = "bold"
+
+    enum Bold: String {
+        case italicUnderline = "bold.italic.underline"
+        case underline = "bold.underline"
+    }
+
+    case bolt = "bolt"
+
+    enum Bolt: String {
+        case badgeAFill = "bolt.badge.a.fill"
+        case badgeA = "bolt.badge.a"
+        case circleFill = "bolt.circle.fill"
+        case circle = "bolt.circle"
+        case fill = "bolt.fill"
+        case horizontalCircleFill = "bolt.horizontal.circle.fill"
+        case horizontalCircle = "bolt.horizontal.circle"
+        case horizontalFill = "bolt.horizontal.fill"
+        case horizontalIcloudFill = "bolt.horizontal.icloud.fill"
+        case horizontalIcloud = "bolt.horizontal.icloud"
+        case horizontal = "bolt.horizontal"
+        case slashFill = "bolt.slash.fill"
+        case slash = "bolt.slash"
+    }
+
+    case book = "book"
+
+    enum Book: String {
+        case circleFill = "book.circle.fill"
+        case circle = "book.circle"
+        case fill = "book.fill"
+    }
+
+    case bookmark = "bookmark"
+
+    enum Bookmark: String {
+        case fill = "bookmark.fill"
+    }
+
+    case briefcase = "briefcase"
+
+    enum Briefcase: String {
+        case fill = "briefcase.fill"
+    }
+
+    enum Bubble: String {
+        case leftAndBubbleRightFill = "bubble.left.and.bubble.right.fill"
+        case leftAndBubbleRight = "bubble.left.and.bubble.right"
+        case leftFill = "bubble.left.fill"
+        case left = "bubble.left"
+        case middleBottomFill = "bubble.middle.bottom.fill"
+        case middleBottom = "bubble.middle.bottom"
+        case middleTopFill = "bubble.middle.top.fill"
+        case middleTop = "bubble.middle.top"
+        case rightFill = "bubble.right.fill"
+        case right = "bubble.right"
+    }
+
+    case burn = "burn"
+
+    case burst = "burst"
+
+    enum Burst: String {
+        case fill = "burst.fill"
+    }
+
+    enum LetterC: String {
+        case circleFill = "c.circle.fill"
+        case circle = "c.circle"
+        case squareFill = "c.square.fill"
+        case square = "c.square"
+    }
+
+    case calendar = "calendar"
+
+    enum Calendar: String {
+        case badgeMinus = "calendar.badge.minus"
+        case badgePlus = "calendar.badge.plus"
+        case circleFill = "calendar.circle.fill"
+        case circle = "calendar.circle"
+    }
+
+    case camera = "camera"
+
+    enum Camera: String {
+        case circleFill = "camera.circle.fill"
+        case circle = "camera.circle"
+        case fill = "camera.fill"
+        case onRectangleFill = "camera.on.rectangle.fill"
+        case onRectangle = "camera.on.rectangle"
+        case rotateFill = "camera.rotate.fill"
+        case rotate = "camera.rotate"
+        case viewfinder = "camera.viewfinder"
+    }
+
+    case capslock = "capslock"
+
+    enum Capslock: String {
+        case fill = "capslock.fill"
+    }
+
+    case capsule = "capsule"
+
+    enum Capsule: String {
+        case fill = "capsule.fill"
+    }
+
+    enum Captions: String {
+        case bubbleFill = "captions.bubble.fill"
+        case bubble = "captions.bubble"
+    }
+
+    enum Car: String {
+        case fill = "car.fill"
+    }
+
+    case cart = "cart"
+
+    enum Cart: String {
+        case badgeMinusFill = "cart.badge.minus.fill"
+        case badgeMinus = "cart.badge.minus"
+        case badgePlusFill = "cart.badge.plus.fill"
+        case badgePlus = "cart.badge.plus"
+        case fill = "cart.fill"
+    }
+
+    enum Cedisign: String {
+        case circleFill = "cedisign.circle.fill"
+        case circle = "cedisign.circle"
+        case squareFill = "cedisign.square.fill"
+        case square = "cedisign.square"
+    }
+
+    enum Centsign: String {
+        case circleFill = "centsign.circle.fill"
+        case circle = "centsign.circle"
+        case squareFill = "centsign.square.fill"
+        case square = "centsign.square"
+    }
+
+    enum Chart: String {
+        case barFill = "chart.bar.fill"
+        case bar = "chart.bar"
+        case pieFill = "chart.pie.fill"
+        case pie = "chart.pie"
+    }
+
+    case checkmark = "checkmark"
+
+    enum Checkmark: String {
+        case circleFill = "checkmark.circle.fill"
+        case circle = "checkmark.circle"
+        case rectangleFill = "checkmark.rectangle.fill"
+        case rectangle = "checkmark.rectangle"
+        case sealFill = "checkmark.seal.fill"
+        case seal = "checkmark.seal"
+        case shieldFill = "checkmark.shield.fill"
+        case shield = "checkmark.shield"
+        case squareFill = "checkmark.square.fill"
+        case square = "checkmark.square"
+    }
+
+    enum Chevron: String {
+        case compactDown = "chevron.compact.down"
+        case compactLeft = "chevron.compact.left"
+        case compactRight = "chevron.compact.right"
+        case compactUp = "chevron.compact.up"
+        case downCircleFill = "chevron.down.circle.fill"
+        case downCircle = "chevron.down.circle"
+        case downSquareFill = "chevron.down.square.fill"
+        case downSquare = "chevron.down.square"
+        case down = "chevron.down"
+        case left2 = "chevron.left.2"
+        case leftCircleFill = "chevron.left.circle.fill"
+        case leftCircle = "chevron.left.circle"
+        case leftSlashChevronRight = "chevron.left.slash.chevron.right"
+        case leftSquareFill = "chevron.left.square.fill"
+        case leftSquare = "chevron.left.square"
+        case left = "chevron.left"
+        case right2 = "chevron.right.2"
+        case rightCircleFill = "chevron.right.circle.fill"
+        case rightCircle = "chevron.right.circle"
+        case rightSquareFill = "chevron.right.square.fill"
+        case rightSquare = "chevron.right.square"
+        case right = "chevron.right"
+        case upChevronDown = "chevron.up.chevron.down"
+        case upCircleFill = "chevron.up.circle.fill"
+        case upCircle = "chevron.up.circle"
+        case upSquareFill = "chevron.up.square.fill"
+        case upSquare = "chevron.up.square"
+        case up = "chevron.up"
+    }
+
+    case circle = "circle"
+
+    enum Circle: String {
+        case bottomthirdSplit = "circle.bottomthird.split"
+        case fill = "circle.fill"
+        case grid3X3Fill = "circle.grid.3x3.fill"
+        case grid3X3 = "circle.grid.3x3"
+        case gridHexFill = "circle.grid.hex.fill"
+        case gridHex = "circle.grid.hex"
+        case lefthalfFill = "circle.lefthalf.fill"
+        case righthalfFill = "circle.righthalf.fill"
+    }
+
+    case clear = "clear"
+
+    enum Clear: String {
+        case fill = "clear.fill"
+    }
+
+    case clock = "clock"
+
+    enum Clock: String {
+        case fill = "clock.fill"
+    }
+
+    case cloud = "cloud"
+
+    enum Cloud: String {
+        case boltFill = "cloud.bolt.fill"
+        case boltRainFill = "cloud.bolt.rain.fill"
+        case boltRain = "cloud.bolt.rain"
+        case bolt = "cloud.bolt"
+        case drizzleFill = "cloud.drizzle.fill"
+        case drizzle = "cloud.drizzle"
+        case fill = "cloud.fill"
+        case fogFill = "cloud.fog.fill"
+        case fog = "cloud.fog"
+        case hailFill = "cloud.hail.fill"
+        case hail = "cloud.hail"
+        case heavyrainFill = "cloud.heavyrain.fill"
+        case heavyrain = "cloud.heavyrain"
+        case moonBoltFill = "cloud.moon.bolt.fill"
+        case moonBolt = "cloud.moon.bolt"
+        case moonFill = "cloud.moon.fill"
+        case moonRainFill = "cloud.moon.rain.fill"
+        case moonRain = "cloud.moon.rain"
+        case moon = "cloud.moon"
+        case rainFill = "cloud.rain.fill"
+        case rain = "cloud.rain"
+        case sleetFill = "cloud.sleet.fill"
+        case sleet = "cloud.sleet"
+        case snowFill = "cloud.snow.fill"
+        case snow = "cloud.snow"
+        case sunBoltFill = "cloud.sun.bolt.fill"
+        case sunBolt = "cloud.sun.bolt"
+        case sunFill = "cloud.sun.fill"
+        case sunRainFill = "cloud.sun.rain.fill"
+        case sunRain = "cloud.sun.rain"
+        case sun = "cloud.sun"
+    }
+
+    enum Coloncurrencysign: String {
+        case circleFill = "coloncurrencysign.circle.fill"
+        case circle = "coloncurrencysign.circle"
+        case squareFill = "coloncurrencysign.square.fill"
+        case square = "coloncurrencysign.square"
+    }
+
+    case command = "command"
+
+    case control = "control"
+
+    case creditcard = "creditcard"
+
+    enum Creditcard: String {
+        case fill = "creditcard.fill"
+    }
+
+    case crop = "crop"
+
+    enum Crop: String {
+        case rotate = "crop.rotate"
+    }
+
+    enum Cruzeirosign: String {
+        case circleFill = "cruzeirosign.circle.fill"
+        case circle = "cruzeirosign.circle"
+        case squareFill = "cruzeirosign.square.fill"
+        case square = "cruzeirosign.square"
+    }
+
+    case cube = "cube"
+
+    enum Cube: String {
+        case boxFill = "cube.box.fill"
+        case box = "cube.box"
+        case fill = "cube.fill"
+    }
+
+    enum Cursor: String {
+        case rays = "cursor.rays"
+    }
+
+    enum LetterD: String {
+        case circleFill = "d.circle.fill"
+        case circle = "d.circle"
+        case squareFill = "d.square.fill"
+        case square = "d.square"
+    }
+
+    enum Decrease: String {
+        case quotelevel = "decrease.quotelevel"
+    }
+
+    enum Delete: String {
+        case leftFill = "delete.left.fill"
+        case left = "delete.left"
+        case rightFill = "delete.right.fill"
+        case right = "delete.right"
+    }
+
+    case desktopcomputer = "desktopcomputer"
+
+    case dial = "dial"
+
+    enum Dial: String {
+        case fill = "dial.fill"
+    }
+
+    case divide = "divide"
+
+    enum Divide: String {
+        case circleFill = "divide.circle.fill"
+        case circle = "divide.circle"
+        case squareFill = "divide.square.fill"
+        case square = "divide.square"
+    }
+
+    case doc = "doc"
+
+    enum Doc: String {
+        case append = "doc.append"
+        case circleFill = "doc.circle.fill"
+        case circle = "doc.circle"
+        case fill = "doc.fill"
+        case onClipboardFill = "doc.on.clipboard.fill"
+        case onClipboard = "doc.on.clipboard"
+        case onDocFill = "doc.on.doc.fill"
+        case onDoc = "doc.on.doc"
+        case plaintext = "doc.plaintext"
+        case richtext = "doc.richtext"
+        case textFill = "doc.text.fill"
+        case textMagnifyingglass = "doc.text.magnifyingglass"
+        case textViewfinder = "doc.text.viewfinder"
+        case text = "doc.text"
+    }
+
+    enum Dollarsign: String {
+        case circleFill = "dollarsign.circle.fill"
+        case circle = "dollarsign.circle"
+        case squareFill = "dollarsign.square.fill"
+        case square = "dollarsign.square"
+    }
+
+    enum Dongsign: String {
+        case circleFill = "dongsign.circle.fill"
+        case circle = "dongsign.circle"
+        case squareFill = "dongsign.square.fill"
+        case square = "dongsign.square"
+    }
+
+    enum Dot: String {
+        case circleFill = "dot.circle.fill"
+        case circle = "dot.circle"
+        case radiowavesLeftAndRight = "dot.radiowaves.left.and.right"
+        case radiowavesRight = "dot.radiowaves.right"
+        case squareFill = "dot.square.fill"
+        case square = "dot.square"
+    }
+
+    enum Drop: String {
+        case triangleFill = "drop.triangle.fill"
+        case triangle = "drop.triangle"
+    }
+
+    enum LetterE: String {
+        case circleFill = "e.circle.fill"
+        case circle = "e.circle"
+        case squareFill = "e.square.fill"
+        case square = "e.square"
+    }
+
+    case ear = "ear"
+
+    case eject = "eject"
+
+    enum Eject: String {
+        case fill = "eject.fill"
+    }
+
+    enum Ellipses: String {
+        case bubbleFill = "ellipses.bubble.fill"
+        case bubble = "ellipses.bubble"
+    }
+
+    case ellipsis = "ellipsis"
+
+    enum Ellipsis: String {
+        case circleFill = "ellipsis.circle.fill"
+        case circle = "ellipsis.circle"
+    }
+
+    case envelope = "envelope"
+
+    enum Envelope: String {
+        case badgeFill = "envelope.badge.fill"
+        case badge = "envelope.badge"
+        case circleFill = "envelope.circle.fill"
+        case circle = "envelope.circle"
+        case fill = "envelope.fill"
+        case openFill = "envelope.open.fill"
+        case open = "envelope.open"
+    }
+
+    case equal = "equal"
+
+    enum Equal: String {
+        case circleFill = "equal.circle.fill"
+        case circle = "equal.circle"
+        case squareFill = "equal.square.fill"
+        case square = "equal.square"
+    }
+
+    case escape = "escape"
+
+    enum Eurosign: String {
+        case circleFill = "eurosign.circle.fill"
+        case circle = "eurosign.circle"
+        case squareFill = "eurosign.square.fill"
+        case square = "eurosign.square"
+    }
+
+    case exclamationmark = "exclamationmark"
+
+    enum Exclamationmark: String {
+        case bubbleFill = "exclamationmark.bubble.fill"
+        case bubble = "exclamationmark.bubble"
+        case circleFill = "exclamationmark.circle.fill"
+        case circle = "exclamationmark.circle"
+        case icloudFill = "exclamationmark.icloud.fill"
+        case icloud = "exclamationmark.icloud"
+        case octagonFill = "exclamationmark.octagon.fill"
+        case octagon = "exclamationmark.octagon"
+        case shieldFill = "exclamationmark.shield.fill"
+        case shield = "exclamationmark.shield"
+        case squareFill = "exclamationmark.square.fill"
+        case square = "exclamationmark.square"
+        case triangleFill = "exclamationmark.triangle.fill"
+        case triangle = "exclamationmark.triangle"
+    }
+
+    case eye = "eye"
+
+    enum Eye: String {
+        case fill = "eye.fill"
+        case slashFill = "eye.slash.fill"
+        case slash = "eye.slash"
+    }
+
+    case eyedropper = "eyedropper"
+
+    enum Eyedropper: String {
+        case full = "eyedropper.full"
+        case halffull = "eyedropper.halffull"
+    }
+
+    case eyeglasses = "eyeglasses"
+
+    enum LetterF: String {
+        case circleFill = "f.circle.fill"
+        case circle = "f.circle"
+        case cursiveCircleFill = "f.cursive.circle.fill"
+        case cursiveCircle = "f.cursive.circle"
+        case cursive = "f.cursive"
+        case squareFill = "f.square.fill"
+        case square = "f.square"
+    }
+
+    case faceid = "faceid"
+
+    case film = "film"
+
+    enum Film: String {
+        case fill = "film.fill"
+    }
+
+    case flag = "flag"
+
+    enum Flag: String {
+        case circleFill = "flag.circle.fill"
+        case circle = "flag.circle"
+        case fill = "flag.fill"
+        case slashFill = "flag.slash.fill"
+        case slash = "flag.slash"
+    }
+
+    case flame = "flame"
+
+    enum Flame: String {
+        case fill = "flame.fill"
+    }
+
+    enum Florinsign: String {
+        case circleFill = "florinsign.circle.fill"
+        case circle = "florinsign.circle"
+        case squareFill = "florinsign.square.fill"
+        case square = "florinsign.square"
+    }
+
+    case flowchart = "flowchart"
+
+    enum Flowchart: String {
+        case fill = "flowchart.fill"
+    }
+
+    case folder = "folder"
+
+    enum Folder: String {
+        case badgeMinusFill = "folder.badge.minus.fill"
+        case badgeMinus = "folder.badge.minus"
+        case badgePersonCropFill = "folder.badge.person.crop.fill"
+        case badgePersonCrop = "folder.badge.person.crop"
+        case badgePlusFill = "folder.badge.plus.fill"
+        case badgePlus = "folder.badge.plus"
+        case circleFill = "folder.circle.fill"
+        case circle = "folder.circle"
+        case fill = "folder.fill"
+    }
+
+    case forward = "forward"
+
+    enum Forward: String {
+        case endAltFill = "forward.end.alt.fill"
+        case endAlt = "forward.end.alt"
+        case endFill = "forward.end.fill"
+        case end = "forward.end"
+        case fill = "forward.fill"
+    }
+
+    enum Francsign: String {
+        case circleFill = "francsign.circle.fill"
+        case circle = "francsign.circle"
+        case squareFill = "francsign.square.fill"
+        case square = "francsign.square"
+    }
+
+    case function = "function"
+
+    case fx = "fx"
+
+    enum LetterG: String {
+        case circleFill = "g.circle.fill"
+        case circle = "g.circle"
+        case squareFill = "g.square.fill"
+        case square = "g.square"
+    }
+
+    case gamecontroller = "gamecontroller"
+
+    enum Gamecontroller: String {
+        case fill = "gamecontroller.fill"
+    }
+
+    case gauge = "gauge"
+
+    enum Gauge: String {
+        case badgeMinus = "gauge.badge.minus"
+        case badgePlus = "gauge.badge.plus"
+    }
+
+    case gear = "gear"
+
+    case gift = "gift"
+
+    enum Gift: String {
+        case fill = "gift.fill"
+    }
+
+    case globe = "globe"
+
+    case gobackward = "gobackward"
+
+    enum Gobackward: String {
+        case minus = "gobackward.minus"
+    }
+
     case gobackward10 = "gobackward.10"
-    case gobackward15Ar = "gobackward.15.ar"
-    case gobackward15Hi = "gobackward.15.hi"
+
+    enum Gobackward10: String {
+        case ar = "gobackward.10.ar"
+        case hi = "gobackward.10.hi"
+    }
+
     case gobackward15 = "gobackward.15"
-    case gobackward30Ar = "gobackward.30.ar"
-    case gobackward30Hi = "gobackward.30.hi"
+
+    enum Gobackward15: String {
+        case ar = "gobackward.15.ar"
+        case hi = "gobackward.15.hi"
+    }
+
     case gobackward30 = "gobackward.30"
-    case gobackward45Ar = "gobackward.45.ar"
-    case gobackward45Hi = "gobackward.45.hi"
+
+    enum Gobackward30: String {
+        case ar = "gobackward.30.ar"
+        case hi = "gobackward.30.hi"
+    }
+
     case gobackward45 = "gobackward.45"
-    case gobackward60Ar = "gobackward.60.ar"
-    case gobackward60Hi = "gobackward.60.hi"
+
+    enum Gobackward45: String {
+        case ar = "gobackward.45.ar"
+        case hi = "gobackward.45.hi"
+    }
+
     case gobackward60 = "gobackward.60"
-    case gobackward75Ar = "gobackward.75.ar"
-    case gobackward75Hi = "gobackward.75.hi"
+
+    enum Gobackward60: String {
+        case ar = "gobackward.60.ar"
+        case hi = "gobackward.60.hi"
+    }
+
     case gobackward75 = "gobackward.75"
-    case gobackward90Ar = "gobackward.90.ar"
-    case gobackward90Hi = "gobackward.90.hi"
+
+    enum Gobackward75: String {
+        case ar = "gobackward.75.ar"
+        case hi = "gobackward.75.hi"
+    }
+
     case gobackward90 = "gobackward.90"
-    case gobackwardMinus = "gobackward.minus"
-    case gobackward
-    case goforward10Ar = "goforward.10.ar"
-    case goforward10Hi = "goforward.10.hi"
+
+    enum Gobackward90: String {
+        case ar = "gobackward.90.ar"
+        case hi = "gobackward.90.hi"
+    }
+
+    case goforward = "goforward"
+
+    enum Goforward: String {
+        case plus = "goforward.plus"
+    }
+
     case goforward10 = "goforward.10"
-    case goforward15Ar = "goforward.15.ar"
-    case goforward15Hi = "goforward.15.hi"
+
+    enum Goforward10: String {
+        case ar = "goforward.10.ar"
+        case hi = "goforward.10.hi"
+    }
+
     case goforward15 = "goforward.15"
-    case goforward30Ar = "goforward.30.ar"
-    case goforward30Hi = "goforward.30.hi"
+
+    enum Goforward15: String {
+        case ar = "goforward.15.ar"
+        case hi = "goforward.15.hi"
+    }
+
     case goforward30 = "goforward.30"
-    case goforward45Ar = "goforward.45.ar"
-    case goforward45Hi = "goforward.45.hi"
+
+    enum Goforward30: String {
+        case ar = "goforward.30.ar"
+        case hi = "goforward.30.hi"
+    }
+
     case goforward45 = "goforward.45"
-    case goforward60Ar = "goforward.60.ar"
-    case goforward60Hi = "goforward.60.hi"
+
+    enum Goforward45: String {
+        case ar = "goforward.45.ar"
+        case hi = "goforward.45.hi"
+    }
+
     case goforward60 = "goforward.60"
-    case goforward75Ar = "goforward.75.ar"
-    case goforward75Hi = "goforward.75.hi"
+
+    enum Goforward60: String {
+        case ar = "goforward.60.ar"
+        case hi = "goforward.60.hi"
+    }
+
     case goforward75 = "goforward.75"
-    case goforward90Ar = "goforward.90.ar"
-    case goforward90Hi = "goforward.90.hi"
+
+    enum Goforward75: String {
+        case ar = "goforward.75.ar"
+        case hi = "goforward.75.hi"
+    }
+
     case goforward90 = "goforward.90"
-    case goforwardPlus = "goforward.plus"
-    case goforward
-    case greaterthanCircleFill = "greaterthan.circle.fill"
-    case greaterthanCircle = "greaterthan.circle"
-    case greaterthanSquareFill = "greaterthan.square.fill"
-    case greaterthanSquare = "greaterthan.square"
-    case greaterthan
-    case gridCircleFill = "grid.circle.fill"
-    case gridCircle = "grid.circle"
-    case grid
-    case guaranisignCircleFill = "guaranisign.circle.fill"
-    case guaranisignCircle = "guaranisign.circle"
-    case guaranisignSquareFill = "guaranisign.square.fill"
-    case guaranisignSquare = "guaranisign.square"
-    case guitars
-    case hCircleFill = "h.circle.fill"
-    case hCircle = "h.circle"
-    case hSquareFill = "h.square.fill"
-    case hSquare = "h.square"
-    case hammerFill = "hammer.fill"
-    case hammer
-    case handDrawFill = "hand.draw.fill"
-    case handDraw = "hand.draw"
-    case handPointLeftFill = "hand.point.left.fill"
-    case handPointLeft = "hand.point.left"
-    case handPointRightFill = "hand.point.right.fill"
-    case handPointRight = "hand.point.right"
-    case handRaisedFill = "hand.raised.fill"
-    case handRaisedSlashFill = "hand.raised.slash.fill"
-    case handRaisedSlash = "hand.raised.slash"
-    case handRaised = "hand.raised"
-    case handThumbsdownFill = "hand.thumbsdown.fill"
-    case handThumbsdown = "hand.thumbsdown"
-    case handThumbsupFill = "hand.thumbsup.fill"
-    case handThumbsup = "hand.thumbsup"
-    case hareFill = "hare.fill"
-    case hare
-    case headphones
-    case heartCircleFill = "heart.circle.fill"
-    case heartCircle = "heart.circle"
-    case heartFill = "heart.fill"
-    case heartSlashCircleFill = "heart.slash.circle.fill"
-    case heartSlashCircle = "heart.slash.circle"
-    case heartSlashFill = "heart.slash.fill"
-    case heartSlash = "heart.slash"
-    case heart
-    case helm
-    case hexagonFill = "hexagon.fill"
-    case hexagon
-    case hifispeakerFill = "hifispeaker.fill"
-    case hifispeaker
-    case hourglassBottomhalfFill = "hourglass.bottomhalf.fill"
-    case hourglassTophalfFill = "hourglass.tophalf.fill"
-    case hourglass
-    case houseFill = "house.fill"
-    case house
-    case hryvniasignCircleFill = "hryvniasign.circle.fill"
-    case hryvniasignCircle = "hryvniasign.circle"
-    case hryvniasignSquareFill = "hryvniasign.square.fill"
-    case hryvniasignSquare = "hryvniasign.square"
-    case hurricane
-    case iCircleFill = "i.circle.fill"
-    case iCircle = "i.circle"
-    case iSquareFill = "i.square.fill"
-    case iSquare = "i.square"
-    case icloudAndArrowDownFill = "icloud.and.arrow.down.fill"
-    case icloudAndArrowDown = "icloud.and.arrow.down"
-    case icloudAndArrowUpFill = "icloud.and.arrow.up.fill"
-    case icloudAndArrowUp = "icloud.and.arrow.up"
-    case icloudCircleFill = "icloud.circle.fill"
-    case icloudCircle = "icloud.circle"
-    case icloudFill = "icloud.fill"
-    case icloudSlashFill = "icloud.slash.fill"
-    case icloudSlash = "icloud.slash"
-    case icloud
-    case increaseQuotelevel = "increase.quotelevel"
-    case indianrupeesignCircleFill = "indianrupeesign.circle.fill"
-    case indianrupeesignCircle = "indianrupeesign.circle"
-    case indianrupeesignSquareFill = "indianrupeesign.square.fill"
-    case indianrupeesignSquare = "indianrupeesign.square"
-    case infoCircleFill = "info.circle.fill"
-    case infoCircle = "info.circle"
-    case info
-    case italic
-    case jCircleFill = "j.circle.fill"
-    case jCircle = "j.circle"
-    case jSquareFill = "j.square.fill"
-    case jSquare = "j.square"
-    case kCircleFill = "k.circle.fill"
-    case kCircle = "k.circle"
-    case kSquareFill = "k.square.fill"
-    case kSquare = "k.square"
-    case keyboardChevronCompactDown = "keyboard.chevron.compact.down"
-    case keyboard
-    case kipsignCircleFill = "kipsign.circle.fill"
-    case kipsignCircle = "kipsign.circle"
-    case kipsignSquareFill = "kipsign.square.fill"
-    case kipsignSquare = "kipsign.square"
-    case lCircleFill = "l.circle.fill"
-    case lCircle = "l.circle"
-    case lSquareFill = "l.square.fill"
-    case lSquare = "l.square"
-    case largecircleFillCircle = "largecircle.fill.circle"
-    case larisignCircleFill = "larisign.circle.fill"
-    case larisignCircle = "larisign.circle"
-    case larisignSquareFill = "larisign.square.fill"
-    case larisignSquare = "larisign.square"
-    case lasso
-    case leafArrowCirclepath = "leaf.arrow.circlepath"
-    case lessthanCircleFill = "lessthan.circle.fill"
-    case lessthanCircle = "lessthan.circle"
-    case lessthanSquareFill = "lessthan.square.fill"
-    case lessthanSquare = "lessthan.square"
-    case lessthan
-    case lightMax = "light.max"
-    case lightMin = "light.min"
-    case lightbulbFill = "lightbulb.fill"
-    case lightbulbSlashFill = "lightbulb.slash.fill"
-    case lightbulbSlash = "lightbulb.slash"
-    case lightbulb
-    case lineHorizontal3DecreaseCircleFill = "line.horizontal.3.decrease.circle.fill"
-    case lineHorizontal3DecreaseCircle = "line.horizontal.3.decrease.circle"
-    case lineHorizontal3Decrease = "line.horizontal.3.decrease"
-    case lineHorizontal3 = "line.horizontal.3"
-    case linkCircleFill = "link.circle.fill"
-    case linkCircle = "link.circle"
-    case linkIcloudFill = "link.icloud.fill"
-    case linkIcloud = "link.icloud"
-    case link
-    case lirasignCircleFill = "lirasign.circle.fill"
-    case lirasignCircle = "lirasign.circle"
-    case lirasignSquareFill = "lirasign.square.fill"
-    case lirasignSquare = "lirasign.square"
-    case listBulletBelowRectangle = "list.bullet.below.rectangle"
-    case listBulletIndent = "list.bullet.indent"
-    case listBullet = "list.bullet"
-    case listDash = "list.dash"
-    case listNumberRtl = "list.number.rtl"
-    case listNumber = "list.number"
-    case livephotoPlay = "livephoto.play"
-    case livephotoSlash = "livephoto.slash"
-    case livephoto
-    case locationCircleFill = "location.circle.fill"
-    case locationCircle = "location.circle"
-    case locationFill = "location.fill"
-    case locationNorthFill = "location.north.fill"
-    case locationNorthLineFill = "location.north.line.fill"
-    case locationNorthLine = "location.north.line"
-    case locationNorth = "location.north"
-    case locationSlashFill = "location.slash.fill"
-    case locationSlash = "location.slash"
-    case location
-    case lockCircleFill = "lock.circle.fill"
-    case lockCircle = "lock.circle"
-    case lockFill = "lock.fill"
-    case lockIcloudFill = "lock.icloud.fill"
-    case lockIcloud = "lock.icloud"
-    case lockOpenFill = "lock.open.fill"
-    case lockOpen = "lock.open"
-    case lockRotationOpen = "lock.rotation.open"
-    case lockRotation = "lock.rotation"
-    case lockShieldFill = "lock.shield.fill"
-    case lockShield = "lock.shield"
-    case lockSlashFill = "lock.slash.fill"
-    case lockSlash = "lock.slash"
-    case lock
-    case mCircleFill = "m.circle.fill"
-    case mCircle = "m.circle"
-    case mSquareFill = "m.square.fill"
-    case mSquare = "m.square"
-    case macwindow
-    case magnifyingglassCircleFill = "magnifyingglass.circle.fill"
-    case magnifyingglassCircle = "magnifyingglass.circle"
-    case magnifyingglass
-    case manatsignCircleFill = "manatsign.circle.fill"
-    case manatsignCircle = "manatsign.circle"
-    case manatsignSquareFill = "manatsign.square.fill"
-    case manatsignSquare = "manatsign.square"
-    case mapFill = "map.fill"
-    case map
-    case mappinAndEllipse = "mappin.and.ellipse"
-    case mappinSlash = "mappin.slash"
-    case mappin
-    case memoriesBadgeMinus = "memories.badge.minus"
-    case memoriesBadgePlus = "memories.badge.plus"
-    case memories
-    case messageCircleFill = "message.circle.fill"
-    case messageCircle = "message.circle"
-    case messageFill = "message.fill"
-    case message
-    case metronome
-    case micCircleFill = "mic.circle.fill"
-    case micCircle = "mic.circle"
-    case micFill = "mic.fill"
-    case micSlashFill = "mic.slash.fill"
-    case micSlash = "mic.slash"
-    case mic
-    case millsignCircleFill = "millsign.circle.fill"
-    case millsignCircle = "millsign.circle"
-    case millsignSquareFill = "millsign.square.fill"
-    case millsignSquare = "millsign.square"
-    case minusCircleFill = "minus.circle.fill"
-    case minusCircle = "minus.circle"
-    case minusMagnifyingglass = "minus.magnifyingglass"
-    case minusRectangleFill = "minus.rectangle.fill"
-    case minusRectangle = "minus.rectangle"
-    case minusSlashPlus = "minus.slash.plus"
-    case minusSquareFill = "minus.square.fill"
-    case minusSquare = "minus.square"
-    case minus
-    case moonCircleFill = "moon.circle.fill"
-    case moonCircle = "moon.circle"
-    case moonFill = "moon.fill"
-    case moonStarsFill = "moon.stars.fill"
-    case moonStars = "moon.stars"
-    case moonZzzFill = "moon.zzz.fill"
-    case moonZzz = "moon.zzz"
-    case moon
-    case multiplyCircleFill = "multiply.circle.fill"
-    case multiplyCircle = "multiply.circle"
-    case multiplySquareFill = "multiply.square.fill"
-    case multiplySquare = "multiply.square"
-    case multiply
-    case musicHouseFill = "music.house.fill"
-    case musicHouse = "music.house"
-    case musicMic = "music.mic"
-    case musicNoteList = "music.note.list"
-    case musicNote = "music.note"
-    case nCircleFill = "n.circle.fill"
-    case nCircle = "n.circle"
-    case nSquareFill = "n.square.fill"
-    case nSquare = "n.square"
-    case nairasignCircleFill = "nairasign.circle.fill"
-    case nairasignCircle = "nairasign.circle"
-    case nairasignSquareFill = "nairasign.square.fill"
-    case nairasignSquare = "nairasign.square"
-    case nosign
-    case numberCircleFill = "number.circle.fill"
-    case numberCircle = "number.circle"
-    case numberSquareFill = "number.square.fill"
-    case numberSquare = "number.square"
-    case number
-    case oCircleFill = "o.circle.fill"
-    case oCircle = "o.circle"
-    case oSquareFill = "o.square.fill"
-    case oSquare = "o.square"
-    case option
-    case pCircleFill = "p.circle.fill"
-    case pCircle = "p.circle"
-    case pSquareFill = "p.square.fill"
-    case pSquare = "p.square"
-    case paintbrushFill = "paintbrush.fill"
-    case paintbrush
-    case panoFill = "pano.fill"
-    case pano
-    case paperclip
-    case paperplaneFill = "paperplane.fill"
-    case paperplane
-    case paragraph
-    case pauseCircleFill = "pause.circle.fill"
-    case pauseCircle = "pause.circle"
-    case pauseFill = "pause.fill"
-    case pauseRectangleFill = "pause.rectangle.fill"
-    case pauseRectangle = "pause.rectangle"
-    case pause
-    case pencilAndEllipsisRectangle = "pencil.and.ellipsis.rectangle"
-    case pencilAndOutline = "pencil.and.outline"
-    case pencilCircleFill = "pencil.circle.fill"
-    case pencilCircle = "pencil.circle"
-    case pencilSlash = "pencil.slash"
-    case pencilTipCropCircleBadgeMinus = "pencil.tip.crop.circle.badge.minus"
-    case pencilTipCropCircleBadgePlus = "pencil.tip.crop.circle.badge.plus"
-    case pencilTipCropCircle = "pencil.tip.crop.circle"
-    case pencilTip = "pencil.tip"
-    case pencil
-    case percent
-    case person2SquareStackFill = "person.2.square.stack.fill"
-    case person2SquareStack = "person.2.square.stack"
-    case person3Fill = "person.3.fill"
+
+    enum Goforward90: String {
+        case ar = "goforward.90.ar"
+        case hi = "goforward.90.hi"
+    }
+
+    case greaterthan = "greaterthan"
+
+    enum Greaterthan: String {
+        case circleFill = "greaterthan.circle.fill"
+        case circle = "greaterthan.circle"
+        case squareFill = "greaterthan.square.fill"
+        case square = "greaterthan.square"
+    }
+
+    case grid = "grid"
+
+    enum Grid: String {
+        case circleFill = "grid.circle.fill"
+        case circle = "grid.circle"
+    }
+
+    enum Guaranisign: String {
+        case circleFill = "guaranisign.circle.fill"
+        case circle = "guaranisign.circle"
+        case squareFill = "guaranisign.square.fill"
+        case square = "guaranisign.square"
+    }
+
+    case guitars = "guitars"
+
+    enum LetterH: String {
+        case circleFill = "h.circle.fill"
+        case circle = "h.circle"
+        case squareFill = "h.square.fill"
+        case square = "h.square"
+    }
+
+    case hammer = "hammer"
+
+    enum Hammer: String {
+        case fill = "hammer.fill"
+    }
+
+    enum Hand: String {
+        case drawFill = "hand.draw.fill"
+        case draw = "hand.draw"
+        case pointLeftFill = "hand.point.left.fill"
+        case pointLeft = "hand.point.left"
+        case pointRightFill = "hand.point.right.fill"
+        case pointRight = "hand.point.right"
+        case raisedFill = "hand.raised.fill"
+        case raisedSlashFill = "hand.raised.slash.fill"
+        case raisedSlash = "hand.raised.slash"
+        case raised = "hand.raised"
+        case thumbsdownFill = "hand.thumbsdown.fill"
+        case thumbsdown = "hand.thumbsdown"
+        case thumbsupFill = "hand.thumbsup.fill"
+        case thumbsup = "hand.thumbsup"
+    }
+
+    case hare = "hare"
+
+    enum Hare: String {
+        case fill = "hare.fill"
+    }
+
+    case headphones = "headphones"
+
+    case heart = "heart"
+
+    enum Heart: String {
+        case circleFill = "heart.circle.fill"
+        case circle = "heart.circle"
+        case fill = "heart.fill"
+        case slashCircleFill = "heart.slash.circle.fill"
+        case slashCircle = "heart.slash.circle"
+        case slashFill = "heart.slash.fill"
+        case slash = "heart.slash"
+    }
+
+    case helm = "helm"
+
+    case hexagon = "hexagon"
+
+    enum Hexagon: String {
+        case fill = "hexagon.fill"
+    }
+
+    case hifispeaker = "hifispeaker"
+
+    enum Hifispeaker: String {
+        case fill = "hifispeaker.fill"
+    }
+
+    case hourglass = "hourglass"
+
+    enum Hourglass: String {
+        case bottomhalfFill = "hourglass.bottomhalf.fill"
+        case tophalfFill = "hourglass.tophalf.fill"
+    }
+
+    case house = "house"
+
+    enum House: String {
+        case fill = "house.fill"
+    }
+
+    enum Hryvniasign: String {
+        case circleFill = "hryvniasign.circle.fill"
+        case circle = "hryvniasign.circle"
+        case squareFill = "hryvniasign.square.fill"
+        case square = "hryvniasign.square"
+    }
+
+    case hurricane = "hurricane"
+
+    enum LetterI: String {
+        case circleFill = "i.circle.fill"
+        case circle = "i.circle"
+        case squareFill = "i.square.fill"
+        case square = "i.square"
+    }
+
+    case icloud = "icloud"
+
+    enum Icloud: String {
+        case andArrowDownFill = "icloud.and.arrow.down.fill"
+        case andArrowDown = "icloud.and.arrow.down"
+        case andArrowUpFill = "icloud.and.arrow.up.fill"
+        case andArrowUp = "icloud.and.arrow.up"
+        case circleFill = "icloud.circle.fill"
+        case circle = "icloud.circle"
+        case fill = "icloud.fill"
+        case slashFill = "icloud.slash.fill"
+        case slash = "icloud.slash"
+    }
+
+    enum Increase: String {
+        case quotelevel = "increase.quotelevel"
+    }
+
+    enum Indianrupeesign: String {
+        case circleFill = "indianrupeesign.circle.fill"
+        case circle = "indianrupeesign.circle"
+        case squareFill = "indianrupeesign.square.fill"
+        case square = "indianrupeesign.square"
+    }
+
+    case info = "info"
+
+    enum Info: String {
+        case circleFill = "info.circle.fill"
+        case circle = "info.circle"
+    }
+
+    case italic = "italic"
+
+    enum LetterJ: String {
+        case circleFill = "j.circle.fill"
+        case circle = "j.circle"
+        case squareFill = "j.square.fill"
+        case square = "j.square"
+    }
+
+    enum LetterK: String {
+        case circleFill = "k.circle.fill"
+        case circle = "k.circle"
+        case squareFill = "k.square.fill"
+        case square = "k.square"
+    }
+
+    case keyboard = "keyboard"
+
+    enum Keyboard: String {
+        case chevronCompactDown = "keyboard.chevron.compact.down"
+    }
+
+    enum Kipsign: String {
+        case circleFill = "kipsign.circle.fill"
+        case circle = "kipsign.circle"
+        case squareFill = "kipsign.square.fill"
+        case square = "kipsign.square"
+    }
+
+    enum LetterL: String {
+        case circleFill = "l.circle.fill"
+        case circle = "l.circle"
+        case squareFill = "l.square.fill"
+        case square = "l.square"
+    }
+
+    enum Largecircle: String {
+        case fillCircle = "largecircle.fill.circle"
+    }
+
+    enum Larisign: String {
+        case circleFill = "larisign.circle.fill"
+        case circle = "larisign.circle"
+        case squareFill = "larisign.square.fill"
+        case square = "larisign.square"
+    }
+
+    case lasso = "lasso"
+
+    enum Leaf: String {
+        case arrowCirclepath = "leaf.arrow.circlepath"
+    }
+
+    case lessthan = "lessthan"
+
+    enum Lessthan: String {
+        case circleFill = "lessthan.circle.fill"
+        case circle = "lessthan.circle"
+        case squareFill = "lessthan.square.fill"
+        case square = "lessthan.square"
+    }
+
+    enum Light: String {
+        case max = "light.max"
+        case min = "light.min"
+    }
+
+    case lightbulb = "lightbulb"
+
+    enum Lightbulb: String {
+        case fill = "lightbulb.fill"
+        case slashFill = "lightbulb.slash.fill"
+        case slash = "lightbulb.slash"
+    }
+
+    enum Line: String {
+        case horizontal3DecreaseCircleFill = "line.horizontal.3.decrease.circle.fill"
+        case horizontal3DecreaseCircle = "line.horizontal.3.decrease.circle"
+        case horizontal3Decrease = "line.horizontal.3.decrease"
+        case horizontal3 = "line.horizontal.3"
+    }
+
+    case link = "link"
+
+    enum Link: String {
+        case circleFill = "link.circle.fill"
+        case circle = "link.circle"
+        case icloudFill = "link.icloud.fill"
+        case icloud = "link.icloud"
+    }
+
+    enum Lirasign: String {
+        case circleFill = "lirasign.circle.fill"
+        case circle = "lirasign.circle"
+        case squareFill = "lirasign.square.fill"
+        case square = "lirasign.square"
+    }
+
+    enum List: String {
+        case bulletBelowRectangle = "list.bullet.below.rectangle"
+        case bulletIndent = "list.bullet.indent"
+        case bullet = "list.bullet"
+        case dash = "list.dash"
+        case numberRtl = "list.number.rtl"
+        case number = "list.number"
+    }
+
+    case livephoto = "livephoto"
+
+    enum Livephoto: String {
+        case play = "livephoto.play"
+        case slash = "livephoto.slash"
+    }
+
+    case location = "location"
+
+    enum Location: String {
+        case circleFill = "location.circle.fill"
+        case circle = "location.circle"
+        case fill = "location.fill"
+        case northFill = "location.north.fill"
+        case northLineFill = "location.north.line.fill"
+        case northLine = "location.north.line"
+        case north = "location.north"
+        case slashFill = "location.slash.fill"
+        case slash = "location.slash"
+    }
+
+    case lock = "lock"
+
+    enum Lock: String {
+        case circleFill = "lock.circle.fill"
+        case circle = "lock.circle"
+        case fill = "lock.fill"
+        case icloudFill = "lock.icloud.fill"
+        case icloud = "lock.icloud"
+        case openFill = "lock.open.fill"
+        case open = "lock.open"
+        case rotationOpen = "lock.rotation.open"
+        case rotation = "lock.rotation"
+        case shieldFill = "lock.shield.fill"
+        case shield = "lock.shield"
+        case slashFill = "lock.slash.fill"
+        case slash = "lock.slash"
+    }
+
+    enum LetterM: String {
+        case circleFill = "m.circle.fill"
+        case circle = "m.circle"
+        case squareFill = "m.square.fill"
+        case square = "m.square"
+    }
+
+    case macwindow = "macwindow"
+
+    case magnifyingglass = "magnifyingglass"
+
+    enum Magnifyingglass: String {
+        case circleFill = "magnifyingglass.circle.fill"
+        case circle = "magnifyingglass.circle"
+    }
+
+    enum Manatsign: String {
+        case circleFill = "manatsign.circle.fill"
+        case circle = "manatsign.circle"
+        case squareFill = "manatsign.square.fill"
+        case square = "manatsign.square"
+    }
+
+    case map = "map"
+
+    enum Map: String {
+        case fill = "map.fill"
+    }
+
+    case mappin = "mappin"
+
+    enum Mappin: String {
+        case andEllipse = "mappin.and.ellipse"
+        case slash = "mappin.slash"
+    }
+
+    case memories = "memories"
+
+    enum Memories: String {
+        case badgeMinus = "memories.badge.minus"
+        case badgePlus = "memories.badge.plus"
+    }
+
+    case message = "message"
+
+    enum Message: String {
+        case circleFill = "message.circle.fill"
+        case circle = "message.circle"
+        case fill = "message.fill"
+    }
+
+    case metronome = "metronome"
+
+    case mic = "mic"
+
+    enum Mic: String {
+        case circleFill = "mic.circle.fill"
+        case circle = "mic.circle"
+        case fill = "mic.fill"
+        case slashFill = "mic.slash.fill"
+        case slash = "mic.slash"
+    }
+
+    enum Millsign: String {
+        case circleFill = "millsign.circle.fill"
+        case circle = "millsign.circle"
+        case squareFill = "millsign.square.fill"
+        case square = "millsign.square"
+    }
+
+    case minus = "minus"
+
+    enum Minus: String {
+        case circleFill = "minus.circle.fill"
+        case circle = "minus.circle"
+        case magnifyingglass = "minus.magnifyingglass"
+        case rectangleFill = "minus.rectangle.fill"
+        case rectangle = "minus.rectangle"
+        case slashPlus = "minus.slash.plus"
+        case squareFill = "minus.square.fill"
+        case square = "minus.square"
+    }
+
+    case moon = "moon"
+
+    enum Moon: String {
+        case circleFill = "moon.circle.fill"
+        case circle = "moon.circle"
+        case fill = "moon.fill"
+        case starsFill = "moon.stars.fill"
+        case stars = "moon.stars"
+        case zzzFill = "moon.zzz.fill"
+        case zzz = "moon.zzz"
+    }
+
+    case multiply = "multiply"
+
+    enum Multiply: String {
+        case circleFill = "multiply.circle.fill"
+        case circle = "multiply.circle"
+        case squareFill = "multiply.square.fill"
+        case square = "multiply.square"
+    }
+
+    enum Music: String {
+        case houseFill = "music.house.fill"
+        case house = "music.house"
+        case mic = "music.mic"
+        case noteList = "music.note.list"
+        case note = "music.note"
+    }
+
+    enum LetterN: String {
+        case circleFill = "n.circle.fill"
+        case circle = "n.circle"
+        case squareFill = "n.square.fill"
+        case square = "n.square"
+    }
+
+    enum Nairasign: String {
+        case circleFill = "nairasign.circle.fill"
+        case circle = "nairasign.circle"
+        case squareFill = "nairasign.square.fill"
+        case square = "nairasign.square"
+    }
+
+    case nosign = "nosign"
+
+    case number = "number"
+
+    enum Number: String {
+        case circleFill = "number.circle.fill"
+        case circle = "number.circle"
+        case squareFill = "number.square.fill"
+        case square = "number.square"
+    }
+
+    enum LetterO: String {
+        case circleFill = "o.circle.fill"
+        case circle = "o.circle"
+        case squareFill = "o.square.fill"
+        case square = "o.square"
+    }
+
+    case option = "option"
+
+    enum LetterP: String {
+        case circleFill = "p.circle.fill"
+        case circle = "p.circle"
+        case squareFill = "p.square.fill"
+        case square = "p.square"
+    }
+
+    case paintbrush = "paintbrush"
+
+    enum Paintbrush: String {
+        case fill = "paintbrush.fill"
+    }
+
+    case pano = "pano"
+
+    enum Pano: String {
+        case fill = "pano.fill"
+    }
+
+    case paperclip = "paperclip"
+
+    case paperplane = "paperplane"
+
+    enum Paperplane: String {
+        case fill = "paperplane.fill"
+    }
+
+    case paragraph = "paragraph"
+
+    case pause = "pause"
+
+    enum Pause: String {
+        case circleFill = "pause.circle.fill"
+        case circle = "pause.circle"
+        case fill = "pause.fill"
+        case rectangleFill = "pause.rectangle.fill"
+        case rectangle = "pause.rectangle"
+    }
+
+    case pencil = "pencil"
+
+    enum Pencil: String {
+        case andEllipsisRectangle = "pencil.and.ellipsis.rectangle"
+        case andOutline = "pencil.and.outline"
+        case circleFill = "pencil.circle.fill"
+        case circle = "pencil.circle"
+        case slash = "pencil.slash"
+        case tipCropCircleBadgeMinus = "pencil.tip.crop.circle.badge.minus"
+        case tipCropCircleBadgePlus = "pencil.tip.crop.circle.badge.plus"
+        case tipCropCircle = "pencil.tip.crop.circle"
+        case tip = "pencil.tip"
+    }
+
+    case percent = "percent"
+
+    case person = "person"
+
+    enum Person: String {
+        case andPersonFill = "person.and.person.fill"
+        case andPerson = "person.and.person"
+        case badgeMinusFill = "person.badge.minus.fill"
+        case badgeMinus = "person.badge.minus"
+        case badgePlusFill = "person.badge.plus.fill"
+        case badgePlus = "person.badge.plus"
+        case circleFill = "person.circle.fill"
+        case circle = "person.circle"
+        case cropCircleBadgeCheckmarkFill = "person.crop.circle.badge.checkmark.fill"
+        case cropCircleBadgeCheckmark = "person.crop.circle.badge.checkmark"
+        case cropCircleBadgeExclamFill = "person.crop.circle.badge.exclam.fill"
+        case cropCircleBadgeExclam = "person.crop.circle.badge.exclam"
+        case cropCircleBadgeMinusFill = "person.crop.circle.badge.minus.fill"
+        case cropCircleBadgeMinus = "person.crop.circle.badge.minus"
+        case cropCircleBadgePlusFill = "person.crop.circle.badge.plus.fill"
+        case cropCircleBadgePlus = "person.crop.circle.badge.plus"
+        case cropCircleBadgeXmarkFill = "person.crop.circle.badge.xmark.fill"
+        case cropCircleBadgeXmark = "person.crop.circle.badge.xmark"
+        case cropCircleFill = "person.crop.circle.fill"
+        case cropCircle = "person.crop.circle"
+        case cropRectangleFill = "person.crop.rectangle.fill"
+        case cropRectangle = "person.crop.rectangle"
+        case cropSquareFill = "person.crop.square.fill"
+        case cropSquare = "person.crop.square"
+        case fill = "person.fill"
+        case icloudFill = "person.icloud.fill"
+        case icloud = "person.icloud"
+    }
+
+    enum Person2: String {
+        case squareStackFill = "person.2.square.stack.fill"
+        case squareStack = "person.2.square.stack"
+    }
+
     case person3 = "person.3"
-    case personAndPersonFill = "person.and.person.fill"
-    case personAndPerson = "person.and.person"
-    case personBadgeMinusFill = "person.badge.minus.fill"
-    case personBadgeMinus = "person.badge.minus"
-    case personBadgePlusFill = "person.badge.plus.fill"
-    case personBadgePlus = "person.badge.plus"
-    case personCircleFill = "person.circle.fill"
-    case personCircle = "person.circle"
-    case personCropCircleBadgeCheckmarkFill = "person.crop.circle.badge.checkmark.fill"
-    case personCropCircleBadgeCheckmark = "person.crop.circle.badge.checkmark"
-    case personCropCircleBadgeExclamFill = "person.crop.circle.badge.exclam.fill"
-    case personCropCircleBadgeExclam = "person.crop.circle.badge.exclam"
-    case personCropCircleBadgeMinusFill = "person.crop.circle.badge.minus.fill"
-    case personCropCircleBadgeMinus = "person.crop.circle.badge.minus"
-    case personCropCircleBadgePlusFill = "person.crop.circle.badge.plus.fill"
-    case personCropCircleBadgePlus = "person.crop.circle.badge.plus"
-    case personCropCircleBadgeXmarkFill = "person.crop.circle.badge.xmark.fill"
-    case personCropCircleBadgeXmark = "person.crop.circle.badge.xmark"
-    case personCropCircleFill = "person.crop.circle.fill"
-    case personCropCircle = "person.crop.circle"
-    case personCropRectangleFill = "person.crop.rectangle.fill"
-    case personCropRectangle = "person.crop.rectangle"
-    case personCropSquareFill = "person.crop.square.fill"
-    case personCropSquare = "person.crop.square"
-    case personFill = "person.fill"
-    case personIcloudFill = "person.icloud.fill"
-    case personIcloud = "person.icloud"
-    case person
-    case personalhotspot
-    case perspective
-    case pesetasignCircleFill = "pesetasign.circle.fill"
-    case pesetasignCircle = "pesetasign.circle"
-    case pesetasignSquareFill = "pesetasign.square.fill"
-    case pesetasignSquare = "pesetasign.square"
-    case pesosignCircleFill = "pesosign.circle.fill"
-    case pesosignCircle = "pesosign.circle"
-    case pesosignSquareFill = "pesosign.square.fill"
-    case pesosignSquare = "pesosign.square"
-    case phoneArrowDownLeftFill = "phone.arrow.down.left.fill"
-    case phoneArrowDownLeft = "phone.arrow.down.left"
-    case phoneArrowRightFill = "phone.arrow.right.fill"
-    case phoneArrowRight = "phone.arrow.right"
-    case phoneArrowUpRightFill = "phone.arrow.up.right.fill"
-    case phoneArrowUpRight = "phone.arrow.up.right"
-    case phoneBadgePlusFill = "phone.badge.plus.fill"
-    case phoneBadgePlus = "phone.badge.plus"
-    case phoneCircleFill = "phone.circle.fill"
-    case phoneCircle = "phone.circle"
-    case phoneDownCircleFill = "phone.down.circle.fill"
-    case phoneDownCircle = "phone.down.circle"
-    case phoneDownFill = "phone.down.fill"
-    case phoneDown = "phone.down"
-    case phoneFill = "phone.fill"
-    case phone
-    case photoFill = "photo.fill"
-    case photoOnRectangleFill = "photo.on.rectangle.fill"
-    case photoOnRectangle = "photo.on.rectangle"
-    case photo
-    case pinFill = "pin.fill"
-    case pinSlashFill = "pin.slash.fill"
-    case pinSlash = "pin.slash"
-    case pin
-    case playCircleFill = "play.circle.fill"
-    case playCircle = "play.circle"
-    case playFill = "play.fill"
-    case playRectangleFill = "play.rectangle.fill"
-    case playRectangle = "play.rectangle"
-    case play
-    case playpauseFill = "playpause.fill"
-    case playpause
-    case plusAppFill = "plus.app.fill"
-    case plusApp = "plus.app"
-    case plusBubbleFill = "plus.bubble.fill"
-    case plusBubble = "plus.bubble"
-    case plusCircleFill = "plus.circle.fill"
-    case plusCircle = "plus.circle"
-    case plusMagnifyingglass = "plus.magnifyingglass"
-    case plusRectangleFill = "plus.rectangle.fill"
-    case plusRectangleOnRectangleFill = "plus.rectangle.on.rectangle.fill"
-    case plusRectangleOnRectangle = "plus.rectangle.on.rectangle"
-    case plusRectangle = "plus.rectangle"
-    case plusSlashMinus = "plus.slash.minus"
-    case plusSquareFill = "plus.square.fill"
-    case plusSquareOnSquareFill = "plus.square.on.square.fill"
-    case plusSquareOnSquare = "plus.square.on.square"
-    case plusSquare = "plus.square"
-    case plus
-    case plusminusCircleFill = "plusminus.circle.fill"
-    case plusminusCircle = "plusminus.circle"
-    case plusminus
-    case power
-    case printerFill = "printer.fill"
-    case printer
-    case projective
-    case purchasedCircleFill = "purchased.circle.fill"
-    case purchasedCircle = "purchased.circle"
-    case purchased
-    case qCircleFill = "q.circle.fill"
-    case qCircle = "q.circle"
-    case qSquareFill = "q.square.fill"
-    case qSquare = "q.square"
-    case qrcodeViewfinder = "qrcode.viewfinder"
-    case qrcode
-    case questionmarkCircleFill = "questionmark.circle.fill"
-    case questionmarkCircle = "questionmark.circle"
-    case questionmarkDiamondFill = "questionmark.diamond.fill"
-    case questionmarkDiamond = "questionmark.diamond"
-    case questionmarkSquareFill = "questionmark.square.fill"
-    case questionmarkSquare = "questionmark.square"
-    case questionmarkVideoFillRtl = "questionmark.video.fill.rtl"
-    case questionmarkVideoFill = "questionmark.video.fill"
-    case questionmarkVideoRtl = "questionmark.video.rtl"
-    case questionmarkVideo = "questionmark.video"
-    case questionmark
-    case quoteBubbleFill = "quote.bubble.fill"
-    case quoteBubble = "quote.bubble"
-    case rCircleFill = "r.circle.fill"
-    case rCircle = "r.circle"
-    case rSquareFill = "r.square.fill"
-    case rSquare = "r.square"
-    case radiowavesLeft = "radiowaves.left"
-    case radiowavesRight = "radiowaves.right"
-    case rays
-    case realtimetext
-    case recordingtape
-    case rectangle3OffgridFill = "rectangle.3.offgrid.fill"
-    case rectangle3Offgrid = "rectangle.3.offgrid"
-    case rectangleAndArrowUpRightAndArrowDownLeftSlash = "rectangle.and.arrow.up.right.and.arrow.down.left.slash"
-    case rectangleAndArrowUpRightAndArrowDownLeft = "rectangle.and.arrow.up.right.and.arrow.down.left"
-    case rectangleAndPaperclip = "rectangle.and.paperclip"
-    case rectangleBadgeCheckmarkFill = "rectangle.badge.checkmark.fill"
-    case rectangleBadgeCheckmark = "rectangle.badge.checkmark"
-    case rectangleBadgeXmarkFill = "rectangle.badge.xmark.fill"
-    case rectangleBadgeXmark = "rectangle.badge.xmark"
-    case rectangleCompressVertical = "rectangle.compress.vertical"
-    case rectangleDock = "rectangle.dock"
-    case rectangleExpandVertical = "rectangle.expand.vertical"
-    case rectangleFill = "rectangle.fill"
-    case rectangleGrid1x2Fill = "rectangle.grid.1x2.fill"
-    case rectangleGrid1x2 = "rectangle.grid.1x2"
-    case rectangleGrid2x2Fill = "rectangle.grid.2x2.fill"
-    case rectangleGrid2x2 = "rectangle.grid.2x2"
-    case rectangleGrid3x2Fill = "rectangle.grid.3x2.fill"
-    case rectangleGrid3x2 = "rectangle.grid.3x2"
-    case rectangleOnRectangleAngledFill = "rectangle.on.rectangle.angled.fill"
-    case rectangleOnRectangleAngled = "rectangle.on.rectangle.angled"
-    case rectangleOnRectangleFill = "rectangle.on.rectangle.fill"
-    case rectangleOnRectangle = "rectangle.on.rectangle"
-    case rectangleSplit3x1Fill = "rectangle.split.3x1.fill"
-    case rectangleSplit3x1 = "rectangle.split.3x1"
-    case rectangleSplit3x3Fill = "rectangle.split.3x3.fill"
-    case rectangleSplit3x3 = "rectangle.split.3x3"
-    case rectangleStackBadgeMinusFill = "rectangle.stack.badge.minus.fill"
-    case rectangleStackBadgeMinus = "rectangle.stack.badge.minus"
-    case rectangleStackBadgePersonCrop = "rectangle.stack.badge.person.crop"
-    case rectangleStackBadgePlusFill = "rectangle.stack.badge.plus.fill"
-    case rectangleStackBadgePlus = "rectangle.stack.badge.plus"
-    case rectangleStackFillBadgePersonCrop = "rectangle.stack.fill.badge.person.crop"
-    case rectangleStackFill = "rectangle.stack.fill"
-    case rectangleStackPersonCropFill = "rectangle.stack.person.crop.fill"
-    case rectangleStackPersonCrop = "rectangle.stack.person.crop"
-    case rectangleStack = "rectangle.stack"
-    case rectangle
+
+    enum Person3: String {
+        case fill = "person.3.fill"
+    }
+
+    case personalhotspot = "personalhotspot"
+
+    case perspective = "perspective"
+
+    enum Pesetasign: String {
+        case circleFill = "pesetasign.circle.fill"
+        case circle = "pesetasign.circle"
+        case squareFill = "pesetasign.square.fill"
+        case square = "pesetasign.square"
+    }
+
+    enum Pesosign: String {
+        case circleFill = "pesosign.circle.fill"
+        case circle = "pesosign.circle"
+        case squareFill = "pesosign.square.fill"
+        case square = "pesosign.square"
+    }
+
+    case phone = "phone"
+
+    enum Phone: String {
+        case arrowDownLeftFill = "phone.arrow.down.left.fill"
+        case arrowDownLeft = "phone.arrow.down.left"
+        case arrowRightFill = "phone.arrow.right.fill"
+        case arrowRight = "phone.arrow.right"
+        case arrowUpRightFill = "phone.arrow.up.right.fill"
+        case arrowUpRight = "phone.arrow.up.right"
+        case badgePlusFill = "phone.badge.plus.fill"
+        case badgePlus = "phone.badge.plus"
+        case circleFill = "phone.circle.fill"
+        case circle = "phone.circle"
+        case downCircleFill = "phone.down.circle.fill"
+        case downCircle = "phone.down.circle"
+        case downFill = "phone.down.fill"
+        case down = "phone.down"
+        case fill = "phone.fill"
+    }
+
+    case photo = "photo"
+
+    enum Photo: String {
+        case fill = "photo.fill"
+        case onRectangleFill = "photo.on.rectangle.fill"
+        case onRectangle = "photo.on.rectangle"
+    }
+
+    case pin = "pin"
+
+    enum Pin: String {
+        case fill = "pin.fill"
+        case slashFill = "pin.slash.fill"
+        case slash = "pin.slash"
+    }
+
+    case play = "play"
+
+    enum Play: String {
+        case circleFill = "play.circle.fill"
+        case circle = "play.circle"
+        case fill = "play.fill"
+        case rectangleFill = "play.rectangle.fill"
+        case rectangle = "play.rectangle"
+    }
+
+    case playpause = "playpause"
+
+    enum Playpause: String {
+        case fill = "playpause.fill"
+    }
+
+    case plus = "plus"
+
+    enum Plus: String {
+        case appFill = "plus.app.fill"
+        case app = "plus.app"
+        case bubbleFill = "plus.bubble.fill"
+        case bubble = "plus.bubble"
+        case circleFill = "plus.circle.fill"
+        case circle = "plus.circle"
+        case magnifyingglass = "plus.magnifyingglass"
+        case rectangleFill = "plus.rectangle.fill"
+        case rectangleOnRectangleFill = "plus.rectangle.on.rectangle.fill"
+        case rectangleOnRectangle = "plus.rectangle.on.rectangle"
+        case rectangle = "plus.rectangle"
+        case slashMinus = "plus.slash.minus"
+        case squareFill = "plus.square.fill"
+        case squareOnSquareFill = "plus.square.on.square.fill"
+        case squareOnSquare = "plus.square.on.square"
+        case square = "plus.square"
+    }
+
+    case plusminus = "plusminus"
+
+    enum Plusminus: String {
+        case circleFill = "plusminus.circle.fill"
+        case circle = "plusminus.circle"
+    }
+
+    case power = "power"
+
+    case printer = "printer"
+
+    enum Printer: String {
+        case fill = "printer.fill"
+    }
+
+    case projective = "projective"
+
+    case purchased = "purchased"
+
+    enum Purchased: String {
+        case circleFill = "purchased.circle.fill"
+        case circle = "purchased.circle"
+    }
+
+    enum LetterQ: String {
+        case circleFill = "q.circle.fill"
+        case circle = "q.circle"
+        case squareFill = "q.square.fill"
+        case square = "q.square"
+    }
+
+    case qrcode = "qrcode"
+
+    enum Qrcode: String {
+        case viewfinder = "qrcode.viewfinder"
+    }
+
+    case questionmark = "questionmark"
+
+    enum Questionmark: String {
+        case circleFill = "questionmark.circle.fill"
+        case circle = "questionmark.circle"
+        case diamondFill = "questionmark.diamond.fill"
+        case diamond = "questionmark.diamond"
+        case squareFill = "questionmark.square.fill"
+        case square = "questionmark.square"
+        case videoFillRtl = "questionmark.video.fill.rtl"
+        case videoFill = "questionmark.video.fill"
+        case videoRtl = "questionmark.video.rtl"
+        case video = "questionmark.video"
+    }
+
+    enum Quote: String {
+        case bubbleFill = "quote.bubble.fill"
+        case bubble = "quote.bubble"
+    }
+
+    enum LetterR: String {
+        case circleFill = "r.circle.fill"
+        case circle = "r.circle"
+        case squareFill = "r.square.fill"
+        case square = "r.square"
+    }
+
+    enum Radiowaves: String {
+        case left = "radiowaves.left"
+        case right = "radiowaves.right"
+    }
+
+    case rays = "rays"
+
+    case realtimetext = "realtimetext"
+
+    case recordingtape = "recordingtape"
+
+    case rectangle = "rectangle"
+
+    enum Rectangle: String {
+        case andArrowUpRightAndArrowDownLeftSlash = "rectangle.and.arrow.up.right.and.arrow.down.left.slash"
+        case andArrowUpRightAndArrowDownLeft = "rectangle.and.arrow.up.right.and.arrow.down.left"
+        case andPaperclip = "rectangle.and.paperclip"
+        case badgeCheckmarkFill = "rectangle.badge.checkmark.fill"
+        case badgeCheckmark = "rectangle.badge.checkmark"
+        case badgeXmarkFill = "rectangle.badge.xmark.fill"
+        case badgeXmark = "rectangle.badge.xmark"
+        case compressVertical = "rectangle.compress.vertical"
+        case dock = "rectangle.dock"
+        case expandVertical = "rectangle.expand.vertical"
+        case fill = "rectangle.fill"
+        case grid1X2Fill = "rectangle.grid.1x2.fill"
+        case grid1X2 = "rectangle.grid.1x2"
+        case grid2X2Fill = "rectangle.grid.2x2.fill"
+        case grid2X2 = "rectangle.grid.2x2"
+        case grid3X2Fill = "rectangle.grid.3x2.fill"
+        case grid3X2 = "rectangle.grid.3x2"
+        case onRectangleAngledFill = "rectangle.on.rectangle.angled.fill"
+        case onRectangleAngled = "rectangle.on.rectangle.angled"
+        case onRectangleFill = "rectangle.on.rectangle.fill"
+        case onRectangle = "rectangle.on.rectangle"
+        case split3X1Fill = "rectangle.split.3x1.fill"
+        case split3X1 = "rectangle.split.3x1"
+        case split3X3Fill = "rectangle.split.3x3.fill"
+        case split3X3 = "rectangle.split.3x3"
+        case stackBadgeMinusFill = "rectangle.stack.badge.minus.fill"
+        case stackBadgeMinus = "rectangle.stack.badge.minus"
+        case stackBadgePersonCrop = "rectangle.stack.badge.person.crop"
+        case stackBadgePlusFill = "rectangle.stack.badge.plus.fill"
+        case stackBadgePlus = "rectangle.stack.badge.plus"
+        case stackFillBadgePersonCrop = "rectangle.stack.fill.badge.person.crop"
+        case stackFill = "rectangle.stack.fill"
+        case stackPersonCropFill = "rectangle.stack.person.crop.fill"
+        case stackPersonCrop = "rectangle.stack.person.crop"
+        case stack = "rectangle.stack"
+    }
+
+    enum Rectangle3: String {
+        case offgridFill = "rectangle.3.offgrid.fill"
+        case offgrid = "rectangle.3.offgrid"
+    }
+
+    case _repeat = "repeat"
+
     case repeat1 = "repeat.1"
-    case `repeat`
-    case `return`
-    case rhombusFill = "rhombus.fill"
-    case rhombus
-    case ringCircleFill = "ring.circle.fill"
-    case ringCircle = "ring.circle"
-    case rosette
-    case rotateLeftFill = "rotate.left.fill"
-    case rotateLeft = "rotate.left"
-    case rotateRightFill = "rotate.right.fill"
-    case rotateRight = "rotate.right"
-    case rublesignCircleFill = "rublesign.circle.fill"
-    case rublesignCircle = "rublesign.circle"
-    case rublesignSquareFill = "rublesign.square.fill"
-    case rublesignSquare = "rublesign.square"
-    case rupeesignCircleFill = "rupeesign.circle.fill"
-    case rupeesignCircle = "rupeesign.circle"
-    case rupeesignSquareFill = "rupeesign.square.fill"
-    case rupeesignSquare = "rupeesign.square"
-    case sCircleFill = "s.circle.fill"
-    case sCircle = "s.circle"
-    case sSquareFill = "s.square.fill"
-    case sSquare = "s.square"
-    case safariFill = "safari.fill"
-    case safari
-    case scissors
-    case scope
-    case scribble
-    case selectionPinInOut = "selection.pin.in.out"
-    case sheqelsignCircleFill = "sheqelsign.circle.fill"
-    case sheqelsignCircle = "sheqelsign.circle"
-    case sheqelsignSquareFill = "sheqelsign.square.fill"
-    case sheqelsignSquare = "sheqelsign.square"
-    case shieldFill = "shield.fill"
-    case shieldLefthalfFill = "shield.lefthalf.fill"
-    case shieldSlashFill = "shield.slash.fill"
-    case shieldSlash = "shield.slash"
-    case shield
-    case shiftFill = "shift.fill"
-    case shift
-    case shuffle
-    case sidebarLeft = "sidebar.left"
-    case sidebarRight = "sidebar.right"
-    case signature
-    case skew
-    case slashCircleFill = "slash.circle.fill"
-    case slashCircle = "slash.circle"
-    case sliderHorizontal3 = "slider.horizontal.3"
-    case sliderHorizontalBelowRectangle = "slider.horizontal.below.rectangle"
-    case slowmo
-    case smileyFill = "smiley.fill"
-    case smiley
-    case smokeFill = "smoke.fill"
-    case smoke
-    case snow
-    case sparkles
-    case speakerZzzFillRtl = "speaker.zzz.fill.rtl"
-    case speedometer
-    case sportscourtFill = "sportscourt.fill"
-    case sportscourt
-    case squareAndArrowDownFill = "square.and.arrow.down.fill"
-    case squareAndArrowDownOnSquareFill = "square.and.arrow.down.on.square.fill"
-    case squareAndArrowDownOnSquare = "square.and.arrow.down.on.square"
-    case squareAndArrowDown = "square.and.arrow.down"
-    case squareAndArrowUpFill = "square.and.arrow.up.fill"
-    case squareAndArrowUpOnSquareFill = "square.and.arrow.up.on.square.fill"
-    case squareAndArrowUpOnSquare = "square.and.arrow.up.on.square"
-    case squareAndArrowUp = "square.and.arrow.up"
-    case squareAndLineVerticalAndSquareFill = "square.and.line.vertical.and.square.fill"
-    case squareAndLineVerticalAndSquare = "square.and.line.vertical.and.square"
-    case squareAndPencil = "square.and.pencil"
-    case squareFillAndLineVerticalAndSquare = "square.fill.and.line.vertical.and.square"
-    case squareFillAndLineVerticalSquareFill = "square.fill.and.line.vertical.square.fill"
-    case squareFill = "square.fill"
-    case squareGrid2x2Fill = "square.grid.2x2.fill"
-    case squareGrid2x2 = "square.grid.2x2"
-    case squareGrid3x2Fill = "square.grid.3x2.fill"
-    case squareGrid3x2 = "square.grid.3x2"
-    case squareGrid4x3Fill = "square.grid.4x3.fill"
-    case squareLefthalfFill = "square.lefthalf.fill"
-    case squareOnCircleFill = "square.on.circle.fill"
-    case squareOnCircle = "square.on.circle"
-    case squareOnSquareFill = "square.on.square.fill"
-    case squareOnSquare = "square.on.square"
-    case squareRighthalfFill = "square.righthalf.fill"
-    case squareSplit1x2Fill = "square.split.1x2.fill"
-    case squareSplit1x2 = "square.split.1x2"
-    case squareSplit2x1Fill = "square.split.2x1.fill"
-    case squareSplit2x1 = "square.split.2x1"
-    case squareSplit2x2Fill = "square.split.2x2.fill"
-    case squareSplit2x2 = "square.split.2x2"
-    case squareStack3dDownDottedline = "square.stack.3d.down.dottedline"
-    case squareStack3dDownRightFill = "square.stack.3d.down.right.fill"
-    case squareStack3dDownRight = "square.stack.3d.down.right"
-    case squareStack3dUpFill = "square.stack.3d.up.fill"
-    case squareStack3dUpSlashFill = "square.stack.3d.up.slash.fill"
-    case squareStack3dUpSlash = "square.stack.3d.up.slash"
-    case squareStack3dUp = "square.stack.3d.up"
-    case squareStackFill = "square.stack.fill"
-    case squareStack = "square.stack"
-    case square
-    case squaresBelowRectangle = "squares.below.rectangle"
-    case starCircleFill = "star.circle.fill"
-    case starCircle = "star.circle"
-    case starFill = "star.fill"
-    case starLefthalfFill = "star.lefthalf.fill"
-    case starSlashFill = "star.slash.fill"
-    case starSlash = "star.slash"
-    case star
-    case staroflifeFill = "staroflife.fill"
-    case staroflife
-    case sterlingsignCircleFill = "sterlingsign.circle.fill"
-    case sterlingsignCircle = "sterlingsign.circle"
-    case sterlingsignSquareFill = "sterlingsign.square.fill"
-    case sterlingsignSquare = "sterlingsign.square"
-    case stopFill = "stop.fill"
-    case stop
-    case stopwatchFill = "stopwatch.fill"
-    case stopwatch
-    case strikethrough
-    case suitClubFill = "suit.club.fill"
-    case suitClub = "suit.club"
-    case suitDiamondFill = "suit.diamond.fill"
-    case suitDiamond = "suit.diamond"
-    case suitHeartFill = "suit.heart.fill"
-    case suitHeart = "suit.heart"
-    case suitSpadeFill = "suit.spade.fill"
-    case suitSpade = "suit.spade"
-    case sum
-    case sunDustFill = "sun.dust.fill"
-    case sunDust = "sun.dust"
-    case sunHazeFill = "sun.haze.fill"
-    case sunHaze = "sun.haze"
-    case sunMaxFill = "sun.max.fill"
-    case sunMax = "sun.max"
-    case sunMinFill = "sun.min.fill"
-    case sunMin = "sun.min"
-    case sunriseFill = "sunrise.fill"
-    case sunrise
-    case sunsetFill = "sunset.fill"
-    case sunset
-    case tBubbleFill = "t.bubble.fill"
-    case tBubble = "t.bubble"
-    case tCircleFill = "t.circle.fill"
-    case tCircle = "t.circle"
-    case tSquareFill = "t.square.fill"
-    case tSquare = "t.square"
-    case tableBadgeMoreFill = "table.badge.more.fill"
-    case tableBadgeMore = "table.badge.more"
-    case tableFill = "table.fill"
-    case table
-    case tagCircleFill = "tag.circle.fill"
-    case tagCircle = "tag.circle"
-    case tagFill = "tag.fill"
-    case tag
-    case teletype
-    case tengesignCircleFill = "tengesign.circle.fill"
-    case tengesignCircle = "tengesign.circle"
-    case tengesignSquareFill = "tengesign.square.fill"
-    case tengesignSquare = "tengesign.square"
-    case textAligncenter = "text.aligncenter"
-    case textAlignleft = "text.alignleft"
-    case textAlignright = "text.alignright"
-    case textAppend = "text.append"
-    case textBadgeCheckmark = "text.badge.checkmark"
-    case textBadgeMinus = "text.badge.minus"
-    case textBadgePlus = "text.badge.plus"
-    case textBadgeStar = "text.badge.star"
-    case textBadgeXmark = "text.badge.xmark"
-    case textBubbleFill = "text.bubble.fill"
-    case textBubble = "text.bubble"
-    case textChevronLeft = "text.chevron.left"
-    case textChevronRight = "text.chevron.right"
-    case textCursor = "text.cursor"
-    case textInsert = "text.insert"
-    case textJustify = "text.justify"
-    case textJustifyleft = "text.justifyleft"
-    case textJustifyright = "text.justifyright"
-    case textQuote = "text.quote"
-    case textbox
+
+    case _return = "return"
+
+    case rhombus = "rhombus"
+
+    enum Rhombus: String {
+        case fill = "rhombus.fill"
+    }
+
+    enum Ring: String {
+        case circleFill = "ring.circle.fill"
+        case circle = "ring.circle"
+    }
+
+    case rosette = "rosette"
+
+    enum Rotate: String {
+        case leftFill = "rotate.left.fill"
+        case left = "rotate.left"
+        case rightFill = "rotate.right.fill"
+        case right = "rotate.right"
+    }
+
+    enum Rublesign: String {
+        case circleFill = "rublesign.circle.fill"
+        case circle = "rublesign.circle"
+        case squareFill = "rublesign.square.fill"
+        case square = "rublesign.square"
+    }
+
+    enum Rupeesign: String {
+        case circleFill = "rupeesign.circle.fill"
+        case circle = "rupeesign.circle"
+        case squareFill = "rupeesign.square.fill"
+        case square = "rupeesign.square"
+    }
+
+    enum LetterS: String {
+        case circleFill = "s.circle.fill"
+        case circle = "s.circle"
+        case squareFill = "s.square.fill"
+        case square = "s.square"
+    }
+
+    case safari = "safari"
+
+    enum Safari: String {
+        case fill = "safari.fill"
+    }
+
+    case scissors = "scissors"
+
+    case scope = "scope"
+
+    case scribble = "scribble"
+
+    enum Selection: String {
+        case pinInOut = "selection.pin.in.out"
+    }
+
+    enum Sheqelsign: String {
+        case circleFill = "sheqelsign.circle.fill"
+        case circle = "sheqelsign.circle"
+        case squareFill = "sheqelsign.square.fill"
+        case square = "sheqelsign.square"
+    }
+
+    case shield = "shield"
+
+    enum Shield: String {
+        case fill = "shield.fill"
+        case lefthalfFill = "shield.lefthalf.fill"
+        case slashFill = "shield.slash.fill"
+        case slash = "shield.slash"
+    }
+
+    case shift = "shift"
+
+    enum Shift: String {
+        case fill = "shift.fill"
+    }
+
+    case shuffle = "shuffle"
+
+    enum Sidebar: String {
+        case left = "sidebar.left"
+        case right = "sidebar.right"
+    }
+
+    case signature = "signature"
+
+    case skew = "skew"
+
+    enum Slash: String {
+        case circleFill = "slash.circle.fill"
+        case circle = "slash.circle"
+    }
+
+    enum Slider: String {
+        case horizontal3 = "slider.horizontal.3"
+        case horizontalBelowRectangle = "slider.horizontal.below.rectangle"
+    }
+
+    case slowmo = "slowmo"
+
+    case smiley = "smiley"
+
+    enum Smiley: String {
+        case fill = "smiley.fill"
+    }
+
+    case smoke = "smoke"
+
+    enum Smoke: String {
+        case fill = "smoke.fill"
+    }
+
+    case snow = "snow"
+
+    case sparkles = "sparkles"
+
+    enum Speaker: String {
+        case zzzFillRtl = "speaker.zzz.fill.rtl"
+    }
+
+    case speedometer = "speedometer"
+
+    case sportscourt = "sportscourt"
+
+    enum Sportscourt: String {
+        case fill = "sportscourt.fill"
+    }
+
+    case square = "square"
+
+    enum Square: String {
+        case andArrowDownFill = "square.and.arrow.down.fill"
+        case andArrowDownOnSquareFill = "square.and.arrow.down.on.square.fill"
+        case andArrowDownOnSquare = "square.and.arrow.down.on.square"
+        case andArrowDown = "square.and.arrow.down"
+        case andArrowUpFill = "square.and.arrow.up.fill"
+        case andArrowUpOnSquareFill = "square.and.arrow.up.on.square.fill"
+        case andArrowUpOnSquare = "square.and.arrow.up.on.square"
+        case andArrowUp = "square.and.arrow.up"
+        case andLineVerticalAndSquareFill = "square.and.line.vertical.and.square.fill"
+        case andLineVerticalAndSquare = "square.and.line.vertical.and.square"
+        case andPencil = "square.and.pencil"
+        case fillAndLineVerticalAndSquare = "square.fill.and.line.vertical.and.square"
+        case fillAndLineVerticalSquareFill = "square.fill.and.line.vertical.square.fill"
+        case fill = "square.fill"
+        case grid2X2Fill = "square.grid.2x2.fill"
+        case grid2X2 = "square.grid.2x2"
+        case grid3X2Fill = "square.grid.3x2.fill"
+        case grid3X2 = "square.grid.3x2"
+        case grid4X3Fill = "square.grid.4x3.fill"
+        case lefthalfFill = "square.lefthalf.fill"
+        case onCircleFill = "square.on.circle.fill"
+        case onCircle = "square.on.circle"
+        case onSquareFill = "square.on.square.fill"
+        case onSquare = "square.on.square"
+        case righthalfFill = "square.righthalf.fill"
+        case split1X2Fill = "square.split.1x2.fill"
+        case split1X2 = "square.split.1x2"
+        case split2X1Fill = "square.split.2x1.fill"
+        case split2X1 = "square.split.2x1"
+        case split2X2Fill = "square.split.2x2.fill"
+        case split2X2 = "square.split.2x2"
+        case stack3DDownDottedline = "square.stack.3d.down.dottedline"
+        case stack3DDownRightFill = "square.stack.3d.down.right.fill"
+        case stack3DDownRight = "square.stack.3d.down.right"
+        case stack3DUpFill = "square.stack.3d.up.fill"
+        case stack3DUpSlashFill = "square.stack.3d.up.slash.fill"
+        case stack3DUpSlash = "square.stack.3d.up.slash"
+        case stack3DUp = "square.stack.3d.up"
+        case stackFill = "square.stack.fill"
+        case stack = "square.stack"
+    }
+
+    enum Squares: String {
+        case belowRectangle = "squares.below.rectangle"
+    }
+
+    case star = "star"
+
+    enum Star: String {
+        case circleFill = "star.circle.fill"
+        case circle = "star.circle"
+        case fill = "star.fill"
+        case lefthalfFill = "star.lefthalf.fill"
+        case slashFill = "star.slash.fill"
+        case slash = "star.slash"
+    }
+
+    case staroflife = "staroflife"
+
+    enum Staroflife: String {
+        case fill = "staroflife.fill"
+    }
+
+    enum Sterlingsign: String {
+        case circleFill = "sterlingsign.circle.fill"
+        case circle = "sterlingsign.circle"
+        case squareFill = "sterlingsign.square.fill"
+        case square = "sterlingsign.square"
+    }
+
+    case stop = "stop"
+
+    enum Stop: String {
+        case fill = "stop.fill"
+    }
+
+    case stopwatch = "stopwatch"
+
+    enum Stopwatch: String {
+        case fill = "stopwatch.fill"
+    }
+
+    case strikethrough = "strikethrough"
+
+    enum Suit: String {
+        case clubFill = "suit.club.fill"
+        case club = "suit.club"
+        case diamondFill = "suit.diamond.fill"
+        case diamond = "suit.diamond"
+        case heartFill = "suit.heart.fill"
+        case heart = "suit.heart"
+        case spadeFill = "suit.spade.fill"
+        case spade = "suit.spade"
+    }
+
+    case sum = "sum"
+
+    enum Sun: String {
+        case dustFill = "sun.dust.fill"
+        case dust = "sun.dust"
+        case hazeFill = "sun.haze.fill"
+        case haze = "sun.haze"
+        case maxFill = "sun.max.fill"
+        case max = "sun.max"
+        case minFill = "sun.min.fill"
+        case min = "sun.min"
+    }
+
+    case sunrise = "sunrise"
+
+    enum Sunrise: String {
+        case fill = "sunrise.fill"
+    }
+
+    case sunset = "sunset"
+
+    enum Sunset: String {
+        case fill = "sunset.fill"
+    }
+
+    enum LetterT: String {
+        case bubbleFill = "t.bubble.fill"
+        case bubble = "t.bubble"
+        case circleFill = "t.circle.fill"
+        case circle = "t.circle"
+        case squareFill = "t.square.fill"
+        case square = "t.square"
+    }
+
+    case table = "table"
+
+    enum Table: String {
+        case badgeMoreFill = "table.badge.more.fill"
+        case badgeMore = "table.badge.more"
+        case fill = "table.fill"
+    }
+
+    case tag = "tag"
+
+    enum Tag: String {
+        case circleFill = "tag.circle.fill"
+        case circle = "tag.circle"
+        case fill = "tag.fill"
+    }
+
+    case teletype = "teletype"
+
+    enum Tengesign: String {
+        case circleFill = "tengesign.circle.fill"
+        case circle = "tengesign.circle"
+        case squareFill = "tengesign.square.fill"
+        case square = "tengesign.square"
+    }
+
+    enum Text: String {
+        case aligncenter = "text.aligncenter"
+        case alignleft = "text.alignleft"
+        case alignright = "text.alignright"
+        case append = "text.append"
+        case badgeCheckmark = "text.badge.checkmark"
+        case badgeMinus = "text.badge.minus"
+        case badgePlus = "text.badge.plus"
+        case badgeStar = "text.badge.star"
+        case badgeXmark = "text.badge.xmark"
+        case bubbleFill = "text.bubble.fill"
+        case bubble = "text.bubble"
+        case chevronLeft = "text.chevron.left"
+        case chevronRight = "text.chevron.right"
+        case cursor = "text.cursor"
+        case insert = "text.insert"
+        case justify = "text.justify"
+        case justifyleft = "text.justifyleft"
+        case justifyright = "text.justifyright"
+        case quote = "text.quote"
+    }
+
+    case textbox = "textbox"
+
+    case textformat = "textformat"
+
+    enum Textformat: String {
+        case abcDottedunderline = "textformat.abc.dottedunderline"
+        case abc = "textformat.abc"
+        case alt = "textformat.alt"
+        case size = "textformat.size"
+        case _subscript = "textformat.subscript"
+        case superscript = "textformat.superscript"
+    }
+
     case textformat123 = "textformat.123"
-    case textformatAbcDottedunderline = "textformat.abc.dottedunderline"
-    case textformatAbc = "textformat.abc"
-    case textformatAlt = "textformat.alt"
-    case textformatSize = "textformat.size"
-    case textformatSubscript = "textformat.subscript"
-    case textformatSuperscript = "textformat.superscript"
-    case textformat
-    case thermometerSnowflake = "thermometer.snowflake"
-    case thermometerSun = "thermometer.sun"
-    case thermometer
-    case timelapse
-    case timer
-    case tornado
-    case tortoiseFill = "tortoise.fill"
-    case tortoise
-    case tramFill = "tram.fill"
-    case trashCircleFill = "trash.circle.fill"
-    case trashCircle = "trash.circle"
-    case trashFill = "trash.fill"
-    case trashSlashFill = "trash.slash.fill"
-    case trashSlash = "trash.slash"
-    case trash
-    case tray2Fill = "tray.2.fill"
+
+    case thermometer = "thermometer"
+
+    enum Thermometer: String {
+        case snowflake = "thermometer.snowflake"
+        case sun = "thermometer.sun"
+    }
+
+    case timelapse = "timelapse"
+
+    case timer = "timer"
+
+    case tornado = "tornado"
+
+    case tortoise = "tortoise"
+
+    enum Tortoise: String {
+        case fill = "tortoise.fill"
+    }
+
+    enum Tram: String {
+        case fill = "tram.fill"
+    }
+
+    case trash = "trash"
+
+    enum Trash: String {
+        case circleFill = "trash.circle.fill"
+        case circle = "trash.circle"
+        case fill = "trash.fill"
+        case slashFill = "trash.slash.fill"
+        case slash = "trash.slash"
+    }
+
+    case tray = "tray"
+
+    enum Tray: String {
+        case andArrowDownFill = "tray.and.arrow.down.fill"
+        case andArrowDown = "tray.and.arrow.down"
+        case andArrowUpFill = "tray.and.arrow.up.fill"
+        case andArrowUp = "tray.and.arrow.up"
+        case fill = "tray.fill"
+        case fullFill = "tray.full.fill"
+        case full = "tray.full"
+    }
+
     case tray2 = "tray.2"
-    case trayAndArrowDownFill = "tray.and.arrow.down.fill"
-    case trayAndArrowDown = "tray.and.arrow.down"
-    case trayAndArrowUpFill = "tray.and.arrow.up.fill"
-    case trayAndArrowUp = "tray.and.arrow.up"
-    case trayFill = "tray.fill"
-    case trayFullFill = "tray.full.fill"
-    case trayFull = "tray.full"
-    case tray
-    case triangleFill = "triangle.fill"
-    case triangleLefthalfFill = "triangle.lefthalf.fill"
-    case triangleRighthalfFill = "triangle.righthalf.fill"
-    case triangle
-    case tropicalstorm
-    case tugriksignCircleFill = "tugriksign.circle.fill"
-    case tugriksignCircle = "tugriksign.circle"
-    case tugriksignSquareFill = "tugriksign.square.fill"
-    case tugriksignSquare = "tugriksign.square"
-    case tuningfork
-    case turkishlirasignCircleFill = "turkishlirasign.circle.fill"
-    case turkishlirasignCircle = "turkishlirasign.circle"
-    case turkishlirasignSquareFill = "turkishlirasign.square.fill"
-    case turkishlirasignSquare = "turkishlirasign.square"
-    case tvCircleFill = "tv.circle.fill"
-    case tvCircle = "tv.circle"
-    case tvFill = "tv.fill"
-    case tvMusicNoteFill = "tv.music.note.fill"
-    case tvMusicNote = "tv.music.note"
-    case tv
-    case uCircleFill = "u.circle.fill"
-    case uCircle = "u.circle"
-    case uSquareFill = "u.square.fill"
-    case uSquare = "u.square"
-    case uiwindowSplit2x1 = "uiwindow.split.2x1"
-    case umbrellaFill = "umbrella.fill"
-    case umbrella
-    case underline
-    case vCircleFill = "v.circle.fill"
-    case vCircle = "v.circle"
-    case vSquareFill = "v.square.fill"
-    case vSquare = "v.square"
-    case videoBadgePlusFill = "video.badge.plus.fill"
-    case videoBadgePlus = "video.badge.plus"
-    case videoCircleFill = "video.circle.fill"
-    case videoCircle = "video.circle"
-    case videoFill = "video.fill"
-    case videoSlashFill = "video.slash.fill"
-    case videoSlash = "video.slash"
-    case video
-    case view2d = "view.2d"
-    case view3d = "view.3d"
-    case viewfinderCircleFill = "viewfinder.circle.fill"
-    case viewfinderCircle = "viewfinder.circle"
-    case viewfinder
-    case volume1Fill = "volume.1.fill"
+
+    enum Tray2: String {
+        case fill = "tray.2.fill"
+    }
+
+    case triangle = "triangle"
+
+    enum Triangle: String {
+        case fill = "triangle.fill"
+        case lefthalfFill = "triangle.lefthalf.fill"
+        case righthalfFill = "triangle.righthalf.fill"
+    }
+
+    case tropicalstorm = "tropicalstorm"
+
+    enum Tugriksign: String {
+        case circleFill = "tugriksign.circle.fill"
+        case circle = "tugriksign.circle"
+        case squareFill = "tugriksign.square.fill"
+        case square = "tugriksign.square"
+    }
+
+    case tuningfork = "tuningfork"
+
+    enum Turkishlirasign: String {
+        case circleFill = "turkishlirasign.circle.fill"
+        case circle = "turkishlirasign.circle"
+        case squareFill = "turkishlirasign.square.fill"
+        case square = "turkishlirasign.square"
+    }
+
+    case tv = "tv"
+
+    enum Tv: String {
+        case circleFill = "tv.circle.fill"
+        case circle = "tv.circle"
+        case fill = "tv.fill"
+        case musicNoteFill = "tv.music.note.fill"
+        case musicNote = "tv.music.note"
+    }
+
+    enum LetterU: String {
+        case circleFill = "u.circle.fill"
+        case circle = "u.circle"
+        case squareFill = "u.square.fill"
+        case square = "u.square"
+    }
+
+    enum Uiwindow: String {
+        case split2X1 = "uiwindow.split.2x1"
+    }
+
+    case umbrella = "umbrella"
+
+    enum Umbrella: String {
+        case fill = "umbrella.fill"
+    }
+
+    case underline = "underline"
+
+    enum LetterV: String {
+        case circleFill = "v.circle.fill"
+        case circle = "v.circle"
+        case squareFill = "v.square.fill"
+        case square = "v.square"
+    }
+
+    case video = "video"
+
+    enum Video: String {
+        case badgePlusFill = "video.badge.plus.fill"
+        case badgePlus = "video.badge.plus"
+        case circleFill = "video.circle.fill"
+        case circle = "video.circle"
+        case fill = "video.fill"
+        case slashFill = "video.slash.fill"
+        case slash = "video.slash"
+    }
+
+    enum View: String {
+        case _2d = "view.2d"
+        case _3d = "view.3d"
+    }
+
+    case viewfinder = "viewfinder"
+
+    enum Viewfinder: String {
+        case circleFill = "viewfinder.circle.fill"
+        case circle = "viewfinder.circle"
+    }
+
+    case volume = "volume"
+
+    enum Volume: String {
+        case fill = "volume.fill"
+        case slashFillRtl = "volume.slash.fill.rtl"
+        case slashFill = "volume.slash.fill"
+        case slashRtl = "volume.slash.rtl"
+        case slash = "volume.slash"
+        case zzzFill = "volume.zzz.fill"
+        case zzz = "volume.zzz"
+    }
+
     case volume1 = "volume.1"
-    case volume2Fill = "volume.2.fill"
+
+    enum Volume1: String {
+        case fill = "volume.1.fill"
+    }
+
     case volume2 = "volume.2"
-    case volume3Fill = "volume.3.fill"
+
+    enum Volume2: String {
+        case fill = "volume.2.fill"
+    }
+
     case volume3 = "volume.3"
-    case volumeFill = "volume.fill"
-    case volumeSlashFillRtl = "volume.slash.fill.rtl"
-    case volumeSlashFill = "volume.slash.fill"
-    case volumeSlashRtl = "volume.slash.rtl"
-    case volumeSlash = "volume.slash"
-    case volumeZzzFill = "volume.zzz.fill"
-    case volumeZzz = "volume.zzz"
-    case volume
-    case wCircleFill = "w.circle.fill"
-    case wCircle = "w.circle"
-    case wSquareFill = "w.square.fill"
-    case wSquare = "w.square"
-    case wandAndRaysInverse = "wand.and.rays.inverse"
-    case wandAndRays = "wand.and.rays"
-    case wandAndStarsInverse = "wand.and.stars.inverse"
-    case wandAndStars = "wand.and.stars"
-    case waveformCircleFill = "waveform.circle.fill"
-    case waveformCircle = "waveform.circle"
-    case waveformPathBadgeMinus = "waveform.path.badge.minus"
-    case waveformPathBadgePlus = "waveform.path.badge.plus"
-    case waveformPathEcg = "waveform.path.ecg"
-    case waveformPath = "waveform.path"
-    case waveform
-    case wifiExclamationmark = "wifi.exclamationmark"
-    case wifiSlash = "wifi.slash"
-    case wifi
-    case windSnow = "wind.snow"
-    case wind
-    case wonsignCircleFill = "wonsign.circle.fill"
-    case wonsignCircle = "wonsign.circle"
-    case wonsignSquareFill = "wonsign.square.fill"
-    case wonsignSquare = "wonsign.square"
-    case wrenchFill = "wrench.fill"
-    case wrench
-    case xCircleFill = "x.circle.fill"
-    case xCircle = "x.circle"
-    case xSquareFill = "x.square.fill"
-    case xSquare = "x.square"
-    case xSquareroot = "x.squareroot"
-    case xmarkCircleFill = "xmark.circle.fill"
-    case xmarkCircle = "xmark.circle"
-    case xmarkIcloudFill = "xmark.icloud.fill"
-    case xmarkIcloud = "xmark.icloud"
-    case xmarkOctagonFill = "xmark.octagon.fill"
-    case xmarkOctagon = "xmark.octagon"
-    case xmarkRectangleFill = "xmark.rectangle.fill"
-    case xmarkRectangle = "xmark.rectangle"
-    case xmarkSealFill = "xmark.seal.fill"
-    case xmarkSeal = "xmark.seal"
-    case xmarkShieldFill = "xmark.shield.fill"
-    case xmarkShield = "xmark.shield"
-    case xmarkSquareFill = "xmark.square.fill"
-    case xmarkSquare = "xmark.square"
-    case xmark
-    case yCircleFill = "y.circle.fill"
-    case yCircle = "y.circle"
-    case ySquareFill = "y.square.fill"
-    case ySquare = "y.square"
-    case yensignCircleFill = "yensign.circle.fill"
-    case yensignCircle = "yensign.circle"
-    case yensignSquareFill = "yensign.square.fill"
-    case yensignSquare = "yensign.square"
-    case zCircleFill = "z.circle.fill"
-    case zCircle = "z.circle"
-    case zSquareFill = "z.square.fill"
-    case zSquare = "z.square"
-    case zzz
+
+    enum Volume3: String {
+        case fill = "volume.3.fill"
+    }
+
+    enum LetterW: String {
+        case circleFill = "w.circle.fill"
+        case circle = "w.circle"
+        case squareFill = "w.square.fill"
+        case square = "w.square"
+    }
+
+    enum Wand: String {
+        case andRaysInverse = "wand.and.rays.inverse"
+        case andRays = "wand.and.rays"
+        case andStarsInverse = "wand.and.stars.inverse"
+        case andStars = "wand.and.stars"
+    }
+
+    case waveform = "waveform"
+
+    enum Waveform: String {
+        case circleFill = "waveform.circle.fill"
+        case circle = "waveform.circle"
+        case pathBadgeMinus = "waveform.path.badge.minus"
+        case pathBadgePlus = "waveform.path.badge.plus"
+        case pathEcg = "waveform.path.ecg"
+        case path = "waveform.path"
+    }
+
+    case wifi = "wifi"
+
+    enum Wifi: String {
+        case exclamationmark = "wifi.exclamationmark"
+        case slash = "wifi.slash"
+    }
+
+    case wind = "wind"
+
+    enum Wind: String {
+        case snow = "wind.snow"
+    }
+
+    enum Wonsign: String {
+        case circleFill = "wonsign.circle.fill"
+        case circle = "wonsign.circle"
+        case squareFill = "wonsign.square.fill"
+        case square = "wonsign.square"
+    }
+
+    case wrench = "wrench"
+
+    enum Wrench: String {
+        case fill = "wrench.fill"
+    }
+
+    enum LetterX: String {
+        case circleFill = "x.circle.fill"
+        case circle = "x.circle"
+        case squareFill = "x.square.fill"
+        case square = "x.square"
+        case squareroot = "x.squareroot"
+    }
+
+    case xmark = "xmark"
+
+    enum Xmark: String {
+        case circleFill = "xmark.circle.fill"
+        case circle = "xmark.circle"
+        case icloudFill = "xmark.icloud.fill"
+        case icloud = "xmark.icloud"
+        case octagonFill = "xmark.octagon.fill"
+        case octagon = "xmark.octagon"
+        case rectangleFill = "xmark.rectangle.fill"
+        case rectangle = "xmark.rectangle"
+        case sealFill = "xmark.seal.fill"
+        case seal = "xmark.seal"
+        case shieldFill = "xmark.shield.fill"
+        case shield = "xmark.shield"
+        case squareFill = "xmark.square.fill"
+        case square = "xmark.square"
+    }
+
+    enum LetterY: String {
+        case circleFill = "y.circle.fill"
+        case circle = "y.circle"
+        case squareFill = "y.square.fill"
+        case square = "y.square"
+    }
+
+    enum Yensign: String {
+        case circleFill = "yensign.circle.fill"
+        case circle = "yensign.circle"
+        case squareFill = "yensign.square.fill"
+        case square = "yensign.square"
+    }
+
+    enum LetterZ: String {
+        case circleFill = "z.circle.fill"
+        case circle = "z.circle"
+        case squareFill = "z.square.fill"
+        case square = "z.square"
+    }
+
+    case zzz = "zzz"
 }
