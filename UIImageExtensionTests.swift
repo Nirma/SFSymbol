@@ -1,5 +1,5 @@
 //
-//  NSImage+SFSymbol.swift
+//  UIImage+SFSymbol.swift
 //  SFSymbol
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -20,18 +20,19 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#if canImport(Cocoa) && !targetEnvironment(macCatalyst)
-    import Cocoa
+@testable import SFSymbol
+import UIKit
+import XCTest
 
-    @available(macOS 11, *)
-    public extension NSImage {
-        convenience init?(symbol: SFSymbol, accessibilityDescription description: String? = nil) {
-            self.init(systemSymbolName: symbol.rawValue, accessibilityDescription: description)
-        }
-
-        convenience init?(symbol: SFSymbol2, accessibilityDescription description: String? = nil) {
-            self.init(systemSymbolName: symbol.rawValue, accessibilityDescription: description)
-        }
+@available(iOS 13, macOS 11, *)
+class UIImageExtensionTests: XCTestCase {
+    func testUIImageInitilizer() {
+        let expected = UIImage(systemName: SFSymbol4.infinity.rawValue)
+        let result = UIImage(symbol: SFSymbol4.infinity)
+        
+        XCTAssertNotNil(expected)
+        XCTAssertNotNil(result)
+        XCTAssert(expected == result)
     }
+}
 
-#endif

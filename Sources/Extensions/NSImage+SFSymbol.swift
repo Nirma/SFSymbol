@@ -1,5 +1,5 @@
 //
-//  UIImage+SFSymbol.swift
+//  NSImage+SFSymbol.swift
 //  SFSymbol
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -20,17 +20,13 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#if canImport(UIKit) || targetEnvironment(macCatalyst)
-    import UIKit
+#if canImport(Cocoa) && !targetEnvironment(macCatalyst)
+    import Cocoa
 
-    @available(iOS 13.0, *)
-    public extension UIImage {
-        convenience init?<T: RawRepresentable>(symbol: T) where T.RawValue == String {
-            self.init(systemName: symbol.rawValue)
-        }
-
-        convenience init?<T: RawRepresentable>(symbol: T, with configuration: Configuration) where T.RawValue == String {
-            self.init(systemName: symbol.rawValue, withConfiguration: configuration)
+    @available(macOS 11, *)
+    extension NSImage {
+        public convenience init?<T: RawRepresentable>(symbol: T, accessibilityDescription description: String? = nil) where T.RawValue == String {
+            self.init(systemSymbolName: symbol.rawValue, accessibilityDescription: description)
         }
     }
 
