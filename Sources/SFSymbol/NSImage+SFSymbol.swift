@@ -25,11 +25,7 @@
 
     @available(macOS 11, *)
     public extension NSImage {
-        convenience init?(symbol: SFSymbol, accessibilityDescription description: String? = nil) {
-            self.init(systemSymbolName: symbol.rawValue, accessibilityDescription: description)
-        }
-
-        convenience init?(symbol: SFSymbol2, accessibilityDescription description: String? = nil) {
+        convenience init?<T: RawRepresentable>(symbol: T, accessibilityDescription description: String? = nil) where T.RawValue == String {
             self.init(systemSymbolName: symbol.rawValue, accessibilityDescription: description)
         }
     }

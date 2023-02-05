@@ -26,6 +26,9 @@
 		E14A2A2228FF05E200E07E33 /* SFSymbol3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14A2A2128FF05E200E07E33 /* SFSymbol3.swift */; };
 		E19872FF290EACE000DE0371 /* Image+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19872FE290EACE000DE0371 /* Image+SFSymbol.swift */; };
 		E1987301290EAD9D00DE0371 /* UIImage+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1987300290EAD9D00DE0371 /* UIImage+SFSymbol.swift */; };
+		E1CE21BB298F9089008E54B8 /* NSImage+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CE21BA298F9089008E54B8 /* NSImage+SFSymbol.swift */; };
+		E1CE21BD298F9556008E54B8 /* ImageExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CE21BC298F9556008E54B8 /* ImageExtensionTests.swift */; };
+		E1CE21BF298F9619008E54B8 /* UIImageExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CE21BE298F9619008E54B8 /* UIImageExtensionTests.swift */; };
 		OBJ_27 /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* SFSymbol.swift */; };
 		OBJ_34 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_48 /* SFSymbol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SFSymbol::SFSymbol::Product" /* SFSymbol.framework */; };
@@ -56,6 +59,9 @@
 		E14A2A2128FF05E200E07E33 /* SFSymbol3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbol3.swift; sourceTree = "<group>"; };
 		E19872FE290EACE000DE0371 /* Image+SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+SFSymbol.swift"; sourceTree = "<group>"; };
 		E1987300290EAD9D00DE0371 /* UIImage+SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+SFSymbol.swift"; sourceTree = "<group>"; };
+		E1CE21BA298F9089008E54B8 /* NSImage+SFSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSImage+SFSymbol.swift"; path = "Sources/SFSymbol/NSImage+SFSymbol.swift"; sourceTree = SOURCE_ROOT; };
+		E1CE21BC298F9556008E54B8 /* ImageExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageExtensionTests.swift; path = Tests/SFSymbolTests/ImageExtensionTests.swift; sourceTree = "<group>"; };
+		E1CE21BE298F9619008E54B8 /* UIImageExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensionTests.swift; sourceTree = "<group>"; };
 		OBJ_19 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		OBJ_20 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_21 /* SFSymbol.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SFSymbol.podspec; sourceTree = "<group>"; };
@@ -119,6 +125,7 @@
 		E19872FD290EACA500DE0371 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				E1CE21BA298F9089008E54B8 /* NSImage+SFSymbol.swift */,
 				E19872FE290EACE000DE0371 /* Image+SFSymbol.swift */,
 				E1987300290EAD9D00DE0371 /* UIImage+SFSymbol.swift */,
 			);
@@ -128,17 +135,10 @@
 		OBJ_10 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_11 /* SFSymbolTests */,
+				E1CE21BC298F9556008E54B8 /* ImageExtensionTests.swift */,
+				E1CE21BE298F9619008E54B8 /* UIImageExtensionTests.swift */,
 			);
 			name = Tests;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_11 /* SFSymbolTests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = SFSymbolTests;
-			path = Tests/SFSymbolTests;
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_14 /* Products */ = {
@@ -244,6 +244,14 @@
 			attributes = {
 				LastSwiftMigration = 9999;
 				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					"SFSymbol::SFSymbolPackageTests::ProductTarget" = {
+						LastSwiftMigration = 1420;
+					};
+					"SFSymbol::SFSymbolTests" = {
+						LastSwiftMigration = 1420;
+					};
+				};
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SFSymbol" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -272,6 +280,7 @@
 			buildActionMask = 0;
 			files = (
 				E14A2A1B28FEFFA700E07E33 /* SFSymbol4.swift in Sources */,
+				E1CE21BB298F9089008E54B8 /* NSImage+SFSymbol.swift in Sources */,
 				4ECFE97624F1598100D672A6 /* SFSymbol2.swift in Sources */,
 				E19872FF290EACE000DE0371 /* Image+SFSymbol.swift in Sources */,
 				OBJ_27 /* SFSymbol.swift in Sources */,
@@ -292,6 +301,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				E1CE21BF298F9619008E54B8 /* UIImageExtensionTests.swift in Sources */,
+				E1CE21BD298F9556008E54B8 /* ImageExtensionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,12 +453,19 @@
 		OBJ_37 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		OBJ_38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -519,6 +537,7 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGET_NAME = SFSymbolTests;
 				TVOS_DEPLOYMENT_TARGET = 13.0;

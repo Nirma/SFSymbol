@@ -1,5 +1,5 @@
 //
-//  Image+SFSymbol.swift
+//  UIImage+SFSymbol.swift
 //  SFSymbol
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -20,20 +20,18 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-import SwiftUI
+@testable import SFSymbol
+import XCTest
 
 @available(macOS 11, *)
-@available(iOS 13, *)
-public extension Image {
-    /// Create Image from SFSymbol
-    init<T: RawRepresentable>(symbol: T) where T.RawValue == String {
-        self.init(systemName: symbol.rawValue)
+class UIImageExtensionTests: XCTestCase {
+    func testUIImageInitilizer() {
+        let expected = UIImage(systemName: SFSymbol4.infinity.rawValue)
+        let result = UIImage(symbol: SFSymbol4.infinity)
+        
+        XCTAssertNotNil(expected)
+        XCTAssertNotNil(result)
+        XCTAssert(expected == result)
     }
 }
 
-@available(iOS 16, *)
-public extension Image {
-    init<T: RawRepresentable>(symbol: T, variableValue: Double? = nil) where T.RawValue == String {
-        self.init(systemName: symbol.rawValue, variableValue: variableValue)
-    }
-}
