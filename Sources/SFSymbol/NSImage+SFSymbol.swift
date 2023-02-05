@@ -20,7 +20,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#if canImport(Cocoa)
+#if canImport(Cocoa) && !targetEnvironment(macCatalyst)
     import Cocoa
 
     @available(macOS 11, *)
