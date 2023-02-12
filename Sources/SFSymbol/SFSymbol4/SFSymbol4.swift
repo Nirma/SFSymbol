@@ -2973,6 +2973,8 @@ public enum SFSymbol4: String {
         case icloudFill = "key.icloud.fill"
         case fill = "key.fill"
         case viewfinder = "key.viewfinder"
+        case horizontal = "key.horizontal"
+        case horizontalFill = "key.horizontal.fill"
     }
 
     case keyboard
