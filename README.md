@@ -1,14 +1,14 @@
-# SFSymbol: SFSymbols 4, 3.3, 2 and 1.1 
+# SFSymbol: SFSymbols 5 through 1.1 
 [![Build Status](https://travis-ci.org/Nirma/SFSymbol.svg?branch=master)](https://travis-ci.org/Nirma/SFSymbol)
 [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-purple.svg)](https://github.com/apple/swift-package-manager)
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/SFSymbol.svg)](#cocoapods)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 
-All the SFSymbols at your fingertips (SFSymbol 1.1 & 2)
+All the SFSymbols at your fingertips (SFSymbol 5 through 1.1)
 
 ## Usage 
-`SFSymbol` and `SFSymbol2` are an `enum`s that contain the identifier strings of all of apple's `SFSymbol` and `SFSymbol2`.
+`SFSymbol5`, `SFSymbol4` and so on are an `enum`s that contain the identifier strings of all of apple's SFSymbols up to version 5.0.
 
 For example `SFSymbol.playCircle` produces the `String` `"play.circle"` that can then be used to instantiate a system symbol via:
 
@@ -28,7 +28,7 @@ For example `SFSymbol.playCircle` produces the `String` `"play.circle"` that can
 
 
 ## About 
-SFSymbols (1.1 and 2) is a real treat from apple, Apple's official list of Symbols that are 
+SFSymbols is a real treat from apple, Apple's official list of Symbols that are 
 available to use free of charge when writing software on any of Apple's recent platforms.
 There is one downfall however, it is a pain in the neck to look up exact symbol names, take for example: 
 
