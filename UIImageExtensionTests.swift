@@ -1,5 +1,5 @@
 //
-//  UIImage+SFSymbol.swift
+//  UIImageExtensionTests.swift
 //  SFSymbol
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -29,10 +29,9 @@ class UIImageExtensionTests: XCTestCase {
     func testUIImageInitilizer() {
         let expected = UIImage(systemName: SFSymbol4.infinity.rawValue)
         let result = UIImage(symbol: SFSymbol4.infinity)
-        
+
         XCTAssertNotNil(expected)
         XCTAssertNotNil(result)
         XCTAssert(expected == result)
     }
 }
-
