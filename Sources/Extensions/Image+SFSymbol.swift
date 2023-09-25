@@ -23,17 +23,17 @@
 import SwiftUI
 
 @available(iOS 13, macOS 15, *)
-extension Image {
+public extension Image {
     /// Create Image from SFSymbol
-    public init<T: RawRepresentable>(symbol: T) where T.RawValue == String {
+    init<T: RawRepresentable>(symbol: T) where T.RawValue == String {
         self.init(systemName: symbol.rawValue)
     }
 }
 
 @available(iOS 16, macOS 15, *)
-extension Image {
+public extension Image {
     /// Create Image from SFSymbol with optional `variableValue`
-    public init<T: RawRepresentable>(symbol: T, variableValue: Double? = nil) where T.RawValue == String {
+    init<T: RawRepresentable>(symbol: T, variableValue: Double? = nil) where T.RawValue == String {
         self.init(systemName: symbol.rawValue, variableValue: variableValue)
     }
 }

@@ -24,12 +24,12 @@
     import UIKit
 
     @available(iOS 13.0, *)
-    extension UIImage {
-        public convenience init?<T: RawRepresentable>(symbol: T) where T.RawValue == String {
+    public extension UIImage {
+        convenience init?<T: RawRepresentable>(symbol: T) where T.RawValue == String {
             self.init(systemName: symbol.rawValue)
         }
 
-        public convenience init?<T: RawRepresentable>(symbol: T, with configuration: Configuration) where T.RawValue == String {
+        convenience init?<T: RawRepresentable>(symbol: T, with configuration: Configuration) where T.RawValue == String {
             self.init(systemName: symbol.rawValue, withConfiguration: configuration)
         }
     }

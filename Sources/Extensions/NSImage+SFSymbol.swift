@@ -24,8 +24,8 @@
     import Cocoa
 
     @available(macOS 11, *)
-    extension NSImage {
-        public convenience init?<T: RawRepresentable>(symbol: T, accessibilityDescription description: String? = nil) where T.RawValue == String {
+    public extension NSImage {
+        convenience init?<T: RawRepresentable>(symbol: T, accessibilityDescription description: String? = nil) where T.RawValue == String {
             self.init(systemSymbolName: symbol.rawValue, accessibilityDescription: description)
         }
     }

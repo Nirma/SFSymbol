@@ -1,5 +1,5 @@
 //
-//  UIImage+SFSymbol.swift
+//  ImageExtensionTests.swift
 //  SFSymbol
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
