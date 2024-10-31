@@ -1,5 +1,5 @@
 //
-//  UIImageExtensionTests.swift
+//  SFSymbolImageTests.swift
 //  SFSymbol
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -21,17 +21,12 @@
 // THE SOFTWARE.
 
 @testable import SFSymbol
-import UIKit
+import SwiftUI
 import XCTest
 
-@available(iOS 13, macOS 11, *)
-class UIImageExtensionTests: XCTestCase {
-    func testUIImageInitilizer() {
-        let expected = UIImage(systemName: SFSymbol4.infinity.rawValue)
-        let result = UIImage(symbol: SFSymbol4.infinity)
-
-        XCTAssertNotNil(expected)
-        XCTAssertNotNil(result)
-        XCTAssert(expected == result)
+class SFSymbolImageTests: XCTestCase {
+    func testAllSFSymbols() {
+        XCTAssert(SFSymbol6.App.appBadgeCheckmark.image != nil)
     }
 }
+
