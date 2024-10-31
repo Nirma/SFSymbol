@@ -22,7 +22,6 @@
 
 import SwiftUI
 
-@available(iOS 13, macOS 15, *)
 public extension Image {
     /// Create Image from SFSymbol
     init<T: RawRepresentable>(symbol: T) where T.RawValue == String {
@@ -30,7 +29,7 @@ public extension Image {
     }
 }
 
-@available(iOS 16, macOS 15, *)
+@available(iOS 16.0, tvOS 16.0, macOS 13.0, watchOS 9.0, *)
 public extension Image {
     /// Create Image from SFSymbol with optional `variableValue`
     init<T: RawRepresentable>(symbol: T, variableValue: Double? = nil) where T.RawValue == String {

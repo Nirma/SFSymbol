@@ -1,63 +1,43 @@
-# SFSymbol: SFSymbols 5 through 1.1 
+# SFSymbol: SFSymbols 6 through 1.1 
 ![Build Status](https://github.com/nirma/sfsymbol/actions/workflows/build.yml/badge.svg)
 [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-purple.svg)](https://github.com/apple/swift-package-manager)
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/SFSymbol.svg)](#cocoapods)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 
-All the SFSymbols at your fingertips (SFSymbol 5 through 1.1)
+All the SFSymbols at your fingertips (SFSymbol 6 through 1.1)
+
+![demo6](https://github.com/user-attachments/assets/5b1958b4-d3ab-4749-98c6-9b2fc04b33df)
+
 
 ## Usage 
-`SFSymbol5`, `SFSymbol4` and so on are an `enum`s that contain the identifier strings of all of apple's SFSymbols up to version 5.0.
+`SFSymbol6`, `SFSymbol5` and so on are `enum`s that contain the identifier strings of all of apple's SFSymbols version 6 through 1.1.
 
-For example `SFSymbol.playCircle` produces the `String` `"play.circle"` that can then be used to instantiate a system symbol via:
+For example `SFSymbol6.Camera.cameraMeteringPartial.image` produces a SwiftUI `Image` or omitting the `.image` part will return an enum case with the associated raw value of `"camera.metering.partial"`.
 
-#### UIKit
 
-```swift
-    UIImage(symbol: SFSymbol4.Digitalcrown.arrowClockwiseFill)
-```
+https://github.com/user-attachments/assets/96eb227f-e34e-442c-b42f-e5826973030c
 
-*or*
 
 #### SwiftUI
 
 ```swift
-    Image(symbol: SFSymbol4.Digitalcrown.arrowClockwiseFill)
+    SFSymbol6.Camera.cameraMeteringPartial.image
 ```
 
+*or*
 
-## About 
-SFSymbols is a real treat from apple, Apple's official list of Symbols that are 
-available to use free of charge when writing software on any of Apple's recent platforms.
-There is one downfall however, it is a pain in the neck to look up exact symbol names, take for example: 
+#### UIKit
 
-`"square.and.line.vertical.and.square.fill"`
+```swift
+    UIImage(symbol: SFSymbol6.Camera.cameraMeteringPartial)
+```
 
-That is a long string to remember and digging through the catalog of SF Symbols to find in would be quite a waste of time.
-
-Wouldn't it be easier if you could just use code completion?
-
-![](https://media.giphy.com/media/jQ7lTLsv2poo2qLkUA/giphy.gif)
-
-Thats what this super micro library aims to do.
 
 ## Installation 
 
 ### Swift Package Manager (Preferred)
-Since Xcode integrated swift package manager natively into the IDE you can add SFSymbol simply by:
-
-**`File`-> `Swift Packages` -> `Add Package Dependency...`**
-
-when prompted to enter a package URL paste: 
-
-`https://github.com/Nirma/SFSymbol` 
-
-
-and click next & finish to automagically install SFSymbol through Xcode & SPM!
-
-### Manual 
-Don't want that additional third party dependency? Then just simply copy over the file [`SFSymbol.swift`](https://github.com/Nirma/SFSymbol/blob/master/Sources/SFSymbol/SFSymbol.swift) into your project's appropriate folder!
+Simply add a package to your project passing in `https://github.com/Nirma/SFSymbol` and your preferred version i.e `3.0`
 
 ### Cocoapods
 Just add this line to your podfile:

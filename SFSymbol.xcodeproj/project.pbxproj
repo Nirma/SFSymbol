@@ -21,16 +21,18 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		4E013E782AC1D1DF00A83669 /* SFSymbol5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E013E772AC1D1DF00A83669 /* SFSymbol5.swift */; };
-		4ECFE97624F1598100D672A6 /* SFSymbol2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECFE97224F1598100D672A6 /* SFSymbol2.swift */; };
-		E14A2A1B28FEFFA700E07E33 /* SFSymbol4.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14A2A1A28FEFFA700E07E33 /* SFSymbol4.swift */; };
-		E14A2A2228FF05E200E07E33 /* SFSymbol3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14A2A2128FF05E200E07E33 /* SFSymbol3.swift */; };
-		E1546154298FEA770016DACC /* UIImage+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1546151298FEA770016DACC /* UIImage+SFSymbol.swift */; };
-		E1546155298FEA770016DACC /* Image+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1546152298FEA770016DACC /* Image+SFSymbol.swift */; };
-		E1546156298FEA770016DACC /* NSImage+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1546153298FEA770016DACC /* NSImage+SFSymbol.swift */; };
-		E1CE21BD298F9556008E54B8 /* ImageExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CE21BC298F9556008E54B8 /* ImageExtensionTests.swift */; };
-		E1CE21BF298F9619008E54B8 /* UIImageExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CE21BE298F9619008E54B8 /* UIImageExtensionTests.swift */; };
-		OBJ_27 /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* SFSymbol.swift */; };
+		4E53C3ED2CD3A73E0058EA82 /* SymbolImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E53C3DE2CD3A73E0058EA82 /* SymbolImage.swift */; };
+		4E53C3EE2CD3A73E0058EA82 /* SFSymbol3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E53C3E42CD3A73E0058EA82 /* SFSymbol3.swift */; };
+		4E53C3EF2CD3A73E0058EA82 /* Image+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E53C3DA2CD3A73E0058EA82 /* Image+SFSymbol.swift */; };
+		4E53C3F02CD3A73E0058EA82 /* SFSymbol5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E53C3E82CD3A73E0058EA82 /* SFSymbol5.swift */; };
+		4E53C3F12CD3A73E0058EA82 /* SFSymbol4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E53C3E62CD3A73E0058EA82 /* SFSymbol4.swift */; };
+		4E53C3F22CD3A73E0058EA82 /* SFSymbol2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E53C3E22CD3A73E0058EA82 /* SFSymbol2.swift */; };
+		4E53C3F32CD3A73E0058EA82 /* SFSymbol6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E53C3EA2CD3A73E0058EA82 /* SFSymbol6.swift */; };
+		4E53C3F42CD3A73E0058EA82 /* NSImage+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E53C3DB2CD3A73E0058EA82 /* NSImage+SFSymbol.swift */; };
+		4E53C3F52CD3A73E0058EA82 /* UIImage+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E53C3DC2CD3A73E0058EA82 /* UIImage+SFSymbol.swift */; };
+		4E53C3F62CD3A73E0058EA82 /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E53C3E02CD3A73E0058EA82 /* SFSymbol.swift */; };
+		4E53C3FB2CD3A77B0058EA82 /* UIImageExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E53C3F82CD3A77B0058EA82 /* UIImageExtensionTests.swift */; };
+		4E53C3FC2CD3A77B0058EA82 /* ImageExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E53C3F72CD3A77B0058EA82 /* ImageExtensionTests.swift */; };
 		OBJ_34 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_48 /* SFSymbol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SFSymbol::SFSymbol::Product" /* SFSymbol.framework */; };
 /* End PBXBuildFile section */
@@ -53,22 +55,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4E013E772AC1D1DF00A83669 /* SFSymbol5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbol5.swift; sourceTree = "<group>"; };
+		4E53C3DA2CD3A73E0058EA82 /* Image+SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+SFSymbol.swift"; sourceTree = "<group>"; };
+		4E53C3DB2CD3A73E0058EA82 /* NSImage+SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImage+SFSymbol.swift"; sourceTree = "<group>"; };
+		4E53C3DC2CD3A73E0058EA82 /* UIImage+SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+SFSymbol.swift"; sourceTree = "<group>"; };
+		4E53C3DE2CD3A73E0058EA82 /* SymbolImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolImage.swift; sourceTree = "<group>"; };
+		4E53C3E02CD3A73E0058EA82 /* SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbol.swift; sourceTree = "<group>"; };
+		4E53C3E22CD3A73E0058EA82 /* SFSymbol2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbol2.swift; sourceTree = "<group>"; };
+		4E53C3E42CD3A73E0058EA82 /* SFSymbol3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbol3.swift; sourceTree = "<group>"; };
+		4E53C3E62CD3A73E0058EA82 /* SFSymbol4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbol4.swift; sourceTree = "<group>"; };
+		4E53C3E82CD3A73E0058EA82 /* SFSymbol5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbol5.swift; sourceTree = "<group>"; };
+		4E53C3EA2CD3A73E0058EA82 /* SFSymbol6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbol6.swift; sourceTree = "<group>"; };
+		4E53C3F72CD3A77B0058EA82 /* ImageExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtensionTests.swift; sourceTree = "<group>"; };
+		4E53C3F82CD3A77B0058EA82 /* UIImageExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensionTests.swift; sourceTree = "<group>"; };
 		4E70E3EB23704F30004B4A4D /* SFSymbol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFSymbol.h; sourceTree = "<group>"; };
 		4E70E3EC23704F3C004B4A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4ECFE97224F1598100D672A6 /* SFSymbol2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbol2.swift; sourceTree = "<group>"; };
-		E14A2A1A28FEFFA700E07E33 /* SFSymbol4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbol4.swift; sourceTree = "<group>"; };
-		E14A2A2128FF05E200E07E33 /* SFSymbol3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbol3.swift; sourceTree = "<group>"; };
-		E1546151298FEA770016DACC /* UIImage+SFSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+SFSymbol.swift"; path = "Sources/Extensions/UIImage+SFSymbol.swift"; sourceTree = "<group>"; };
-		E1546152298FEA770016DACC /* Image+SFSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Image+SFSymbol.swift"; path = "Sources/Extensions/Image+SFSymbol.swift"; sourceTree = "<group>"; };
-		E1546153298FEA770016DACC /* NSImage+SFSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSImage+SFSymbol.swift"; path = "Sources/Extensions/NSImage+SFSymbol.swift"; sourceTree = "<group>"; };
-		E1CE21BC298F9556008E54B8 /* ImageExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageExtensionTests.swift; path = Tests/SFSymbolTests/ImageExtensionTests.swift; sourceTree = "<group>"; };
-		E1CE21BE298F9619008E54B8 /* UIImageExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensionTests.swift; sourceTree = "<group>"; };
 		OBJ_19 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		OBJ_20 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_21 /* SFSymbol.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SFSymbol.podspec; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_9 /* SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbol.swift; sourceTree = "<group>"; };
 		"SFSymbol::SFSymbol::Product" /* SFSymbol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SFSymbol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"SFSymbol::SFSymbolTests::Product" /* SFSymbolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = SFSymbolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -92,64 +96,103 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4E013E762AC1D1B900A83669 /* SFSymbol5 */ = {
+		4E53C3DD2CD3A73E0058EA82 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				4E013E772AC1D1DF00A83669 /* SFSymbol5.swift */,
+				4E53C3DA2CD3A73E0058EA82 /* Image+SFSymbol.swift */,
+				4E53C3DB2CD3A73E0058EA82 /* NSImage+SFSymbol.swift */,
+				4E53C3DC2CD3A73E0058EA82 /* UIImage+SFSymbol.swift */,
 			);
-			path = SFSymbol5;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
-		E14A2A1D28FEFFEC00E07E33 /* SFSymbol1 */ = {
+		4E53C3DF2CD3A73E0058EA82 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_9 /* SFSymbol.swift */,
+				4E53C3DE2CD3A73E0058EA82 /* SymbolImage.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4E53C3E12CD3A73E0058EA82 /* SFSymbol1 */ = {
+			isa = PBXGroup;
+			children = (
+				4E53C3E02CD3A73E0058EA82 /* SFSymbol.swift */,
 			);
 			path = SFSymbol1;
 			sourceTree = "<group>";
 		};
-		E14A2A1E28FEFFFD00E07E33 /* SFSymbol2 */ = {
+		4E53C3E32CD3A73E0058EA82 /* SFSymbol2 */ = {
 			isa = PBXGroup;
 			children = (
-				4ECFE97224F1598100D672A6 /* SFSymbol2.swift */,
+				4E53C3E22CD3A73E0058EA82 /* SFSymbol2.swift */,
 			);
 			path = SFSymbol2;
 			sourceTree = "<group>";
 		};
-		E14A2A1F28FF000900E07E33 /* SFSymbol3 */ = {
+		4E53C3E52CD3A73E0058EA82 /* SFSymbol3 */ = {
 			isa = PBXGroup;
 			children = (
-				E14A2A2128FF05E200E07E33 /* SFSymbol3.swift */,
+				4E53C3E42CD3A73E0058EA82 /* SFSymbol3.swift */,
 			);
 			path = SFSymbol3;
 			sourceTree = "<group>";
 		};
-		E14A2A2028FF001800E07E33 /* SFSymbol4 */ = {
+		4E53C3E72CD3A73E0058EA82 /* SFSymbol4 */ = {
 			isa = PBXGroup;
 			children = (
-				E14A2A1A28FEFFA700E07E33 /* SFSymbol4.swift */,
+				4E53C3E62CD3A73E0058EA82 /* SFSymbol4.swift */,
 			);
 			path = SFSymbol4;
 			sourceTree = "<group>";
 		};
-		E1546150298FEA400016DACC /* Extensions */ = {
+		4E53C3E92CD3A73E0058EA82 /* SFSymbol5 */ = {
 			isa = PBXGroup;
 			children = (
-				E1546152298FEA770016DACC /* Image+SFSymbol.swift */,
-				E1546153298FEA770016DACC /* NSImage+SFSymbol.swift */,
-				E1546151298FEA770016DACC /* UIImage+SFSymbol.swift */,
+				4E53C3E82CD3A73E0058EA82 /* SFSymbol5.swift */,
 			);
-			name = Extensions;
+			path = SFSymbol5;
 			sourceTree = "<group>";
 		};
-		OBJ_10 /* Tests */ = {
+		4E53C3EB2CD3A73E0058EA82 /* SFSymbol6 */ = {
 			isa = PBXGroup;
 			children = (
-				E1CE21BC298F9556008E54B8 /* ImageExtensionTests.swift */,
-				E1CE21BE298F9619008E54B8 /* UIImageExtensionTests.swift */,
+				4E53C3EA2CD3A73E0058EA82 /* SFSymbol6.swift */,
 			);
-			name = Tests;
-			sourceTree = SOURCE_ROOT;
+			path = SFSymbol6;
+			sourceTree = "<group>";
+		};
+		4E53C3EC2CD3A73E0058EA82 /* SFSymbol */ = {
+			isa = PBXGroup;
+			children = (
+				4E53C3DD2CD3A73E0058EA82 /* Extensions */,
+				4E53C3DF2CD3A73E0058EA82 /* Protocols */,
+				4E53C3E12CD3A73E0058EA82 /* SFSymbol1 */,
+				4E53C3E32CD3A73E0058EA82 /* SFSymbol2 */,
+				4E53C3E52CD3A73E0058EA82 /* SFSymbol3 */,
+				4E53C3E72CD3A73E0058EA82 /* SFSymbol4 */,
+				4E53C3E92CD3A73E0058EA82 /* SFSymbol5 */,
+				4E53C3EB2CD3A73E0058EA82 /* SFSymbol6 */,
+			);
+			path = SFSymbol;
+			sourceTree = "<group>";
+		};
+		4E53C3F92CD3A77B0058EA82 /* SFSymbolTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E53C3F72CD3A77B0058EA82 /* ImageExtensionTests.swift */,
+				4E53C3F82CD3A77B0058EA82 /* UIImageExtensionTests.swift */,
+			);
+			path = SFSymbolTests;
+			sourceTree = "<group>";
+		};
+		4E53C3FA2CD3A77B0058EA82 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4E53C3F92CD3A77B0058EA82 /* SFSymbolTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
 		};
 		OBJ_14 /* Products */ = {
 			isa = PBXGroup;
@@ -163,38 +206,24 @@
 		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
-				OBJ_6 /* Package.swift */,
-				OBJ_7 /* Sources */,
-				OBJ_10 /* Tests */,
-				OBJ_14 /* Products */,
-				OBJ_19 /* LICENSE */,
-				OBJ_20 /* README.md */,
-				OBJ_21 /* SFSymbol.podspec */,
-				4E70E3EB23704F30004B4A4D /* SFSymbol.h */,
 				4E70E3EC23704F3C004B4A4D /* Info.plist */,
+				OBJ_19 /* LICENSE */,
+				OBJ_6 /* Package.swift */,
+				OBJ_14 /* Products */,
+				OBJ_20 /* README.md */,
+				4E70E3EB23704F30004B4A4D /* SFSymbol.h */,
+				OBJ_21 /* SFSymbol.podspec */,
+				OBJ_7 /* Sources */,
+				4E53C3FA2CD3A77B0058EA82 /* Tests */,
 			);
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				E1546150298FEA400016DACC /* Extensions */,
-				OBJ_8 /* SFSymbol */,
+				4E53C3EC2CD3A73E0058EA82 /* SFSymbol */,
 			);
 			name = Sources;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_8 /* SFSymbol */ = {
-			isa = PBXGroup;
-			children = (
-				4E013E762AC1D1B900A83669 /* SFSymbol5 */,
-				E14A2A2028FF001800E07E33 /* SFSymbol4 */,
-				E14A2A1F28FF000900E07E33 /* SFSymbol3 */,
-				E14A2A1E28FEFFFD00E07E33 /* SFSymbol2 */,
-				E14A2A1D28FEFFEC00E07E33 /* SFSymbol1 */,
-			);
-			name = SFSymbol;
-			path = Sources/SFSymbol;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -255,7 +284,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastSwiftMigration = 9999;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					"SFSymbol::SFSymbolPackageTests::ProductTarget" = {
 						LastSwiftMigration = 1420;
@@ -291,14 +320,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				E14A2A1B28FEFFA700E07E33 /* SFSymbol4.swift in Sources */,
-				E1546156298FEA770016DACC /* NSImage+SFSymbol.swift in Sources */,
-				4ECFE97624F1598100D672A6 /* SFSymbol2.swift in Sources */,
-				E1546155298FEA770016DACC /* Image+SFSymbol.swift in Sources */,
-				OBJ_27 /* SFSymbol.swift in Sources */,
-				E14A2A2228FF05E200E07E33 /* SFSymbol3.swift in Sources */,
-				4E013E782AC1D1DF00A83669 /* SFSymbol5.swift in Sources */,
-				E1546154298FEA770016DACC /* UIImage+SFSymbol.swift in Sources */,
+				4E53C3ED2CD3A73E0058EA82 /* SymbolImage.swift in Sources */,
+				4E53C3EE2CD3A73E0058EA82 /* SFSymbol3.swift in Sources */,
+				4E53C3EF2CD3A73E0058EA82 /* Image+SFSymbol.swift in Sources */,
+				4E53C3F02CD3A73E0058EA82 /* SFSymbol5.swift in Sources */,
+				4E53C3F12CD3A73E0058EA82 /* SFSymbol4.swift in Sources */,
+				4E53C3F22CD3A73E0058EA82 /* SFSymbol2.swift in Sources */,
+				4E53C3F32CD3A73E0058EA82 /* SFSymbol6.swift in Sources */,
+				4E53C3F42CD3A73E0058EA82 /* NSImage+SFSymbol.swift in Sources */,
+				4E53C3F52CD3A73E0058EA82 /* UIImage+SFSymbol.swift in Sources */,
+				4E53C3F62CD3A73E0058EA82 /* SFSymbol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,8 +345,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				E1CE21BF298F9619008E54B8 /* UIImageExtensionTests.swift in Sources */,
-				E1CE21BD298F9556008E54B8 /* ImageExtensionTests.swift in Sources */,
+				4E53C3FB2CD3A77B0058EA82 /* UIImageExtensionTests.swift in Sources */,
+				4E53C3FC2CD3A77B0058EA82 /* ImageExtensionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +382,7 @@
 					"$(inherited)",
 					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
 				);
-				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -383,7 +414,7 @@
 					"$(inherited)",
 					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
 				);
-				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -442,7 +473,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -459,6 +490,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				LD = /usr/bin/true;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
 				SWIFT_VERSION = 5.0;
 			};
@@ -469,6 +501,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				LD = /usr/bin/true;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
 				SWIFT_VERSION = 5.0;
 			};
@@ -483,6 +516,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -497,6 +531,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -541,7 +576,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -556,8 +591,8 @@
 		OBJ_42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
+				DRIVERKIT_DEPLOYMENT_TARGET = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -570,13 +605,14 @@
 					"@loader_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3,4,6";
 				TARGET_NAME = SFSymbolTests;
 				TVOS_DEPLOYMENT_TARGET = 13.0;
 				WATCHOS_DEPLOYMENT_TARGET = 6.0;
@@ -586,8 +622,8 @@
 		OBJ_43 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
+				DRIVERKIT_DEPLOYMENT_TARGET = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -600,12 +636,13 @@
 					"@loader_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3,4,6";
 				TARGET_NAME = SFSymbolTests;
 				TVOS_DEPLOYMENT_TARGET = 13.0;
 				WATCHOS_DEPLOYMENT_TARGET = 6.0;

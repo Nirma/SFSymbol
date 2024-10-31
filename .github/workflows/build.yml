@@ -6,9 +6,12 @@ on:
 jobs:
   smoke_test_build:
     name: Smoke Test (Build only)
-    runs-on: macos-latest
+    runs-on: macos-14
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_16.app 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
       - name: Build
-        run: xcodebuild
+        run: xcodebuild -scheme SFSymbol -target SFSymbol
+      - name: Test
+        run: xcodebuild test -scheme SFSymbol -target SFSymbolTests

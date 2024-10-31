@@ -1,5 +1,5 @@
 //
-//  ImageExtensionTests.swift
+//  UIImage+SFSymbol.swift
 //  SFSymbol
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -20,27 +20,18 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-@testable import SFSymbol
-import SwiftUI
-import XCTest
+#if canImport(UIKit) || targetEnvironment(macCatalyst)
+    import UIKit
 
-class ImageExtensionTests: XCTestCase {
-    func testImagefromSFSymbol() {
-        let symbol = SFSymbol6.Apple.appleLogo
-        let imageFromSFSymbol = Image(symbol: symbol)
-        let imageFromSymbolString = Image(systemName: symbol.rawValue)
+    @available(iOS 13.0, *)
+    public extension UIImage {
+        convenience init?<T: RawRepresentable>(symbol: T) where T.RawValue == String {
+            self.init(systemName: symbol.rawValue)
+        }
 
-        XCTAssert(imageFromSFSymbol == imageFromSymbolString, "Image(symbol:) is broken")
+        convenience init?<T: RawRepresentable>(symbol: T, with configuration: Configuration) where T.RawValue == String {
+            self.init(systemName: symbol.rawValue, withConfiguration: configuration)
+        }
     }
-}
 
-extension ImageExtensionTests {
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-    func testImageVariableValuesConvenienceInit() {
-        let symbol = SFSymbol6.Apple.appleLogo
-        let imageFromSFSymbol = Image(symbol: symbol, variableValue: 0.5)
-        let imageFromSymbolString = Image(systemName: symbol.rawValue)
-
-        XCTAssert(imageFromSFSymbol != imageFromSymbolString, "Image(symbol:) is broken")
-    }
-}
+#endif
