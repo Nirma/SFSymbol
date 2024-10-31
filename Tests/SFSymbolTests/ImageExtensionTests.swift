@@ -26,8 +26,9 @@ import XCTest
 
 class ImageExtensionTests: XCTestCase {
     func testImagefromSFSymbol() {
-        let imageFromSFSymbol = Image(symbol: SFSymbol4.infinity)
-        let imageFromSymbolString = Image(systemName: SFSymbol4.infinity.rawValue)
+        let symbol = SFSymbol6.Apple.appleLogo
+        let imageFromSFSymbol = Image(symbol: symbol)
+        let imageFromSymbolString = Image(systemName: symbol.rawValue)
 
         XCTAssert(imageFromSFSymbol == imageFromSymbolString, "Image(symbol:) is broken")
     }
@@ -35,8 +36,9 @@ class ImageExtensionTests: XCTestCase {
 
 extension ImageExtensionTests {
     func testImageVariableValuesConvenienceInit() {
-        let imageFromSFSymbol = Image(symbol: SFSymbol4.wifi, variableValue: 0.5)
-        let imageFromSymbolString = Image(systemName: SFSymbol4.infinity.rawValue)
+        let symbol = SFSymbol6.Apple.appleLogo
+        let imageFromSFSymbol = Image(symbol: symbol, variableValue: 0.5)
+        let imageFromSymbolString = Image(systemName: symbol.rawValue)
 
         XCTAssert(imageFromSFSymbol != imageFromSymbolString, "Image(symbol:) is broken")
     }
