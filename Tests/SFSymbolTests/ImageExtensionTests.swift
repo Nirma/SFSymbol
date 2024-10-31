@@ -35,6 +35,7 @@ class ImageExtensionTests: XCTestCase {
 }
 
 extension ImageExtensionTests {
+    @available(iOS 16.0, *)
     func testImageVariableValuesConvenienceInit() {
         let symbol = SFSymbol6.Apple.appleLogo
         let imageFromSFSymbol = Image(symbol: symbol, variableValue: 0.5)
